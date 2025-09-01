@@ -1,43 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Charles Bucher | Cloud Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin: 0; background: #1e3c72; color: #fff; }
-    header { padding: 80px 20px; }
-    h1 { font-size: 2.5rem; }
-    h2 { font-weight: 400; }
-    section { padding: 60px 20px; max-width: 900px; margin: auto; }
-    .projects { display: grid; gap: 20px; }
-    .card { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 12px; }
-    a { color: #ffd700; text-decoration: none; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charles Bucher | Cloud Portfolio</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; color: #fff; background: linear-gradient(135deg,#1e3c72,#2a5298); }
+  header { padding: 100px 20px; text-align: center; }
+  header h1 { font-size: 3rem; margin-bottom: 10px; }
+  header h2 { font-weight: 400; margin-bottom: 20px; }
+  section { max-width: 900px; margin: auto; padding: 60px 20px; }
+  h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid #ffd700; display: inline-block; padding-bottom: 5px; }
+  p { line-height: 1.6; }
+  .skills, .projects { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+  .skill-card, .project-card { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 12px; width: 250px; }
+  .project-card a { display: inline-block; margin-top: 10px; color: #ffd700; text-decoration: none; font-weight: bold; }
+  footer { text-align: center; padding: 40px 20px; background: rgba(0,0,0,0.2); }
+</style>
 </head>
 <body>
-  <header>
-    <h1>👋 Hi, I'm Charles Bucher</h1>
-    <h2>🚀 Cloud Engineer | ☁️ AWS | ⚡ Serverless & IaC | 🔍 Monitoring & Security</h2>
-    <p>I build cloud systems with a focus on automation, security, and scalability.</p>
-  </header>
 
-  <section>
-    <h2>🛠 Projects</h2>
-    <div class="projects">
-      <div class="card">
-        <h3>Serverless-Helpdesk-Sim-AWS</h3>
-        <p>Serverless helpdesk simulation using Lambda + API Gateway + DynamoDB</p>
-        <a href="https://github.com/Tommy813-lab/serverless-helpdesk-sim-aws">View Repo</a>
-      </div>
-      <!-- Add more project cards here -->
+<header>
+  <h1>👋 Hi, I'm Charles Bucher</h1>
+  <h2>🚀 Cloud Engineer | ☁️ AWS | ⚡ Serverless & IaC | 🔍 Monitoring & Security</h2>
+  <p>I design, build, and monitor cloud-native systems with a focus on automation, security, and scalability.</p>
+  <p>💡 I’m not just learning cloud… I’m living it.</p>
+</header>
+
+<section>
+  <h2>🔧 Core Skills</h2>
+  <div class="skills">
+    <div class="skill-card">Terraform, CloudFormation</div>
+    <div class="skill-card">EC2, Lambda, S3, CloudFront</div>
+    <div class="skill-card">CloudWatch, SNS, IAM</div>
+    <div class="skill-card">GitHub Actions, Bash, PowerShell</div>
+    <div class="skill-card">IAM Roles, Least Privilege, Zero Hardcoding</div>
+  </div>
+</section>
+
+<section>
+  <h2>🛠 Featured Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <h3>Serverless-Helpdesk-Sim-AWS</h3>
+      <p>Serverless helpdesk simulation using Lambda + API Gateway + DynamoDB.</p>
+      <a href="https://github.com/Tommy813-lab/serverless-helpdesk-sim-aws" target="_blank">View Repo</a>
     </div>
-  </section>
+    <div class="project-card">
+      <h3>cloud-infra-monitoring-lab</h3>
+      <p>Automated EC2 provisioning & monitoring with IaC and scripting.</p>
+      <a href="https://github.com/Tommy813-lab/cloud-infra-monitoring-lab" target="_blank">View Repo</a>
+    </div>
+    <div class="project-card">
+      <h3>aws-iam-role-lab</h3>
+      <p>Securely connect EC2 to S3 using IAM Roles & Terraform (no hardcoded keys).</p>
+      <a href="https://github.com/Tommy813-lab/aws-iam-role-lab" target="_blank">View Repo</a>
+    </div>
+    <div class="project-card">
+      <h3>ec2-webapp-with-s3-backend</h3>
+      <p>Scalable web app infra on AWS with Terraform automation.</p>
+      <a href="https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend" target="_blank">View Repo</a>
+    </div>
+    <div class="project-card">
+      <h3>proactive-monitoring-with-cloudwatch-sns</h3>
+      <p>Proactive alerts & logging using CloudWatch and SNS.</p>
+      <a href="https://github.com/Tommy813-lab/proactive-monitoring-with-cloudwatch-sns" target="_blank">View Repo</a>
+    </div>
+    <div class="project-card">
+      <h3>s3-cloudfront-secure-static-site</h3>
+      <p>Enterprise-ready static website with S3 + CloudFront, secure and global.</p>
+      <a href="https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site" target="_blank">View Repo</a>
+    </div>
+  </div>
+</section>
 
-  <section>
-    <h2>📬 Contact</h2>
-    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/Tommy813-lab">github.com/Tommy813-lab</a></p>
-  </section>
+<section>
+  <h2>🎯 Goals</h2>
+  <p>Break into a W2 Cloud Engineer role (remote-friendly, AWS-focused).</p>
+  <p>Publish hands-on cloud labs weekly.</p>
+  <p>Build toward a 6-figure remote career + real estate investments.</p>
+  <p>⚡ “The best way to predict the cloud… is to build it.” ⚡</p>
+</section>
+
+<section>
+  <h2>📬 Contact</h2>
+  <p>Email: <a href="mailto:your-email@example.com" style="color:#ffd700;">your-email@example.com</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" style="color:#ffd700;">linkedin.com/in/yourprofile</a></p>
+  <p>GitHub: <a href="https://github.com/Tommy813-lab" target="_blank" style="color:#ffd700;">github.com/Tommy813-lab</a></p>
+</section>
+
+<footer>
+  © 2025 Charles Bucher
+</footer>
+
 </body>
 </html>
