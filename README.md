@@ -30,8 +30,6 @@ I design, build, and monitor cloud-native systems with a focus on **scalability,
 ---
 
 ## 🛠 Featured Projects
-- [Serverless Helpdesk Simulation](https://github.com/CharlesBucher/Serverless-Helpdesk-Sim-AWS)  
-  *Serverless helpdesk using Lambda, API Gateway, and DynamoDB.*  
 
 - [Cloud Infra Monitoring Lab](https://github.com/CharlesBucher/cloud-infra-monitoring-lab)  
   *Automated EC2 provisioning and monitoring with IaC + scripts.*  
