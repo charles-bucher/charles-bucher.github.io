@@ -1,163 +1,83 @@
-/* ============================
-   Root Variables
-   ============================ */
-:root {
-    --bg-color: #0d1117;        /* Dark GitHub background */
-    --card-bg: #161b22;
-    --text-color: #c9d1d9;      /* Light gray text */
-    --heading-color: #58a6ff;   /* GitHub blue accent */
-    --accent-color: #238636;    /* Green for buttons/links */
-    --accent-hover: #2ea043;
-    --danger-color: #f85149;    /* Red accent if needed */
-    --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --font-mono: 'Fira Code', monospace;
-    --max-width: 1000px;
-}
-
-/* ============================
-   Reset
-   ============================ */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: var(--font-body);
-    background: var(--bg-color);
-    color: var(--text-color);
-    line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #222;
 }
 
-/* ============================
-   Layout
-   ============================ */
-.container {
-    width: 90%;
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 2rem 0;
-}
-
-/* ============================
-   Header
-   ============================ */
 header {
-    text-align: center;
-    padding: 2rem 0;
-    border-bottom: 1px solid #30363d;
+  background-color: #222;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header h1 {
-    font-size: 2.4rem;
-    color: var(--heading-color);
-    margin-bottom: 0.5rem;
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
-header p {
-    font-size: 1.1rem;
-    color: #8b949e;
+header nav a:hover {
+  color: lime;
 }
 
-nav {
-    margin-top: 1rem;
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #004080;
+  color: white;
 }
 
-nav a {
-    color: var(--accent-color);
-    text-decoration: none;
-    margin: 0 1rem;
-    font-weight: 500;
-    transition: color 0.2s ease;
-}
-
-nav a:hover {
-    color: var(--accent-hover);
-}
-
-/* ============================
-   Sections
-   ============================ */
-section {
-    padding: 3rem 0;
-    border-bottom: 1px solid #30363d;
-}
-
-section h2 {
-    margin-bottom: 1rem;
-    font-size: 1.8rem;
-    color: var(--heading-color);
-}
-
-section p {
-    margin-bottom: 1rem;
-    color: var(--text-color);
-}
-
-/* ============================
-   Project Cards
-   ============================ */
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-}
-
-.card {
-    background: var(--card-bg);
-    padding: 1.5rem;
-    border-radius: 8px;
-    border: 1px solid #30363d;
-    transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    border-color: var(--heading-color);
-}
-
-.card h3 {
-    color: var(--heading-color);
-    margin-bottom: 0.5rem;
-    font-family: var(--font-mono);
-}
-
-.card p {
-    font-size: 0.95rem;
-    color: #8b949e;
-}
-
-/* ============================
-   Buttons & Links
-   ============================ */
-button,
 .btn {
-    background: var(--accent-color);
-    color: #fff;
-    border: none;
-    padding: 0.7rem 1.4rem;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background 0.2s ease, transform 0.2s ease;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: 600;
+  display: inline-block;
+  padding: 12px 25px;
+  margin-top: 20px;
+  background-color: lime;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.3s;
 }
 
-button:hover,
 .btn:hover {
-    background: var(--accent-hover);
-    transform: translateY(-2px);
+  transform: scale(1.05);
 }
 
-/* ============================
-   Footer
-   ============================ */
-footer {
-    text-align: center;
-    padding: 2rem 0;
-    font-size: 0.85rem;
-    color: #8b949e;
-    border-top: 1px solid #30363d;
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: white;
+  width: 300px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+section {
+  margin-bottom: 40px;
 }
