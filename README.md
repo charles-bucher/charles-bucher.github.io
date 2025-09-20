@@ -1,94 +1,52 @@
-# Cloud Engineer Portfolio — Security by Design
+# 🌐 Charles Bucher | Cloud Engineer Portfolio  
 
-Welcome to my GitHub Pages portfolio. This site is built to showcase my **cloud engineering projects, security-focused practices, and production-ready labs**.  
-The portfolio highlights not just what I build, but *how I harden it* — because real cloud engineering is inseparable from security.
+## 👋 About Me
+Hi, I’m **Charles Bucher**, a cloud engineer passionate about **AWS, automation, and infrastructure as code**.  
+I design, build, and monitor cloud-native systems with a focus on **scalability, security, and efficiency**.  
 
----
-
-## 🎯 Mission
-
-Modern cloud environments live or die by their **security posture**. My portfolio demonstrates:
-- Infrastructure-as-Code (IaC) that’s hardened from the first commit.  
-- Observability and monitoring pipelines designed for reliability, not vanity metrics.  
-- Incident response tooling that reduces panic and accelerates recovery.  
-- A philosophy of **“production is security”** — deploy as if tomorrow brings the breach.
+💡 I’m not just learning cloud — I’m living it.  
 
 ---
 
-## 📂 Repo Structure
-
-/docs/ # GitHub Pages site content (portfolio)
-/docs/index.html # Main landing page
-/docs/assets/ # Images, logos, supporting files
-/docs/Tommy-Resume.pdf # Resume download
-README.md # You are here
-LICENSE
-
-yaml
-Copy code
+## 🔧 Core Skills
+- **Cloud Platforms:** AWS (EC2, Lambda, S3, CloudFront, IAM, CloudWatch, SNS)  
+- **Infrastructure as Code:** Terraform, CloudFormation  
+- **Automation & CI/CD:** GitHub Actions, AWS CodePipeline  
+- **Security:** IAM roles, least privilege, zero hardcoding, MFA  
+- **Scripting:** Bash, PowerShell  
+- **Containers:** ECS, ECR, Docker basics  
+- **Networking & Monitoring:** VPC, subnets, routing, logging, proactive alerts  
 
 ---
 
-## 🔑 Featured Skills
+## 🛠 Featured Projects
 
-- **Cloud Platforms:** AWS, GCP, Azure (focus on IAM, network design, workload hardening)  
-- **IaC & Automation:** Terraform, GitHub Actions, PowerShell, Bash, Python  
-- **Observability:** Prometheus, OpenTelemetry, Grafana  
-- **Security Angle:** Threat modeling, incident response playbooks, compliance guardrails (CIS, NIST)  
-- **Production Mindset:** Reliability, scalability, disaster recovery, least privilege by default  
+- [AWS IAM Role Lab](https://github.com/CharlesBucher/aws-iam-role-lab)  
+  *Securely connect EC2 to S3 using IAM Roles and Terraform.*  
 
----
+- [EC2 Web App with S3 Backend](https://github.com/CharlesBucher/ec2-webapp-with-s3-backend)  
+  *Scalable web app infrastructure built on AWS with Terraform.*  
 
-## 🚀 Projects (highlights)
+- [Proactive Monitoring with CloudWatch + SNS](https://github.com/CharlesBucher/proactive-monitoring-with-cloudwatch-sns)  
+  *Real-time alerting pipeline with CloudWatch metrics and SNS.*  
 
-- **Prod-Guard:** Opinionated Terraform modules with built-in security guardrails.  
-- **CrashLens:** Crash capture and observability pipelines for cloud-native workloads.  
-- **IR-Orchestra:** Automated incident response runbooks with human-in-the-loop confirmation.  
-- **Proactive Network Monitoring:** Real-time visibility and anomaly detection for cloud infra.  
-
-Each project repo is linked and documented with both **deployment instructions** and **security considerations**.
+- [S3 + CloudFront Secure Static Site](https://github.com/CharlesBucher/s3-cloudfront-secure-static-site)  
+  *Production-ready static website with global distribution.*  
 
 ---
 
-## 🌐 Deployment
-
-This portfolio is live via **GitHub Pages**.  
-
-**To deploy your own version:**
-1. Fork or clone the repo.  
-2. Place your site files into `/docs`.  
-3. Go to **Settings → Pages**, set branch = `main`, folder = `/docs`.  
-4. Save. Your portfolio is live at `https://<username>.github.io/<repo-name>/`.  
-
-Optional: Add a `CNAME` file for a custom domain and configure HTTPS.  
-
----
-
-## 📊 Production-Readiness
-
-This repo is treated like any other production deployment:  
-- **Version controlled** with branches/PRs for updates.  
-- **Accessible and mobile-first design** for wide usability.  
-- **Security-conscious**: no external JS/CDN dependencies; minimal attack surface.  
-- **Audited** with Lighthouse for performance, accessibility, and best practices.  
+## 🎯 Goals
+- Break into a **W2 Cloud Engineer role** (remote-friendly, AWS-focused).  
+- Continue building and publishing **hands-on cloud labs weekly**.  
+- Master advanced **automation, security, and monitoring** in AWS.  
 
 ---
 
 ## 📬 Contact
+- **Email:** [quietopscb@gmail.com](mailto:quietopscb@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/charles-bucher-26598728b](https://www.linkedin.com/in/charles-bucher-26598728b)  
+- **GitHub:** [github.com/CharlesBucher](https://github.com/CharlesBucher)  
 
-Want to build cloud systems that don’t just scale, but stay safe?  
-
-- 📧 Email: [quietopscb@gmail.com](mailto:quietopscb@gmail.com)  
-- 🔗 GitHub: [Tommy813-lab](https://github.com/Tommy813-lab)  
 ---
 
-## 📜 License
-
-MIT — free to use, adapt, and learn from. Don’t just deploy; secure it.
-
-
-
-
-
-
-
+⭐ Built with passion for the cloud and deployed on **GitHub Pages**
