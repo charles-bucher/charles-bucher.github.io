@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Tommy813</title>
+  <style>
+    /* Reset & basic styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      background: linear-gradient(135deg, #4f46e5, #6366f1);
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    form {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    form h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #4f46e5;
+    }
+
+    .form-group {
+      position: relative;
+      margin-bottom: 1.8rem;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 1rem 1rem 1rem 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #4f46e5;
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+    }
+
+    label {
+      position: absolute;
+      left: 0.8rem;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      padding: 0 0.3rem;
+      color: #888;
+      pointer-events: none;
+      transition: 0.3s;
+    }
+
+    input:focus + label,
+    input:not(:placeholder-shown) + label,
+    textarea:focus + label,
+    textarea:not(:placeholder-shown) + label {
+      top: -0.7rem;
+      left: 0.6rem;
+      font-size: 0.8rem;
+      color: #4f46e5;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #4f46e5;
+      color: #fff;
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 0.6rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #6366f1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #e5e7eb;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <p>Reach out for projects, collaborations, or just to say hi!</p>
+  </header>
+
+  <main>
+    <form action="mailto:quietopscb@gmail.com" method="post" enctype="text/plain">
+      <h2>Send a Message</h2>
+
+      <div class="form-group">
+        <input type="text" id="name" name="name" placeholder=" " required>
+        <label for="name">Full Name</label>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder=" " required>
+        <label for="email">Email Address</label>
+      </div>
+
+      <div class="form-group">
+        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+        <label for="message">Your Message</label>
+      </div>
+
+      <div style="text-align:center;">
+        <button type="submit" class="btn">Send</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 Tommy. All rights reserved.
+  </footer>
+</body>
+</html>
