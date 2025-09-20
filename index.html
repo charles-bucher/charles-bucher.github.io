@@ -1,193 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charles Bucher | Cloud Engineer Portfolio</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
-      padding: 20px;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      color: #555;
-    }
-
-    section {
-      margin-bottom: 40px;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #0073e6;
-      display: inline-block;
-      padding-bottom: 5px;
-    }
-
-    ul {
-      list-style: none;
-    }
-
-    ul li {
-      background: #fff;
-      padding: 10px 15px;
-      margin: 8px 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-    }
-
-    .project-card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease;
-    }
-
-    .project-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .project-card h3 {
-      margin-bottom: 10px;
-      color: #0073e6;
-    }
-
-    .project-card a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 8px 14px;
-      background: #0073e6;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.2s ease;
-    }
-
-    .project-card a:hover {
-      background: #005bb5;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 50px;
-      font-size: 0.9rem;
-      color: #555;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy813 Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <h1>Tommy813</h1>
+        <p>Cloud | Security | Automation</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <header>
-    <h1>👋 Hi, I'm Charles Bucher</h1>
-    <p>🚀 Cloud Engineer | ☁️ AWS | ⚡ Serverless & IaC | 🔍 Monitoring & Security</p>
-    <p><em>“The best way to predict the cloud… is to build it.”</em></p>
-  </header>
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I’m a self-taught cloud and security enthusiast building hands-on labs, projects,
+                and tools to level up my skills. My focus is on cloud infrastructure, security, and
+                automation — solving problems by learning in public.
+            </p>
+        </section>
 
-  <section>
-    <h2>About Me</h2>
-    <p>I design, build, and monitor cloud-native systems with a focus on automation, security, and scalability.<br>
-    💡 I’m not just learning cloud… I’m living it.</p>
-  </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>Proactive Network Monitoring</h3>
+                    <p>A PowerShell + Python lab repo for monitoring network traffic with alerts.</p>
+                    <a href="https://github.com/Tommy813-lab/proactive-network-monitoring" class="btn">View Repo</a>
+                </div>
 
-  <section>
-    <h2>Core Skills</h2>
-    <ul>
-      <li><strong>Infrastructure as Code:</strong> Terraform, CloudFormation</li>
-      <li><strong>Compute & Serverless:</strong> EC2, Lambda, API Gateway, Auto Scaling</li>
-      <li><strong>Storage & CDN:</strong> S3, CloudFront, EBS, EFS</li>
-      <li><strong>Monitoring & Logging:</strong> CloudWatch, SNS, EventBridge, X-Ray</li>
-      <li><strong>Security & IAM:</strong> IAM Roles, Policies, KMS, Least Privilege, MFA</li>
-      <li><strong>Networking:</strong> VPC, Subnets, Security Groups, Route53, Load Balancers</li>
-      <li><strong>CI/CD & Automation:</strong> GitHub Actions, AWS CodePipeline, Bash, PowerShell</li>
-      <li><strong>Containers:</strong> ECS, ECR, Fargate, Docker basics</li>
-      <li><strong>Best Practices:</strong> Zero hardcoding, High Availability, Cost Optimization</li>
-    </ul>
-  </section>
+                <div class="card">
+                    <h3>Cloud Infra Monitoring Lab</h3>
+                    <p>Hands-on lab repo for building and testing cloud infrastructure monitoring setups.</p>
+                    <a href="https://github.com/Tommy813-lab/cloud-infra-monitoring-lab" class="btn">View Repo</a>
+                </div>
+            </div>
+        </section>
 
-  <section>
-    <h2>Featured Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h3>Serverless-Helpdesk-Sim-AWS</h3>
-        <p>Serverless helpdesk simulation using Lambda + API Gateway + DynamoDB.</p>
-        <a href="https://github.com/Tommy813-lab/Serverless-Helpdesk-Sim-AWS" target="_blank">View Repo</a>
-      </div>
-      <div class="project-card">
-        <h3>cloud-infra-monitoring-lab</h3>
-        <p>Automated EC2 provisioning & monitoring with IaC and scripting.</p>
-        <a href="https://github.com/Tommy813-lab/cloud-infra-monitoring-lab" target="_blank">View Repo</a>
-      </div>
-      <div class="project-card">
-        <h3>aws-iam-role-lab</h3>
-        <p>Securely connect EC2 to S3 using IAM Roles & Terraform (no hardcoded keys).</p>
-        <a href="https://github.com/Tommy813-lab/aws-iam-role-lab" target="_blank">View Repo</a>
-      </div>
-      <div class="project-card">
-        <h3>ec2-webapp-with-s3-backend</h3>
-        <p>Scalable web app infra on AWS with Terraform automation.</p>
-        <a href="https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend" target="_blank">View Repo</a>
-      </div>
-      <div class="project-card">
-        <h3>proactive-monitoring-with-cloudwatch-sns</h3>
-        <p>Proactive alerts & logging using CloudWatch and SNS.</p>
-        <a href="https://github.com/Tommy813-lab/proactive-monitoring-with-cloudwatch-sns" target="_blank">View Repo</a>
-      </div>
-      <div class="project-card">
-        <h3>s3-cloudfront-secure-static-site</h3>
-        <p>Enterprise-ready static website with S3 + CloudFront, secure and global.</p>
-        <a href="https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site" target="_blank">View Repo</a>
-      </div>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:quietopscb@gmail.com">quietopscb@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/Tommy813-lab">github.com/Tommy813-lab</a></p>
+        </section>
     </div>
-  </section>
 
-  <section>
-    <h2>Goals</h2>
-    <ul>
-      <li>Break into a W2 Cloud Engineer role (remote-friendly, AWS-focused).</li>
-      <li>Publish hands-on cloud labs weekly.</li>
-      <li>Contribute to open-source and cloud community projects.</li>
-      <li>Keep growing skills in DevOps, automation, and cloud security.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:quietopscb@gmail.com">quietopscb@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-26598728b" target="_blank">linkedin.com/in/charles-bucher-26598728b</a></p>
-    <p>GitHub: <a href="https://github.com/Tommy813-lab" target="_blank">github.com/Tommy813-lab</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Charles Bucher</p>
-  </footer>
-
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Tommy813 — Built with GitHub Pages</p>
+    </footer>
 </body>
 </html>
