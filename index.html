@@ -1,9 +1,126 @@
-﻿<!DOCTYPE html>
-<html>
-<head><title>Tommy813 Cloud Portfolio</title></head>
-<body>
-<h1>Tommy813 Cloud Portfolio 🚀</h1>
-<p>Hands-on builds mapped to AWS cert domains and SRE workflows.</p>
-<ul><li><a href='projects/vpc-ec2-terraform/README.md'>vpc-ec2-terraform</a></li>
-<li><a href='projects/lambda-alerting/README.md'>lambda-alerting</a></li>
-</ul><p><a href='docs/cert-mapping.md'>Cert Mapping</a></p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tommy | Cloud Security Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body class="bg-gray-950 text-gray-100 font-[Inter]">
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full bg-gray-900/80 backdrop-blur z-50 shadow-md">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-xl font-bold tracking-wide text-indigo-400">Tommy813</h1>
+      <ul class="flex gap-6 text-sm font-semibold">
+        <li><a href="#about" class="hover:text-indigo-400">About</a></li>
+        <li><a href="#projects" class="hover:text-indigo-400">Projects</a></li>
+        <li><a href="#skills" class="hover:text-indigo-400">Skills</a></li>
+        <li><a href="#contact" class="hover:text-indigo-400">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="h-screen flex items-center justify-center text-center px-6 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
+    <div>
+      <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Hi, I'm <span class="text-indigo-400">Tommy</span></h2>
+      <h3 class="text-xl md:text-2xl text-gray-300 mb-8">
+        <span id="typed"></span>
+      </h3>
+      <a href="#projects" class="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-full font-semibold shadow-lg transition">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold text-indigo-400 mb-6">About Me</h2>
+    <p class="text-gray-300 leading-relaxed text-lg">
+      I’m a self-taught Cloud Security enthusiast, building hands-on projects with AWS, Terraform, and DevOps tools. 
+      My goal is to break into remote cloud engineering, grow my technical craft, and eventually create financial freedom through real estate investing. 
+      Every repo I build pushes me one step closer.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-gray-900 py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-indigo-400 mb-10">Featured Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Project card -->
+        <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+          <img src="https://via.placeholder.com/400x200" alt="Project" class="w-full">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">EC2 + S3 WebApp</h3>
+            <p class="text-gray-400 text-sm mb-4">Full-stack deployment with AWS EC2 backend and S3 static hosting.</p>
+            <a href="https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend" target="_blank" class="text-indigo-400 hover:underline">View Code →</a>
+          </div>
+        </div>
+
+        <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+          <img src="https://via.placeholder.com/400x200" alt="Project" class="w-full">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">CI/CD Pipelines</h3>
+            <p class="text-gray-400 text-sm mb-4">Automated build & deploy workflows with GitHub Actions.</p>
+            <a href="https://github.com/Tommy813-lab" target="_blank" class="text-indigo-400 hover:underline">View Code →</a>
+          </div>
+        </div>
+
+        <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+          <img src="https://via.placeholder.com/400x200" alt="Project" class="w-full">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Terraform Infra</h3>
+            <p class="text-gray-400 text-sm mb-4">Infrastructure as Code projects using Terraform & AWS modules.</p>
+            <a href="https://github.com/Tommy813-lab" target="_blank" class="text-indigo-400 hover:underline">View Code →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold text-indigo-400 mb-6">Tech Stack</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="bg-gray-800 py-6 rounded-xl shadow-md">AWS</div>
+      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Terraform</div>
+      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Linux</div>
+      <div class="bg-gray-800 py-6 rounded-xl shadow-md">GitHub Actions</div>
+      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Docker</div>
+      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Python</div>
+      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Bash</div>
+      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Networking</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-900 py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold text-indigo-400 mb-6">Get in Touch</h2>
+    <p class="text-gray-300 mb-6">I’m open to remote cloud security/DevOps roles and collaborations.</p>
+    <a href="mailto:your-email@example.com" class="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-full font-semibold shadow-lg transition">Email Me</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 py-6 text-center text-sm text-gray-500">
+    © <span id="year"></span> Tommy813. Built with ❤️ and Tailwind.
+  </footer>
+
+  <script>
+    // Typed effect
+    new Typed('#typed', {
+      strings: [
+        'Cloud Security Enthusiast',
+        'AWS | Terraform | Linux',
+        'Building Secure Cloud Projects'
+      ],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
+
+    // Dynamic year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
