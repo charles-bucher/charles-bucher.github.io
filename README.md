@@ -31,3 +31,14 @@ This repo powers [Tommy813-lab.github.io](https://tommy813-lab.github.io) — a 
 ## 🧠 About Me
 
 I iterate fast, troubleshoot in real time, and build with recruiter optics in mind. Every folder here is modular, cert-aligned, and built to ship.
+
+---
+
+### TL;DR
+This repo showcases a modular cloud solution aligned with AWS best practices and recruiter clarity.
+
+<!-- Badges -->
+![Cert Alignment](https://img.shields.io/badge/cert-AWS-blue)
+![Repo Type](https://img.shields.io/badge/type-Infrastructure-green)
+![Last Updated](https://img.shields.io/badge/updated-2025--09--30-orange)
+
