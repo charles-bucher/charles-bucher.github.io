@@ -10,8 +10,6 @@ Cloud Support Engineer | AWS | Terraform
 
 I'm 40, married with three kids (11, 10, and 1), living in Largo, Florida. 
 
-I've been working as a delivery driver while my wife does chat support from home. We're living paycheck to paycheck, and I decided it was time to change that.
-
 About nine months ago I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, YouTube, and a lot of late nights after the kids go to bed.
 
 I built the projects below to prove I can actually do this work. They're all real, they all run, and I'm paying for them out of my own pocket (though AWS free tier helps a lot).
