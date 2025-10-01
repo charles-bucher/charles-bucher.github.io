@@ -1,93 +1,198 @@
-# Tommy813 Cloud Portfolio
+# Charles Bucher
 
-![license](https://img.shields.io/github/license/Tommy813-lab/Tommy813-lab.github.io)
-![last-commit](https://img.shields.io/github/last-commit/Tommy813-lab/Tommy813-lab.github.io)
+Cloud Support Engineer | AWS | Terraform  
 
----
-
-## TL;DR  
-One-stop portfolio that maps my hands-on AWS & Terraform builds to real-world cert domains and shows you exactly what I built, how it works, and why it matters.
-
-**Tech Stack:** Terraform · AWS (S3, EC2, IAM, VPC, CloudFront, CloudWatch, SNS) · GitHub Pages · CI/CD  
-**Highlights:** Modular, deployable infrastructure, cert-aligned projects, clean documentation, real infra skills.
+📧 Quietopscb@gmail.com | 📞 (727) 520-5966 | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://tommy813-lab.github.io)
 
 ---
 
-## What You’ll See
-- **Featured Projects** — Clickable links to live or deployable repos (web app, static site, monitoring, network sim)  
-- **AWS Cert Mapping** — Each project is mapped to AWS certification domains (ex: Solutions Architect, SysOps, Developer)  
-- **Tools & Tech** — Every build here uses cloud-native tools; nothing “just for show.”  
-- **Live Site** — This repo powers the site you’re on — showing I can build & deploy in real life.
+## What's Up
+
+I'm 40, married with three kids (11, 10, and 1), living in Largo, Florida. 
+
+I've been working as a delivery driver while my wife does chat support from home. We're living paycheck to paycheck, and I decided it was time to change that.
+
+About nine months ago I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, YouTube, and a lot of late nights after the kids go to bed.
+
+I built the projects below to prove I can actually do this work. They're all real, they all run, and I'm paying for them out of my own pocket (though AWS free tier helps a lot).
+
+Looking for Cloud Support Engineer roles, preferably remote, $60-80K range to start.
 
 ---
 
-## Why This Portfolio Matters
-Recruiters and engineers can instantly see:
-- **What I build**, not just what I say  
-- **How these projects interlock** (certification-aligned)  
-- **Deployable infrastructure**, not just diagrams  
-- **Clean presentation**, reducing friction for evaluation
+## Projects I've Built
+
+### Proactive EC2 Monitoring with CloudWatch + SNS
+**[GitHub](https://github.com/Tommy813-lab/Proactive-monitoring-with-cloudwatch-sns)**
+
+Set up a monitoring system that alerts before things break. CloudWatch collects metrics from EC2 instances, alarms trigger when thresholds hit, SNS sends notifications.
+
+- CloudWatch Agent for custom metrics (CPU, memory, disk)
+- Alarms tuned to catch issues without spamming
+- SNS email/SMS alerts
+- Costs about $1-2/month to run
+
+This one matters because it's what Cloud Support Engineers actually do—catch problems before customers notice them.
 
 ---
 
-## Get Started
-Click on any project below to dive in:
-- ec2-webapp-with-s3-backend  
-- s3-cloudfront-secure-static-site  
-- Proactive-monitoring-with-cloudwatch-sns  
-- multi-tier-network-sim  
+### S3 + CloudFront Static Site Hosting
+**[GitHub](https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site)**
 
-Or check out the **Cert Mapping** section to see how I align my work with AWS domains.
+Built this portfolio site using S3 for storage and CloudFront for global delivery. S3 bucket is private, everything goes through CloudFront's CDN.
 
----
+- HTTPS enforced with ACM certificate
+- Origin Access Control so S3 isn't publicly accessible
+- Loads in under 200ms globally
+- Costs about $0.50/month
 
-## About Me
-I build fast, iterate often, and align every piece of my portfolio with what hiring teams want to see. This is not a “show,” it’s infrastructure I stand behind.
-
-# Tommy813 Cloud Portfolio 🚀
-
-Welcome to my live cloud lab — a collection of hands-on builds aligned with AWS cert domains and SRE principles. Every project here is deployable, cert-mapped, and built from scratch to showcase real infrastructure skills.
-
-## 🔧 Featured Projects
-
-| Project | Description |
-|--------|-------------|
-| [ec2-webapp-with-s3-backend](projects/ec2-webapp-with-s3-backend/README.md) | Hybrid web app with EC2 frontend and S3 backend, IAM-secured |
-| [s3-cloudfront-secure-static-site](projects/s3-cloudfront-secure-static-site/README.md) | Static site hosted via S3 + CloudFront with OAI and HTTPS |
-| [Proactive-monitoring-with-cloudwatch-sns](projects/Proactive-monitoring-with-cloudwatch-sns/README.md) | CloudWatch alarms triggering SNS alerts for proactive ops |
-| [multi-tier-network-sim](projects/multi-tier-network-sim/README.md) | Simulated multi-tier VPC with public/private layers and routing |
-
-## 📜 AWS Cert Mapping
-
-Each project maps directly to AWS cert domains:
-- **Solutions Architect**: VPC design, EC2 provisioning, IAM roles
-- **SysOps Admin**: Monitoring, alerting, automation
-- **Developer Associate**: Serverless, S3 hosting, event-driven flows
-
-See [docs/cert-mapping.md](docs/cert-mapping.md) for detailed alignment.
-
-## 🛠 Tools Used
-
-Terraform, PowerShell, GitHub Actions, AWS CLI, CloudWatch, Lambda, SNS, S3, EC2, IAM, CloudFront
-
-## 🌐 Live Portfolio
-
-This repo powers [Tommy813-lab.github.io](https://tommy813-lab.github.io) — a browsable landing page linking to all builds and cert mapping.
-
-## 🧠 About Me
-
-I iterate fast, troubleshoot in real time, and build with recruiter optics in mind. Every folder here is modular, cert-aligned, and built to ship.
+This is the same setup companies use for high-traffic sites. Shows I can do more than just spin up an EC2 instance.
 
 ---
 
-### TL;DR
-This repo showcases a modular cloud solution aligned with AWS best practices and recruiter clarity.
+### Multi-Tier VPC Network Architecture
+**[GitHub](https://github.com/Tommy813-lab/multi-tier-network-sim)**
 
-<!-- Badges -->
-![Cert Alignment](https://img.shields.io/badge/cert-AWS-blue)
-![Repo Type](https://img.shields.io/badge/type-Infrastructure-green)
-![Last Updated](https://img.shields.io/badge/updated-2025--09--30-orange)
+Designed a three-tier network with public web servers, private app servers, and isolated database tier. All the routing, security groups, and NAT gateways you'd see in a real production environment.
+
+- Public/private subnet design
+- NAT gateways for private subnet internet access
+- Security groups with least-privilege rules
+- Fully automated with Terraform
+
+Took me a while to get the routing tables right, but it works.
+
+---
+
+### EC2 Web App with S3 Backend
+**[GitHub](https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend)**
+
+Basic web application on EC2 with S3 handling static assets and storage. Everything's provisioned with Terraform.
+
+- Automated deployment (3 minutes vs 20+ manually)
+- IAM roles and security groups configured
+- Modular Terraform code
+
+Not my strongest project but shows I understand the basics.
+
+---
+
+## Skills
+
+**AWS**: EC2, S3, VPC, IAM, CloudWatch, SNS, CloudFront, ACM, Route 53, Security Groups, NAT Gateways
+
+**Infrastructure as Code**: Terraform (modules, state management, multi-environment setups)
+
+**Monitoring**: CloudWatch (metrics, alarms, dashboards), SNS alerting, log analysis
+
+**Networking**: VPC design, subnet segmentation, routing tables, network ACLs, security group configuration
+
+**Security**: IAM policies (least privilege), bucket policies, HTTPS/TLS, Origin Access Control
+
+**Other**: Bash scripting, AWS CLI, Git/GitHub, basic GitHub Actions
+
+**Still Learning**: Python (working on it), Lambda functions, RDS operations
+
+---
 
 
-## Badges
-[![AWS Certified](https://img.shields.io/badge/AWS-Certified-blue)](https://aws.amazon.com/certification/)
+
+## What I'm After
+
+I need a Cloud Support Engineer job. Remote preferred, but I'll relocate if the opportunity's right.
+
+I'm targeting $60-80K to start, with room to grow as I gain experience and certifications.
+
+I'm studying for my AWS Solutions Architect Associate cert. Should have it in the next 2-3 months.
+
+---
+
+## Why Hire Me
+
+I don't have a CS degree. I didn't go to a bootcamp. I don't have professional cloud experience.
+
+What I do have:
+- Working AWS infrastructure I built myself
+- 9 months of consistent self-teaching
+- The ability to figure things out (nobody taught me Terraform—I just read docs and broke things until they worked)
+- Real motivation (I have three kids who need me to level up)
+- Customer service experience (delivery drivers deal with people all day)
+
+I'm not going to pretend I know everything. I'm still learning Python. I haven't used ticketing systems like ServiceNow or Jira. I don't have deep database experience yet.
+
+But I learn fast, I work hard, and I'm not going to waste your time or money. I need this to work.
+
+---
+
+## The Big Picture
+
+Long-term, I'm working toward financial security for my family—stable income, savings, and eventually real estate investing for passive income.
+
+Right now? I'm focused on getting my first cloud job, getting good at it, and building from there.
+
+This career change is happening. I'm just looking for the company that's willing to give me a shot.
+
+---
+
+## Contact
+
+**Email**: Quietopscb@gmail.com  
+**Phone**: (727) 520-5966  
+**LinkedIn**: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)  
+**GitHub**: [github.com/Tommy813-lab](https://github.com/Tommy813-lab)  
+**Portfolio**: [tommy813-lab.github.io](https://tommy813-lab.github.io)  
+
+Located in Largo, Florida. Available for immediate start.
+
+---
+
+## Certifications
+
+**In Progress**: AWS Certified Solutions Architect - Associate (studying now, planning to test Q1-Q2 2025)
+
+---
+
+## Some Numbers
+
+- Total AWS spend over 9 months: under $50
+- Current monthly infrastructure cost: about $2
+- GitHub commits in 2024: 200+
+- Lines of Terraform code written: 2,000+
+- Terraform modules created: 8+
+- Projects deployed to production: 4
+- Late nights learning after kids go to bed: too many to count
+
+---
+
+## If You're a Recruiter
+
+Start with the monitoring project—it's the most relevant to Cloud Support Engineer work.
+
+Check out the live portfolio site to see I can actually deploy infrastructure.
+
+Read this README to understand who I am and why I'm doing this.
+
+If any of this resonates, let's talk. I'm ready to interview and can start immediately.
+
+---
+
+## If You're a Hiring Manager
+
+Everything here is real and deployable. Clone any repo and run `terraform plan` if you want to see the code.
+
+I document everything because that's how I'd work on your team. Check my commit history to see how I learn and iterate.
+
+I'm not the candidate with the pedigree. I'm the candidate who will show up every day, figure things out, and get better consistently.
+
+---
+
+*Last updated: January 2025*  
+*This portfolio runs on GitHub Pages. Total cost: $0/month.*
+
+---
+
+## License
+
+MIT License on all projects. Use them, learn from them, fork them. I don't care. 
+
+The point is to help people see what I can do, and if it helps someone else learn, even better.
