@@ -24,20 +24,6 @@ Looking for Cloud Support Engineer roles, preferably remote, $60-80K range to st
 
 ## Projects I've Built
 
-### Proactive EC2 Monitoring with CloudWatch + SNS
-**[GitHub](https://github.com/Tommy813-lab/Proactive-monitoring-with-cloudwatch-sns)**
-
-Set up a monitoring system that alerts before things break. CloudWatch collects metrics from EC2 instances, alarms trigger when thresholds hit, SNS sends notifications.
-
-- CloudWatch Agent for custom metrics (CPU, memory, disk)
-- Alarms tuned to catch issues without spamming
-- SNS email/SMS alerts
-- Costs about $1-2/month to run
-
-This one matters because it's what Cloud Support Engineers actually do—catch problems before customers notice them.
-
----
-
 ### S3 + CloudFront Static Site Hosting
 **[GitHub](https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site)**
 
