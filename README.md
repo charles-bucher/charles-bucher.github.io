@@ -1,4 +1,9 @@
 # Charles Bucher
+## 🎯 Currently Seeking
+**Cloud Support Engineer | Junior DevOps | Infrastructure Engineer**  
+Remote preferred | Immediate start available | $60-80K
+
+I respond to all messages within 24 hours.
 
 Cloud Support Engineer | AWS | Terraform  
 
@@ -7,10 +12,9 @@ Cloud Support Engineer | AWS | Terraform
 ---
 
 ## What's Up
+"I'm a self-taught cloud engineer in Largo, Florida, transitioning from 9 months of intensive AWS/Terraform study into my first professional cloud role."
 
-I'm 40, married with three kids (11, 10, and 1), living in Largo, Florida. 
-
-About nine months ago I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, YouTube, and a lot of late nights after the kids go to bed.
+ I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, YouTube, and a lot of late nights after the kids go to bed.
 
 I built the projects below to prove I can actually do this work. They're all real, they all run, and I'm paying for them out of my own pocket (though AWS free tier helps a lot).
 
