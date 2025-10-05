@@ -1,7 +1,7 @@
 # Charles Bucher
 ## 🎯 Currently Seeking
 **Cloud Support Engineer | Junior DevOps | Infrastructure Engineer**  
-Remote preferred | Immediate start available | $60-80K
+Remote preferred | Immediate start available |
 
 I respond to all messages within 24 hours.
 
