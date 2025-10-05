@@ -1,18 +1,12 @@
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-crash.log
-*.backup
+# Temp files
 *.log
-
-# Python
-__pycache__/
-*.pyc
-
-# Shell
-*.sh~
-
-# General
+*.tmp
 .DS_Store
-.env
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+
+# IDE folders
+.vscode/
+.idea/
