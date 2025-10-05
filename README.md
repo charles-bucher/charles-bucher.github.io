@@ -48,22 +48,7 @@ Designed a three-tier network with public web servers, private app servers, and 
 - Security groups with least-privilege rules
 - Fully automated with Terraform
 
-Took me a while to get the routing tables right, but it works.
-
----
-
-### EC2 Web App with S3 Backend
-**[GitHub](https://github.com/Tommy813-lab/ec2-webapp-with-s3-backend)**
-
-Basic web application on EC2 with S3 handling static assets and storage. Everything's provisioned with Terraform.
-
-- Automated deployment (3 minutes vs 20+ manually)
-- IAM roles and security groups configured
-- Modular Terraform code
-
-Not my strongest project but shows I understand the basics.
-
----
+Took me a while to get the routing tables right.
 
 ## Skills
 
@@ -105,8 +90,6 @@ What I do have:
 - The ability to figure things out (nobody taught me Terraform—I just read docs and broke things until they worked)
 - Real motivation (I have three kids who need me to level up)
 - Customer service experience (delivery drivers deal with people all day)
-
-I'm not going to pretend I know everything. I'm still learning Python. I haven't used ticketing systems like ServiceNow or Jira. I don't have deep database experience yet.
 
 But I learn fast, I work hard, and I'm not going to waste your time or money. I need this to work.
 
