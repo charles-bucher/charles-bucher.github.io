@@ -7,7 +7,7 @@ I respond to all messages within 24 hours.
 
 Cloud Support Engineer | AWS | Terraform  
 
-📧 Quietopscb@gmail.com | 📞 (727) 520-5966 | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://tommy813-lab.github.io)
+📧 Quietopscb@gmail.com | 📞 (727) 520-5966 | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
 
 ---
 
@@ -110,8 +110,8 @@ This career change is happening. I'm just looking for the company that's willing
 **Email**: Quietopscb@gmail.com  
 **Phone**: (727) 520-5966  
 **LinkedIn**: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)  
-**GitHub**: [github.com/Tommy813-lab](https://github.com/Tommy813-lab)  
-**Portfolio**: [tommy813-lab.github.io](https://tommy813-lab.github.io)  
+**GitHub**: [github.com/charles-bucher](https://github.com/Tommy813-lab)  
+**Portfolio**: [charles-bucher.io](https://tommy813-lab.github.io)  
 
 Located in Largo, Florida. Available for immediate start.
 
