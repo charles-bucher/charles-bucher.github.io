@@ -1,3 +1,13 @@
+🧠 TL;DR — Portfolio Site (GitHub Pages)
+This repo powers my live portfolio site: charles-bucher.github.io
+It showcases cert-aligned cloud projects, modular Terraform automation, and recruiter-facing polish.
+- ✅ Hosted on GitHub Pages with custom HTML layout
+- 📸 Screenshot preview included for visual proof
+- 🔗 Links to AWS-aligned repos: GuardDuty, CloudFront, CloudWatch, VPC simulation
+- 🧱 Built to reflect AWS Cloud Practitioner & Solutions Architect domains
+- 🎯 Designed for recruiter clarity, badge logic, and cert mapping
+
+
 # Charles Bucher
 ## 🎯 Currently Seeking
 **Cloud Support Engineer | Junior DevOps | Infrastructure Engineer**  
