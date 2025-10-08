@@ -35,7 +35,7 @@ Looking for Cloud Support Engineer roles, preferably remote, $60-80K range to st
 ## Projects I've Built
 
 ### S3 + CloudFront Static Site Hosting
-**[GitHub](https://github.com/Tommy813-lab/s3-cloudfront-secure-static-site)**
+**[GitHub](https://github.com/charles-bucher/s3-cloudfront-secure-static-site)**
 
 Built this portfolio site using S3 for storage and CloudFront for global delivery. S3 bucket is private, everything goes through CloudFront's CDN.
 
@@ -49,7 +49,7 @@ This is the same setup companies use for high-traffic sites. Shows I can do more
 ---
 
 ### Multi-Tier VPC Network Architecture
-**[GitHub](https://github.com/Tommy813-lab/multi-tier-network-sim)**
+**[GitHub](https://github.com/charles-bucher/multi-tier-network-sim)**
 
 Designed a three-tier network with public web servers, private app servers, and isolated database tier. All the routing, security groups, and NAT gateways you'd see in a real production environment.
 
@@ -120,7 +120,7 @@ This career change is happening. I'm just looking for the company that's willing
 **Email**: Quietopscb@gmail.com  
 **Phone**: (727) 520-5966  
 **LinkedIn**: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)  
-**GitHub**: [github.com/charles-bucher](https://github.com/Tommy813-lab)  
+**GitHub**: [github.com/charles-bucher](https://github.com/charles-bucher)  
 **Portfolio**: [charles-bucher.io](https://tommy813-lab.github.io)  
 
 Located in Largo, Florida. Available for immediate start.
