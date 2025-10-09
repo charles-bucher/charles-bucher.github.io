@@ -92,27 +92,7 @@ I'm studying for my AWS Solutions Architect Associate cert. Should have it in th
 
 ## Why Hire Me
 
-I don't have a CS degree. I didn't go to a bootcamp. I don't have professional cloud experience.
-
-What I do have:
-- Working AWS infrastructure I built myself
-- 9 months of consistent self-teaching
-- The ability to figure things out (nobody taught me Terraform—I just read docs and broke things until they worked)
-- Real motivation (I have three kids who need me to level up)
-- Customer service experience (delivery drivers deal with people all day)
-
-But I learn fast, I work hard, and I'm not going to waste your time or money. I need this to work.
-
----
-
-## The Big Picture
-
-Long-term, I'm working toward financial security for my family—stable income, savings, and eventually real estate investing for passive income.
-
-Right now? I'm focused on getting my first cloud job, getting good at it, and building from there.
-
-This career change is happening. I'm just looking for the company that's willing to give me a shot.
-
+ “Everything here was built for recruiters tired of buzzwords and hungry for proof.”
 ---
 
 ## Contact
