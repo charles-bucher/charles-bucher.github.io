@@ -9,6 +9,13 @@ It showcases cert-aligned cloud projects, modular Terraform automation, and recr
 
   Built, secured, and deployed cloud infrastructure from scratch — proof that I don’t just study AWS, I run it.
 
+                         🏗️ Highlights
+                                 • 4 AWS projects deployed (S3, CloudFront,                                          CloudWatch, VPC)
+                                 • 2,000+ lines of Terraform written and reused                                      via modules  
+                                 • CI/CD with GitHub Actions + IaC workflows  
+                                 • Under $2/month live infrastructure cost
+
+
 # Charles Bucher
 ## 🎯 Currently Seeking
 **Cloud Support Engineer | Junior DevOps | Infrastructure Engineer**  
