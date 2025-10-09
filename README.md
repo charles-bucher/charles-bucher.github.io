@@ -7,6 +7,7 @@ It showcases cert-aligned cloud projects, modular Terraform automation, and recr
 - 🧱 Built to reflect AWS Cloud Practitioner & Solutions Architect domains
 - 🎯 Designed for recruiter clarity, badge logic, and cert mapping
 
+  Built, secured, and deployed cloud infrastructure from scratch — proof that I don’t just study AWS, I run it.
 
 # Charles Bucher
 ## 🎯 Currently Seeking
