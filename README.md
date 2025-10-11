@@ -18,56 +18,54 @@ It showcases cert-aligned cloud projects, modular Terraform automation, and recr
 
 # Charles Bucher
 ## 🎯 Currently Seeking
-**Cloud Support Engineer | Junior DevOps | Infrastructure Engineer**  
+**Cloud Engineer | Junior DevOps | Infrastructure Engineer**  
 Remote preferred | Immediate start available |
 
 I respond to all messages within 24 hours.
 
 Cloud Support Engineer | AWS | Terraform  
 
+<<<<<<< HEAD
 📧 [Available on LinkedIn] | 📞 (727) 520-5966 | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
+=======
+📧 Quietopscb@gmail.com  | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
+>>>>>>> e466aff7c8670243bcd55820ac4fa5432f15eb58
 
 ---
 
 ## What's Up
+<<<<<<< HEAD
 "I'm a self-taught cloud engineer in Remote (Florida), transitioning from 9 months of intensive AWS/Terraform study into my first professional cloud role."
+=======
+"I'm a self-taught cloud engineer in Tampa, Florida, transitioning into my first professional cloud role."
+>>>>>>> e466aff7c8670243bcd55820ac4fa5432f15eb58
 
- I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, YouTube, and a lot of late nights after the kids go to bed.
+ I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, A.I, YouTube, and a lot of late nights.
 
 I built the projects below to prove I can actually do this work. They're all real, they all run, and I'm paying for them out of my own pocket (though AWS free tier helps a lot).
 
+<<<<<<< HEAD
 Looking for Cloud Support Engineer roles, preferably remote, [Competitive salary] range to start.
+=======
+Looking for Cloud Engineer roles, preferably remote.
+>>>>>>> e466aff7c8670243bcd55820ac4fa5432f15eb58
 
----
+---[![charles-bucher Profile](https://img.shields.io/badge/charles--bucher%20Profile-232F3E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/charles-bucher/charles-bucher)
 
-## Projects I've Built
+[![Personal Website](https://img.shields.io/badge/charles--bucher.github.io-000000?style=for-the-badge&logo=githubpages&logoColor=white)](https://github.com/charles-bucher/charles-bucher.github.io)
 
-### S3 + CloudFront Static Site Hosting
-**[GitHub](https://github.com/charles-bucher/s3-cloudfront-secure-static-site)**
+[![S3 + CloudFront Secure Static Site](https://img.shields.io/badge/S3%20%2B%20CloudFront%20Secure%20Site-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)](https://github.com/charles-bucher/s3-cloudfront-secure-static-site)
 
-Built this portfolio site using S3 for storage and CloudFront for global delivery. S3 bucket is private, everything goes through CloudFront's CDN.
+[![Proactive Monitoring (CloudWatch + SNS)](https://img.shields.io/badge/CloudWatch%20%2B%20SNS%20Monitoring-5A2D81?style=for-the-badge&logo=amazon-cloudwatch&logoColor=white)](https://github.com/charles-bucher/Proactive-monitoring-with-cloudwatch-sns)
 
-- HTTPS enforced with ACM certificate
-- Origin Access Control so S3 isn't publicly accessible
-- Loads in under 200ms globally
+[![AWS Multi-Tier VPC Architecture](https://img.shields.io/badge/Multi--Tier%20VPC-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/charles-bucher/aws-multi-tier-vpc-architecture)
+
+[![GuardDuty Threat Simulation & Response](https://img.shields.io/badge/GuardDuty%20Threat%20Response-FF4F00?style=for-the-badge&logo=amazon-guardduty&logoColor=white)](https://github.com/charles-bucher/guardduty-threat-simulation-response)
+
+
 - Costs about $0.50/month
 
 This is the same setup companies use for high-traffic sites. Shows I can do more than just spin up an EC2 instance.
-
----
-
-### Multi-Tier VPC Network Architecture
-**[GitHub](https://github.com/charles-bucher/multi-tier-network-sim)**
-
-Designed a three-tier network with public web servers, private app servers, and isolated database tier. All the routing, security groups, and NAT gateways you'd see in a real production environment.
-
-- Public/private subnet design
-- NAT gateways for private subnet internet access
-- Security groups with least-privilege rules
-- Fully automated with Terraform
-
-Took me a while to get the routing tables right.
-
 ## Skills
 
 **AWS**: EC2, S3, VPC, IAM, CloudWatch, SNS, CloudFront, ACM, Route 53, Security Groups, NAT Gateways
@@ -105,6 +103,7 @@ I'm studying for my AWS Solutions Architect Associate cert. Should have it in th
 
 ## Contact
 
+<<<<<<< HEAD
 **Email**: [Available on LinkedIn]  
 **Phone**: (727) 520-5966  
 **LinkedIn**: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)  
@@ -112,6 +111,14 @@ I'm studying for my AWS Solutions Architect Associate cert. Should have it in th
 **Portfolio**: [charles-bucher.io](https://Charles-Bucher.github.io)  
 
 Located in Remote (Florida). Available for immediate start.
+=======
+**Email**: Quietopscb@gmail.com   
+**LinkedIn**: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)  
+**GitHub**: [github.com/charles-bucher](https://github.com/charles-bucher)  
+**Portfolio**: [charles-bucher.io](https://github.com/charles-bucher/charles-bucher.github.io)  
+
+Located in Tampa,FL
+>>>>>>> e466aff7c8670243bcd55820ac4fa5432f15eb58
 
 ---
 
