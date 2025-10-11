@@ -38,36 +38,22 @@ I built the projects below to prove I can actually do this work. They're all rea
 
 Looking for Cloud Engineer roles, preferably remote.
 
----
+---[![charles-bucher Profile](https://img.shields.io/badge/charles--bucher%20Profile-232F3E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/charles-bucher/charles-bucher)
 
-## Projects I've Built
+[![Personal Website](https://img.shields.io/badge/charles--bucher.github.io-000000?style=for-the-badge&logo=githubpages&logoColor=white)](https://github.com/charles-bucher/charles-bucher.github.io)
 
-### S3 + CloudFront Static Site Hosting
-**[GitHub](https://github.com/charles-bucher/s3-cloudfront-secure-static-site)**
+[![S3 + CloudFront Secure Static Site](https://img.shields.io/badge/S3%20%2B%20CloudFront%20Secure%20Site-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)](https://github.com/charles-bucher/s3-cloudfront-secure-static-site)
 
-Built this portfolio site using S3 for storage and CloudFront for global delivery. S3 bucket is private, everything goes through CloudFront's CDN.
+[![Proactive Monitoring (CloudWatch + SNS)](https://img.shields.io/badge/CloudWatch%20%2B%20SNS%20Monitoring-5A2D81?style=for-the-badge&logo=amazon-cloudwatch&logoColor=white)](https://github.com/charles-bucher/Proactive-monitoring-with-cloudwatch-sns)
 
-- HTTPS enforced with ACM certificate
-- Origin Access Control so S3 isn't publicly accessible
-- Loads in under 200ms globally
+[![AWS Multi-Tier VPC Architecture](https://img.shields.io/badge/Multi--Tier%20VPC-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/charles-bucher/aws-multi-tier-vpc-architecture)
+
+[![GuardDuty Threat Simulation & Response](https://img.shields.io/badge/GuardDuty%20Threat%20Response-FF4F00?style=for-the-badge&logo=amazon-guardduty&logoColor=white)](https://github.com/charles-bucher/guardduty-threat-simulation-response)
+
+
 - Costs about $0.50/month
 
 This is the same setup companies use for high-traffic sites. Shows I can do more than just spin up an EC2 instance.
-
----
-
-### aws-multi-tier-vpc-architecture
-**[GitHub](https://github.com/charles-bucher/aws-multi-tier-vpc-architecture)**
-
-Designed a three-tier network with public web servers, private app servers, and isolated database tier. All the routing, security groups, and NAT gateways you'd see in a real production environment.
-
-- Public/private subnet design
-- NAT gateways for private subnet internet access
-- Security groups with least-privilege rules
-- Fully automated with Terraform
-
-Took me a while to get the routing tables right.
-
 ## Skills
 
 **AWS**: EC2, S3, VPC, IAM, CloudWatch, SNS, CloudFront, ACM, Route 53, Security Groups, NAT Gateways
