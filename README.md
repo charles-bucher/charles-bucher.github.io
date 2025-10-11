@@ -18,25 +18,25 @@ It showcases cert-aligned cloud projects, modular Terraform automation, and recr
 
 # Charles Bucher
 ## 🎯 Currently Seeking
-**Cloud Support Engineer | Junior DevOps | Infrastructure Engineer**  
+**Cloud Engineer | Junior DevOps | Infrastructure Engineer**  
 Remote preferred | Immediate start available |
 
 I respond to all messages within 24 hours.
 
 Cloud Support Engineer | AWS | Terraform  
 
-📧 Quietopscb@gmail.com | 📞 (727) 520-5966 | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
+📧 Quietopscb@gmail.com  | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
 
 ---
 
 ## What's Up
-"I'm a self-taught cloud engineer in Largo, Florida, transitioning from 9 months of intensive AWS/Terraform study into my first professional cloud role."
+"I'm a self-taught cloud engineer in Tampa, Florida, transitioning into my first professional cloud role."
 
- I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, YouTube, and a lot of late nights after the kids go to bed.
+ I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, A.I, YouTube, and a lot of late nights.
 
 I built the projects below to prove I can actually do this work. They're all real, they all run, and I'm paying for them out of my own pocket (though AWS free tier helps a lot).
 
-Looking for Cloud Support Engineer roles, preferably remote, $60-80K range to start.
+Looking for Cloud Engineer roles, preferably remote.
 
 ---
 
@@ -56,8 +56,8 @@ This is the same setup companies use for high-traffic sites. Shows I can do more
 
 ---
 
-### Multi-Tier VPC Network Architecture
-**[GitHub](https://github.com/charles-bucher/multi-tier-network-sim)**
+### aws-multi-tier-vpc-architecture
+**[GitHub](https://github.com/charles-bucher/aws-multi-tier-vpc-architecture)**
 
 Designed a three-tier network with public web servers, private app servers, and isolated database tier. All the routing, security groups, and NAT gateways you'd see in a real production environment.
 
@@ -105,13 +105,12 @@ I'm studying for my AWS Solutions Architect Associate cert. Should have it in th
 
 ## Contact
 
-**Email**: Quietopscb@gmail.com  
-**Phone**: (727) 520-5966  
+**Email**: Quietopscb@gmail.com   
 **LinkedIn**: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)  
 **GitHub**: [github.com/charles-bucher](https://github.com/charles-bucher)  
-**Portfolio**: [charles-bucher.io](https://tommy813-lab.github.io)  
+**Portfolio**: [charles-bucher.io](https://github.com/charles-bucher/charles-bucher.github.io)  
 
-Located in Largo, Florida. Available for immediate start.
+Located in Tampa,FL
 
 ---
 
