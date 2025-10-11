@@ -101,27 +101,6 @@ I'm studying for my AWS Solutions Architect Associate cert. Should have it in th
  “Everything here was built for recruiters tired of buzzwords and hungry for proof.”
 ---
 
-## Contact
-
-<<<<<<< HEAD
-**Email**: [Available on LinkedIn]  
-**Phone**: (727) 520-5966  
-**LinkedIn**: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)  
-**GitHub**: [github.com/charles-bucher](https://github.com/charles-bucher)  
-**Portfolio**: [charles-bucher.io](https://Charles-Bucher.github.io)  
-
-Located in Remote (Florida). Available for immediate start.
-=======
-**Email**: Quietopscb@gmail.com   
-**LinkedIn**: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)  
-**GitHub**: [github.com/charles-bucher](https://github.com/charles-bucher)  
-**Portfolio**: [charles-bucher.io](https://github.com/charles-bucher/charles-bucher.github.io)  
-
-Located in Tampa,FL
->>>>>>> e466aff7c8670243bcd55820ac4fa5432f15eb58
-
----
-
 ## Certifications
 
 **In Progress**: AWS Certified Solutions Architect - Associate (studying now, planning to test Q1-Q2 2025)
@@ -166,6 +145,15 @@ I'm not the candidate with the pedigree. I'm the candidate who will show up ever
 *This portfolio runs on GitHub Pages. Total cost: $0/month.*
 
 ---
+
+
+## 📬 Contact
+
+**LinkedIn:** [linkedin.com/in/charles-bucher-26598728](https://linkedin.com/in/charles-bucher-26598728)  
+**GitHub:** [github.com/charles-bucher](https://github.com/charles-bucher)  
+**Portfolio:** [charles-bucher.github.io](https://charles-bucher.github.io)
+
+*Open to Cloud Support Engineer and DevOps opportunities*
 
 ## License
 
