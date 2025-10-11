@@ -33,6 +33,15 @@ Cloud Support Engineer | AWS | Terraform
 
 ---
 
+## ✨ Portfolio Highlights
+
+- 🏗️ **4 Production AWS Projects** - Real infrastructure deployed and running
+- 📊 **Live Monitoring Setup** - CloudWatch dashboards with automated alerting
+- 🔒 **Security-First Design** - GuardDuty, IAM policies, encrypted storage
+- 🌐 **Global CDN Deployment** - This site served via CloudFront
+- 💰 **Cost-Optimized** - All projects running for under $2/month
+- 📝 **Fully Documented** - Every project with comprehensive README
+
 ## What's Up
 <<<<<<< HEAD
 "I'm a self-taught cloud engineer in Remote (Florida), transitioning from 9 months of intensive AWS/Terraform study into my first professional cloud role."
@@ -85,6 +94,15 @@ This is the same setup companies use for high-traffic sites. Shows I can do more
 ---
 
 
+
+## ✨ Portfolio Highlights
+
+- 🏗️ **4 Production AWS Projects** - Real infrastructure deployed and running
+- 📊 **Live Monitoring Setup** - CloudWatch dashboards with automated alerting
+- 🔒 **Security-First Design** - GuardDuty, IAM policies, encrypted storage
+- 🌐 **Global CDN Deployment** - This site served via CloudFront
+- 💰 **Cost-Optimized** - All projects running for under $2/month
+- 📝 **Fully Documented** - Every project with comprehensive README
 
 ## What I'm After
 
