@@ -41,21 +41,15 @@ Cloud Support Engineer | AWS | Terraform
 - 📝 **Fully Documented** - Every project with comprehensive README
 
 ## What's Up
-<<<<<<< HEAD
 "I'm a self-taught cloud engineer in Remote (Florida), transitioning from 9 months of intensive AWS/Terraform study into my first professional cloud role."
 =======
-"I'm a self-taught cloud engineer in Tampa, Florida, transitioning into my first professional cloud role."
->>>>>>> e466aff7c8670243bcd55820ac4fa5432f15eb58
 
  I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, A.I, YouTube, and a lot of late nights.
 
 I built the projects below to prove I can actually do this work. They're all real, they all run, and I'm paying for them out of my own pocket (though AWS free tier helps a lot).
 
-<<<<<<< HEAD
-Looking for Cloud Support Engineer roles, preferably remote, [Competitive salary] range to start.
 =======
 Looking for Cloud Engineer roles, preferably remote.
->>>>>>> e466aff7c8670243bcd55820ac4fa5432f15eb58
 
 ---[![charles-bucher Profile](https://img.shields.io/badge/charles--bucher%20Profile-232F3E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/charles-bucher/charles-bucher)
 
@@ -104,7 +98,7 @@ This is the same setup companies use for high-traffic sites. Shows I can do more
 
 ## What I'm After
 
-I need a Cloud Support Engineer job. Remote preferred, but I'll relocate if the opportunity's right.
+I need a Cloud Engineer job. Remote preferred, but I'll relocate if the opportunity's right.
 
 I'm targeting [Competitive salary] to start, with room to grow as I gain experience and certifications.
 
@@ -174,5 +168,3 @@ I'm not the candidate with the pedigree. I'm the candidate who will show up ever
 ## License
 
 MIT License on all projects. Use them, learn from them, fork them. I don't care. 
-
-The point is to help people see what I can do, and if it helps someone else learn, even better.
