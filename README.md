@@ -26,10 +26,9 @@ I respond to all messages within 24 hours.
 Cloud Support Engineer | AWS | Terraform  
 
 <<<<<<< HEAD
-📧 [Available on LinkedIn] | 📞 (727) 520-5966 | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
+📧 [Available on LinkedIn]  | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
 =======
 📧 Quietopscb@gmail.com  | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
->>>>>>> e466aff7c8670243bcd55820ac4fa5432f15eb58
 
 ---
 
