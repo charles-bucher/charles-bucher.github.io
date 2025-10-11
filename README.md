@@ -25,18 +25,18 @@ I respond to all messages within 24 hours.
 
 Cloud Support Engineer | AWS | Terraform  
 
-📧 Quietopscb@gmail.com | 📞 (727) 520-5966 | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
+📧 [Available on LinkedIn] | 📞 (727) 520-5966 | 💼 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728) | 🔗 [Portfolio](https://charles-bucher.io)
 
 ---
 
 ## What's Up
-"I'm a self-taught cloud engineer in Largo, Florida, transitioning from 9 months of intensive AWS/Terraform study into my first professional cloud role."
+"I'm a self-taught cloud engineer in Remote (Florida), transitioning from 9 months of intensive AWS/Terraform study into my first professional cloud role."
 
  I started teaching myself AWS and Terraform. No bootcamp, no degree—just AWS docs, YouTube, and a lot of late nights after the kids go to bed.
 
 I built the projects below to prove I can actually do this work. They're all real, they all run, and I'm paying for them out of my own pocket (though AWS free tier helps a lot).
 
-Looking for Cloud Support Engineer roles, preferably remote, $60-80K range to start.
+Looking for Cloud Support Engineer roles, preferably remote, [Competitive salary] range to start.
 
 ---
 
@@ -92,7 +92,7 @@ Took me a while to get the routing tables right.
 
 I need a Cloud Support Engineer job. Remote preferred, but I'll relocate if the opportunity's right.
 
-I'm targeting $60-80K to start, with room to grow as I gain experience and certifications.
+I'm targeting [Competitive salary] to start, with room to grow as I gain experience and certifications.
 
 I'm studying for my AWS Solutions Architect Associate cert. Should have it in the next 2-3 months.
 
@@ -105,13 +105,13 @@ I'm studying for my AWS Solutions Architect Associate cert. Should have it in th
 
 ## Contact
 
-**Email**: Quietopscb@gmail.com  
+**Email**: [Available on LinkedIn]  
 **Phone**: (727) 520-5966  
 **LinkedIn**: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)  
 **GitHub**: [github.com/charles-bucher](https://github.com/charles-bucher)  
-**Portfolio**: [charles-bucher.io](https://tommy813-lab.github.io)  
+**Portfolio**: [charles-bucher.io](https://Charles-Bucher.github.io)  
 
-Located in Largo, Florida. Available for immediate start.
+Located in Remote (Florida). Available for immediate start.
 
 ---
 
