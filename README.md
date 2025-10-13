@@ -8,7 +8,7 @@ Show Image
 </div>
 
 💫 WHO I AM
-yamlname: Charles Bucher
+name: Charles Bucher
 role: Cloud Infrastructure Engineer
 location: Tampa Bay, Florida
 status: Building • Deploying • Automating
