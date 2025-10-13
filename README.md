@@ -4,6 +4,8 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
 
+
+
 💫 WHO I AM
 name: Charles Bucher
 role: Cloud Infrastructure Engineer
@@ -12,27 +14,52 @@ status: Building • Deploying • Automating
 mission: |
   Transforming infrastructure complexity into 
   elegant, scalable, automated solutions
+
+
 ⚡ THE STORY
 From delivery driver to cloud engineer—100% self-taught through real-world projects, hands-on AWS labs, and relentless problem-solving. I don't just follow tutorials; I build production systems that actually work.
+
+
 🎯 What drives me: Solving infrastructure challenges at scale
+
+
 🔥 Current goal: AWS Solutions Architect Associate 
+
+
 💡 Philosophy: Code it once, automate it forever
 
 🛠️ ARSENAL
 <div align="center">
+
 ☁️ Cloud Platforms
+
 🔧 Infrastructure & DevOps
+
 🔄 CI/CD & Automation
+
 💻 Languages & Scripting
+
 📊 Monitoring & Observability
+
 🔐 Security & Compliance
+
 🐧 Systems & Tools
 </div>
 
 🔥 FEATURED PROJECTS
 <div align="center">
-ProjectDescriptionTech StackLinks🔐 GuardDuty Threat SimulationAutomated threat detection and incident response system with real-time alerting and remediation workflowsAWS GuardDuty Lambda SNS Python CloudWatchShow Image Show Image📊 Proactive CloudWatch MonitoringEnterprise-grade monitoring solution with custom metrics, dashboards, and SNS alerting for infrastructure healthCloudWatch SNS Lambda Python EventBridgeShow Image Show Image🏗️ AWS Multi-Tier VPC ArchitectureProduction-ready VPC design with public/private subnets, NAT gateways, routing, and security groupsAWS VPC Terraform Networking Security GroupsShow Image Show Image☁️ S3 + CloudFront Secure Static SiteHigh-performance static website hosting with CloudFront CDN, SSL/TLS, and S3 security best practicesS3 CloudFront Route 53 ACM TerraformShow Image Show Image
+ProjectDescriptionTech StackLinks
+🔐 GuardDuty Threat SimulationAutomated threat detection and incident response system with real-time alerting and remediation workflowsAWS GuardDuty Lambda SNS Python CloudWatch
+
+
+📊 Proactive CloudWatch MonitoringEnterprise-grade monitoring solution with custom metrics, dashboards, and SNS alerting for infrastructure healthCloudWatch SNS Lambda Python EventBridge 
+
+
+🏗️ AWS Multi-Tier VPC ArchitectureProduction-ready VPC design with public/private subnets, NAT gateways, routing, and security groupsAWS VPC Terraform Networking Security GroupsShow Image.     
+
+☁️.S3 + CloudFront Secure Static SiteHigh-performance static website hosting with CloudFront CDN, SSL/TLS, and S3 security best practicesS3 CloudFront Route 53 ACM Terraform
 </div>
+
 
 📊 GITHUB WARFARE
 <div align="center">
@@ -41,6 +68,7 @@ ProjectDescriptionTech StackLinks🔐 GuardDuty Threat SimulationAutomated threa
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
 <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=charles-bucher&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" />
 </div>
+
 
 🎯 CURRENT MISSION
 <div align="center">
@@ -56,14 +84,20 @@ graph LR
     style D fill:#FFE66D,stroke:#fff,stroke-width:2px,color:#000
 ```
 </div>
+
+
 📚 Certification Roadmap
 
- AWS Certified Cloud Practitioner
  AWS Solutions Architect Associate (Actively Studying)
+
  Certified Kubernetes Administrator (CKA)
- HashiCorp Terraform Associate
+ 
+HashiCorp Terraform Associate
+
  AWS Solutions Architect Professional
+
  AWS DevOps Engineer Professional
+
  AWS Security Specialty
 
 🚀 Next 90 Days
@@ -73,6 +107,7 @@ pythonroadmap = {
     "week_9_12": ["Advanced Terraform modules", "Multi-region DR setup"],
     "ongoing": ["Daily commits", "Document everything", "Network on LinkedIn"]
 }
+
 
 💼 WHAT I BRING
 <div align="center">
@@ -114,7 +149,6 @@ Show Image
 💡 Open to:
 Remote Cloud Engineer Roles • DevOps Positions • AWS Infrastructure Jobs • Security-Focused Opportunities
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=footer&text=Let's%20Build%20The%20Future&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%">
-Show Image
 </div>
 
 <div align="center">
