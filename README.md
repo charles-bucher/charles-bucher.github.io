@@ -18,7 +18,7 @@ mission: |
 ⚡ THE STORY
 From delivery driver to cloud engineer—100% self-taught through real-world projects, hands-on AWS labs, and relentless problem-solving. I don't just follow tutorials; I build production systems that actually work.
 🎯 What drives me: Solving infrastructure challenges at scale
-🔥 Current goal: AWS Solutions Architect Associate + 6-figure remote role
+🔥 Current goal: AWS Solutions Architect Associate 
 💡 Philosophy: Code it once, automate it forever
 
 🛠️ ARSENAL
