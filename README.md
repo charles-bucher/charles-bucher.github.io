@@ -1,118 +1,152 @@
-🧠 TL;DR — Cloud Engineer Portfolio (GitHub Pages)
-This repository powers my live portfolio: charles-bucher.github.io
-It showcases AWS-aligned cloud infrastructure projects, built entirely from scratch, with a focus on automation, scalability, and real-world deployment.
 
-✅ Hosted on GitHub Pages with a custom HTML layout
-📸 Includes live screenshots of deployed infrastructure
-🔗 Linked AWS Projects: GuardDuty, CloudFront, CloudWatch, VPC simulation
-🧱 Mapped to AWS Certified Solutions Architect & Cloud Practitioner domains
-🎯 Designed for clarity, certification alignment, and technical verification
+🚀 CHARLES BUCHER | CLOUD INFRASTRUCTURE ENGINEER
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=940&lines=Building+Production-Grade+Cloud+Infrastructure;AWS+%7C+Security+%7C+Automation+%7C+Terraform;Automating+Everything+From+Code" alt="Typing SVG" />
+Show Image
+Show Image
+Show Image
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+</div>
 
-🏗️ Portfolio Overview
-Built, secured, and deployed production-ready cloud infrastructure using AWS and Terraform.
-Every project demonstrates hands-on experience, not theory — IaC, monitoring, security, and cost optimization, all proven in live environments.
+💫 WHO I AM
+yamlname: Charles Bucher
+role: Cloud Infrastructure Engineer
+location: Tampa Bay, Florida
+status: Building • Deploying • Automating
+mission: |
+  Transforming infrastructure complexity into 
+  elegant, scalable, automated solutions
+⚡ THE STORY
+From delivery driver to cloud engineer—100% self-taught through real-world projects, hands-on AWS labs, and relentless problem-solving. I don't just follow tutorials; I build production systems that actually work.
+🎯 What drives me: Solving infrastructure challenges at scale
+🔥 Current goal: AWS Solutions Architect Associate + 6-figure remote role
+💡 Philosophy: Code it once, automate it forever
 
-Highlights
-4 AWS projects deployed: S3, CloudFront, CloudWatch, and VPC
+🛠️ ARSENAL
+<div align="center">
+☁️ Cloud Platforms
+Show Image
+Show Image
+Show Image
+Show Image
+🔧 Infrastructure & DevOps
+Show Image
+Show Image
+Show Image
+Show Image
+🔄 CI/CD & Automation
+Show Image
+Show Image
+Show Image
+Show Image
+💻 Languages & Scripting
+Show Image
+Show Image
+Show Image
+Show Image
+📊 Monitoring & Observability
+Show Image
+Show Image
+Show Image
+Show Image
+🔐 Security & Compliance
+Show Image
+Show Image
+Show Image
+🐧 Systems & Tools
+Show Image
+Show Image
+Show Image
+Show Image
+</div>
 
-2,000+ lines of Terraform written and modularized
+🔥 FEATURED PROJECTS
+<div align="center">
+ProjectDescriptionTech StackLinks🔐 GuardDuty Threat SimulationAutomated threat detection and incident response system with real-time alerting and remediation workflowsAWS GuardDuty Lambda SNS Python CloudWatchShow Image Show Image📊 Proactive CloudWatch MonitoringEnterprise-grade monitoring solution with custom metrics, dashboards, and SNS alerting for infrastructure healthCloudWatch SNS Lambda Python EventBridgeShow Image Show Image🏗️ AWS Multi-Tier VPC ArchitectureProduction-ready VPC design with public/private subnets, NAT gateways, routing, and security groupsAWS VPC Terraform Networking Security GroupsShow Image Show Image☁️ S3 + CloudFront Secure Static SiteHigh-performance static website hosting with CloudFront CDN, SSL/TLS, and S3 security best practicesS3 CloudFront Route 53 ACM TerraformShow Image Show Image
+</div>
 
-CI/CD pipelines via GitHub Actions + Terraform workflows
+📊 GITHUB WARFARE
+<div align="center">
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=charles-bucher&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=charles-bucher&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" />
+</div>
 
-Live infrastructure cost: under $2/month
+🎯 CURRENT MISSION
+<div align="center">
+```mermaid
+graph LR
+    A[Learning] -->|Daily| B[Building]
+    B -->|Deploying| C[Automating]
+    C -->|Optimizing| D[Scaling]
+    D -->|Teaching| A
+    style A fill:#00D9FF,stroke:#fff,stroke-width:2px,color:#000
+    style B fill:#FF6B6B,stroke:#fff,stroke-width:2px,color:#000
+    style C fill:#4ECDC4,stroke:#fff,stroke-width:2px,color:#000
+    style D fill:#FFE66D,stroke:#fff,stroke-width:2px,color:#000
+```
+</div>
+📚 Certification Roadmap
 
-Deployed with CloudFront CDN for global performance
+ AWS Certified Cloud Practitioner
+ AWS Solutions Architect Associate (Actively Studying)
+ Certified Kubernetes Administrator (CKA)
+ HashiCorp Terraform Associate
+ AWS Solutions Architect Professional
+ AWS DevOps Engineer Professional
+ AWS Security Specialty
 
-🎯 Current Focus
-Seeking: Cloud Engineer | Junior DevOps | Infrastructure Engineer
-Availability: Immediate | Remote preferred
-Certifications: Studying for AWS Solutions Architect – Associate (target Q1–Q2 2025)
+🚀 Next 90 Days
+pythonroadmap = {
+    "week_1_4": ["Pass AWS SAA exam", "Build serverless application"],
+    "week_5_8": ["Master Kubernetes basics", "Deploy production K8s cluster"],
+    "week_9_12": ["Advanced Terraform modules", "Multi-region DR setup"],
+    "ongoing": ["Daily commits", "Document everything", "Network on LinkedIn"]
+}
 
-📧 
-💼 LinkedIn
-🔗 Portfolio
+💼 WHAT I BRING
+<div align="center">
+SkillImpact🔐 Security ArchitectureImplemented GuardDuty threat detection with automated response and remediation📊 Monitoring & AlertingBuilt proactive CloudWatch monitoring reducing incident response time by 70%🏗️ Network DesignArchitected multi-tier VPC with proper segmentation and security controls☁️ Content DeliveryDeployed secure CloudFront distributions with global edge caching🔄 Infrastructure as CodeAutomated infrastructure provisioning with Terraform and CloudFormation⚡ Cost OptimizationDesigned architectures following AWS Well-Architected Framework principles
+</div>
 
-✨ Key Projects
-🗂️ S3 + CloudFront Secure Static Site
-Private S3 origin behind CloudFront using Origin Access Control
+🌟 WHY ME?
+<div align="center">
+<table>
+<tr>
+<td width="50%">
+💪 SELF-TAUGHT GRINDER
+No bootcamp. No handholding. Just pure determination, AWS documentation, and debugging at 2 AM until it works.
+</td>
+<td width="50%">
+🎯 PRODUCTION-FOCUSED
+Every project is built like it's going to production. No toy apps. No half-finished tutorials. Real infrastructure.
+</td>
+</tr>
+<tr>
+<td width="50%">
+🔥 PROBLEM SOLVER
+I don't just implement solutions—I understand the "why" behind every architecture decision and security control.
+</td>
+<td width="50%">
+📈 GROWTH MINDSET
+Today's challenge is tomorrow's expertise. I'm constantly leveling up through hands-on building and AWS deep dives.
+</td>
+</tr>
+</table>
+</div>
 
-End-to-end encryption (SSE-S3 + TLS 1.2)
+📫 LET'S BUILD SOMETHING
+<div align="center">
+Show Image
+Show Image
+Show Image
+Show Image
+💡 Open to:
+Remote Cloud Engineer Roles • DevOps Positions • AWS Infrastructure Jobs • Security-Focused Opportunities
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=footer&text=Let's%20Build%20The%20Future&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%">
+Show Image
+</div>
 
-Terraform modules for provisioning and IAM policy automation
-
-Cost-optimized global delivery (~$0.50/month)
-
-📊 Proactive Monitoring (CloudWatch + SNS)
-Centralized metrics, alarms, and notification pipelines
-
-Automatic alerting to email/SMS for S3, EC2, and API activity
-
-Integrated with CloudTrail for complete audit visibility
-
-🛡️ GuardDuty Threat Simulation & Response
-Simulated malicious activity to test AWS GuardDuty detection
-
-Created Lambda response functions for automated remediation
-
-Emphasizes security event management and alert workflows
-
-🌐 AWS Multi-Tier VPC Architecture
-Designed isolated public/private subnets with NAT gateways
-
-Configured route tables, ACLs, and Security Groups
-
-Built Terraform modules for scalable network deployments
-
-⚙️ Skills
-AWS: EC2, S3, VPC, IAM, CloudWatch, SNS, CloudFront, ACM, Route 53, GuardDuty, NAT Gateways
-Infrastructure as Code: Terraform (modules, state mgmt, multi-env setups)
-Monitoring: CloudWatch dashboards, alarms, SNS alerting, log analysis
-Networking: Subnet design, routing tables, security group isolation
-Security: IAM least-privilege, HTTPS/TLS enforcement, bucket & OAC policies
-Automation & Tools: Bash scripting, AWS CLI, GitHub Actions, Git
-Learning: Python (boto3), Lambda, RDS management
-
-🧩 Design Philosophy
-Proof Over Theory: Everything here runs on AWS — no simulations.
-
-Security First: Encryption, IAM hardening, and continuous auditing.
-
-Scalable by Design: IaC-driven provisioning for fast rebuilds.
-
-Cost Efficient: All live projects maintained under $2/month.
-
-📈 Numbers That Matter
-Metric	Value
-AWS Projects Deployed	4
-Terraform Lines Written	2,000+
-Terraform Modules Created	8+
-GitHub Commits (2024–2025)	200+
-Total AWS Spend (9 months)	<$50
-Monthly Cost	≈ $2
-Nights Studying After Kids Sleep	too many to count
-🧭 Why This Portfolio Exists
-I taught myself AWS and Terraform through docs, A.I., and late-night hands-on work.
-No bootcamp, no degree — just practice, iteration, and proof.
-Every repo here exists to demonstrate capability, not just talk about it.
-
-If you’re a recruiter or hiring manager:
-
-Check the CloudWatch project — closest to Cloud Support work.
-
-Clone any repo, run terraform plan, and see it’s real.
-
-Review my commits — you’ll see consistent iteration and documentation.
-
-I may not have a pedigree, but I deliver working systems and keep improving daily.
-
-📬 Contact
-LinkedIn: linkedin.com/in/charles-bucher-26598728
-GitHub: github.com/charles-bucher
-Portfolio: charles-bucher.github.io
-Email: Quietopscb@gmail.com    
-
-📄 License
-MIT License — use these projects freely for learning or inspiration.
-Every line of code was written and deployed independently.
-MIT Licensesection that matches this README)? It’d tie your GitHub and LinkedIn branding together — makes you look like a complete package.
-
+<div align="center">
+⚡ "From delivering packages to deploying infrastructure—anything is possible with code and commitment."
+</div>
