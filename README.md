@@ -46,19 +46,81 @@ From delivery driver to cloud engineer—100% self-taught through real-world pro
 🐧 Systems & Tools
 </div>
 
-🔥 FEATURED PROJECTS
-<div align="center">
-ProjectDescriptionTech StackLinks
-🔐 GuardDuty Threat SimulationAutomated threat detection and incident response system with real-time alerting and remediation workflowsAWS GuardDuty Lambda SNS Python CloudWatch
+# Featured Cloud Projects
+
+Showcasing my top AWS projects with screenshots, deployment highlights, and skills demonstrated.
+
+---
+
+<table>
+  <tr>
+    <th>Project</th>
+    <th>Screenshot</th>
+    <th>Overview & Skills</th>
+  </tr>
+
+  <tr>
+    <td>
+      <b>AWS Multi-Tier VPC Architecture</b><br>
+      <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=Terraform&logoColor=white">
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white">
+    </td>
+    <td>
+      <img src="aws-multi-tier-vpc-architecture/screenshots/architecture.png" alt="VPC Architecture" width="300">
+    </td>
+    <td>
+      Built a secure, scalable multi-tier VPC using Terraform. Includes public/private subnets, NAT gateways, security groups, and optional ELB.<br><br>
+      <b>Key Skills:</b> Networking, Security, IaC<br>
+      <b>Deployment:</b><br>
+      <code>terraform init<br>terraform plan<br>terraform apply</code>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <b>Proactive Monitoring with CloudWatch & SNS</b><br>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+    </td>
+    <td>
+      <img src="Proactive-monitoring-with-cloudwatch-sns/screenshots/terraform deploy screenshot.png" alt="CloudWatch Monitoring" width="300">
+    </td>
+    <td>
+      Automated monitoring and alerts for AWS resources using CloudWatch and SNS. Real-time notifications for proactive infrastructure.<br><br>
+      <b>Key Skills:</b> Automation, IaC, Monitoring<br>
+      <b>Highlights:</b> Custom dashboards, Slack/email alerts, Terraform automation
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <b>Secure S3 & CloudFront Static Site</b><br>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white">
+      <img src="https://img.shields.io/badge/S3-F58536?style=for-the-badge&logo=Amazon-S3&logoColor=white">
+    </td>
+    <td>
+      <img src="s3-cloudfront-secure-static-site/screenshots/s3 creation screenshot.png" alt="S3 CloudFront Site" width="300">
+    </td>
+    <td>
+      Hosted a secure static website using S3 and CloudFront with HTTPS, caching, and encryption.<br><br>
+      <b>Key Skills:</b> Security, IaC, Deployment<br>
+      <b>Deployment:</b><br>
+      <code>terraform init<br>terraform plan<br>terraform apply</code>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Learnings & Achievements
+- Designed and deployed multi-tier architectures in AWS  
+- Implemented proactive monitoring and alerting for production systems  
+- Built secure, scalable static websites with CloudFront  
+- Automated infrastructure with Terraform for repeatable deployments
 
 
-📊 Proactive CloudWatch MonitoringEnterprise-grade monitoring solution with custom metrics, dashboards, and SNS alerting for infrastructure healthCloudWatch SNS Lambda Python EventBridge 
 
-
-🏗️ AWS Multi-Tier VPC ArchitectureProduction-ready VPC design with public/private subnets, NAT gateways, routing, and security groupsAWS VPC Terraform Networking Security GroupsShow Image.     
-
-☁️.S3 + CloudFront Secure Static SiteHigh-performance static website hosting with CloudFront CDN, SSL/TLS, and S3 security best practicesS3 CloudFront Route 53 ACM Terraform
-</div>
+📊 Proactive CloudWatch MonitoringEnterprise-grade monitoring solution with cus
 
 
 📊 GITHUB WARFARE
