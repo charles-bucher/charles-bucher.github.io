@@ -21,39 +21,12 @@ From delivery driver to cloud engineer—100% self-taught through real-world pro
 🛠️ ARSENAL
 <div align="center">
 ☁️ Cloud Platforms
-Show Image
-Show Image
-Show Image
-Show Image
 🔧 Infrastructure & DevOps
-Show Image
-Show Image
-Show Image
-Show Image
 🔄 CI/CD & Automation
-Show Image
-Show Image
-Show Image
-Show Image
 💻 Languages & Scripting
-Show Image
-Show Image
-Show Image
-Show Image
 📊 Monitoring & Observability
-Show Image
-Show Image
-Show Image
-Show Image
 🔐 Security & Compliance
-Show Image
-Show Image
-Show Image
 🐧 Systems & Tools
-Show Image
-Show Image
-Show Image
-Show Image
 </div>
 
 🔥 FEATURED PROJECTS
