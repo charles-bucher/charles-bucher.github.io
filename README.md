@@ -1,7 +1,7 @@
 
 🚀 CHARLES BUCHER | CLOUD INFRASTRUCTURE ENGINEER
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=940&lines=Building+Production-Grade+Cloud+Infrastructure;AWS+%7C+Security+%7C+Automation+%7C+Terraform;Automating+Everything+From+Code" alt="Typing SVG" />
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+<img src="[REMOVED]readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=940&lines=Building+[REMOVED]-Grade+Cloud+Infrastructure;AWS+%7C+Security+%7C+Automation+%7C+Terraform;Automating+Everything+From+Code" alt="Typing SVG" />
+<img src="[REMOVED]user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
 
 
@@ -17,7 +17,7 @@ mission: |
 
 
 ⚡ THE STORY
-From delivery driver to cloud engineer—100% self-taught through real-world projects, hands-on AWS labs, and relentless problem-solving. I don't just follow tutorials; I build production systems that actually work.
+From delivery driver to cloud engineer—100% self-taught through real-world projects, hands-on AWS labs, and relentless problem-solving. I don't just follow tutorials; I build [REMOVED] systems that actually work.
 
 
 🎯 What drives me: Solving infrastructure challenges at scale
@@ -62,8 +62,8 @@ Showcasing my top AWS projects with screenshots, deployment highlights, and skil
   <tr>
     <td>
       <b>AWS Multi-Tier VPC Architecture</b><br>
-      <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=Terraform&logoColor=white">
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white">
+      <img src="[REMOVED]img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=Terraform&logoColor=white">
+      <img src="[REMOVED]img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white">
     </td>
     <td>
       <img src="aws-multi-tier-vpc-architecture/screenshots/architecture.png" alt="VPC Architecture" width="300">
@@ -79,8 +79,8 @@ Showcasing my top AWS projects with screenshots, deployment highlights, and skil
   <tr>
     <td>
       <b>Proactive Monitoring with CloudWatch & SNS</b><br>
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+      <img src="[REMOVED]img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white">
+      <img src="[REMOVED]img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
     </td>
     <td>
       <img src="Proactive-monitoring-with-cloudwatch-sns/screenshots/terraform deploy screenshot.png" alt="CloudWatch Monitoring" width="300">
@@ -95,14 +95,14 @@ Showcasing my top AWS projects with screenshots, deployment highlights, and skil
   <tr>
     <td>
       <b>Secure S3 & CloudFront Static Site</b><br>
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white">
-      <img src="https://img.shields.io/badge/S3-F58536?style=for-the-badge&logo=Amazon-S3&logoColor=white">
+      <img src="[REMOVED]img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon-AWS&logoColor=white">
+      <img src="[REMOVED]img.shields.io/badge/S3-F58536?style=for-the-badge&logo=Amazon-S3&logoColor=white">
     </td>
     <td>
       <img src="s3-cloudfront-secure-static-site/screenshots/s3 creation screenshot.png" alt="S3 CloudFront Site" width="300">
     </td>
     <td>
-      Hosted a secure static website using S3 and CloudFront with HTTPS, caching, and encryption.<br><br>
+      Hosted a secure static [REMOVED] using S3 and CloudFront with HTTPS, caching, and encryption.<br><br>
       <b>Key Skills:</b> Security, IaC, Deployment<br>
       <b>Deployment:</b><br>
       <code>terraform init<br>terraform plan<br>terraform apply</code>
@@ -113,9 +113,9 @@ Showcasing my top AWS projects with screenshots, deployment highlights, and skil
 ---
 
 ## Learnings & Achievements
-- Designed and deployed multi-tier architectures in AWS  
-- Implemented proactive monitoring and alerting for production systems  
-- Built secure, scalable static websites with CloudFront  
+- Designed and [REMOVED] multi-tier architectures in AWS  
+- Implemented proactive monitoring and alerting for [REMOVED] systems  
+- Built secure, scalable static [REMOVED]s with CloudFront  
 - Automated infrastructure with Terraform for repeatable deployments
 
 
@@ -125,10 +125,10 @@ Showcasing my top AWS projects with screenshots, deployment highlights, and skil
 
 📊 GITHUB WARFARE
 <div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=charles-bucher&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=charles-bucher&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" />
+<img width="49%" src="[REMOVED]github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&count_private=true&include_all_commits=true" />
+<img width="49%" src="[REMOVED]github-readme-streak-stats.herokuapp.com/?user=charles-bucher&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" />
+<img width="49%" src="[REMOVED]github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
+<img width="49%" src="[REMOVED]github-readme-activity-graph.vercel.app/graph?username=charles-bucher&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" />
 </div>
 
 
@@ -165,7 +165,7 @@ HashiCorp Terraform Associate
 🚀 Next 90 Days
 pythonroadmap = {
     "week_1_4": ["Pass AWS SAA exam", "Build serverless application"],
-    "week_5_8": ["Master Kubernetes basics", "Deploy production K8s cluster"],
+    "week_5_8": ["Master Kubernetes basics", "Deploy [REMOVED] K8s cluster"],
     "week_9_12": ["Advanced Terraform modules", "Multi-region DR setup"],
     "ongoing": ["Daily commits", "Document everything", "Network on LinkedIn"]
 }
@@ -173,7 +173,7 @@ pythonroadmap = {
 
 💼 WHAT I BRING
 <div align="center">
-SkillImpact🔐 Security ArchitectureImplemented GuardDuty threat detection with automated response and remediation📊 Monitoring & AlertingBuilt proactive CloudWatch monitoring reducing incident response time by 70%🏗️ Network DesignArchitected multi-tier VPC with proper segmentation and security controls☁️ Content DeliveryDeployed secure CloudFront distributions with global edge caching🔄 Infrastructure as CodeAutomated infrastructure provisioning with Terraform and CloudFormation⚡ Cost OptimizationDesigned architectures following AWS Well-Architected Framework principles
+SkillImpact🔐 Security ArchitectureImplemented GuardDuty threat detection with automated response and remediation📊 Monitoring & AlertingBuilt proactive CloudWatch monitoring reducing incident response time by 70%🏗️ Network DesignArchitected multi-tier VPC with proper segmentation and security controls☁️ Content Delivery[REMOVED] secure CloudFront distributions with global edge caching🔄 Infrastructure as CodeAutomated infrastructure provisioning with Terraform and CloudFormation⚡ Cost OptimizationDesigned architectures following AWS Well-Architected Framework principles
 </div>
 
 🌟 WHY ME?
@@ -185,8 +185,8 @@ SkillImpact🔐 Security ArchitectureImplemented GuardDuty threat detection with
 No bootcamp. No handholding. Just pure determination, AWS documentation, and debugging at 2 AM until it works.
 </td>
 <td width="50%">
-🎯 PRODUCTION-FOCUSED
-Every project is built like it's going to production. No toy apps. No half-finished tutorials. Real infrastructure.
+🎯 [REMOVED]-FOCUSED
+Every project is built like it's going to [REMOVED]. No toy apps. No half-finished tutorials. Real infrastructure.
 </td>
 </tr>
 <tr>
@@ -210,9 +210,24 @@ Show Image
 Show Image
 💡 Open to:
 Remote Cloud Engineer Roles • DevOps Positions • AWS Infrastructure Jobs • Security-Focused Opportunities
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=footer&text=Let's%20Build%20The%20Future&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%">
+<img src="[REMOVED]capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=footer&text=Let's%20Build%20The%20Future&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%">
 </div>
 
 <div align="center">
 ⚡ "From delivering packages to deploying infrastructure—anything is possible with code and commitment."
 </div>
+## Lessons Learned
+- Always commit small changes frequently.
+- Document your code clearly.
+- Test before pushing.
+- Keep your branches organized.
+- Continuous learning is key!
+
+> NOTE: This project was [REMOVED] temporarily for demonstration purposes. No live endpoints exist.
+
+
+> NOTE: This project was  temporarily for demonstration purposes. No live endpoints exist.
+
+
+NOTE: This project was deployed temporarily for demonstration purposes and is no longer live.
+
