@@ -1,49 +1,49 @@
-
-🚀 CHARLES BUCHER | CLOUD INFRASTRUCTURE ENGINEER
+﻿
+ðŸš€ CHARLES BUCHER | CLOUD INFRASTRUCTURE ENGINEER
 <img src="[REMOVED]readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=940&lines=Building+[REMOVED]-Grade+Cloud+Infrastructure;AWS+%7C+Security+%7C+Automation+%7C+Terraform;Automating+Everything+From+Code" alt="Typing SVG" />
 <img src="[REMOVED]user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
 
 
 
-💫 WHO I AM
+ðŸ’« WHO I AM
 name: Charles Bucher
 role: Cloud Infrastructure Engineer
 location: Tampa Bay, Florida
-status: Building • Deploying • Automating
+status: Building â€¢ Deploying â€¢ Automating
 mission: |
   Transforming infrastructure complexity into 
   elegant, scalable, automated solutions
 
 
-⚡ THE STORY
-From delivery driver to cloud engineer—100% self-taught through real-world projects, hands-on AWS labs, and relentless problem-solving. I don't just follow tutorials; I build [REMOVED] systems that actually work.
+âš¡ THE STORY
+From delivery driver to cloud engineerâ€”100% self-taught through real-world projects, hands-on AWS labs, and relentless problem-solving. I don't just follow tutorials; I build [REMOVED] systems that actually work.
 
 
-🎯 What drives me: Solving infrastructure challenges at scale
+ðŸŽ¯ What drives me: Solving infrastructure challenges at scale
 
 
-🔥 Current goal: AWS Solutions Architect Associate 
+ðŸ”¥ Current goal: AWS Solutions Architect Associate 
 
 
-💡 Philosophy: Code it once, automate it forever
+ðŸ’¡ Philosophy: Code it once, automate it forever
 
-🛠️ ARSENAL
+ðŸ› ï¸ ARSENAL
 <div align="center">
 
-☁️ Cloud Platforms
+â˜ï¸ Cloud Platforms
 
-🔧 Infrastructure & DevOps
+ðŸ”§ Infrastructure & DevOps
 
-🔄 CI/CD & Automation
+ðŸ”„ CI/CD & Automation
 
-💻 Languages & Scripting
+ðŸ’» Languages & Scripting
 
-📊 Monitoring & Observability
+ðŸ“Š Monitoring & Observability
 
-🔐 Security & Compliance
+ðŸ” Security & Compliance
 
-🐧 Systems & Tools
+ðŸ§ Systems & Tools
 </div>
 
 # Featured Cloud Projects
@@ -120,10 +120,10 @@ Showcasing my top AWS projects with screenshots, deployment highlights, and skil
 
 
 
-📊 Proactive CloudWatch MonitoringEnterprise-grade monitoring solution with cus
+ðŸ“Š Proactive CloudWatch MonitoringEnterprise-grade monitoring solution with cus
 
 
-📊 GITHUB WARFARE
+ðŸ“Š GITHUB WARFARE
 <div align="center">
 <img width="49%" src="[REMOVED]github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&count_private=true&include_all_commits=true" />
 <img width="49%" src="[REMOVED]github-readme-streak-stats.herokuapp.com/?user=charles-bucher&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" />
@@ -132,7 +132,7 @@ Showcasing my top AWS projects with screenshots, deployment highlights, and skil
 </div>
 
 
-🎯 CURRENT MISSION
+ðŸŽ¯ CURRENT MISSION
 <div align="center">
 ```mermaid
 graph LR
@@ -148,7 +148,7 @@ graph LR
 </div>
 
 
-📚 Certification Roadmap
+ðŸ“š Certification Roadmap
 
  AWS Solutions Architect Associate (Actively Studying)
 
@@ -162,7 +162,7 @@ HashiCorp Terraform Associate
 
  AWS Security Specialty
 
-🚀 Next 90 Days
+ðŸš€ Next 90 Days
 pythonroadmap = {
     "week_1_4": ["Pass AWS SAA exam", "Build serverless application"],
     "week_5_8": ["Master Kubernetes basics", "Deploy [REMOVED] K8s cluster"],
@@ -171,50 +171,50 @@ pythonroadmap = {
 }
 
 
-💼 WHAT I BRING
+ðŸ’¼ WHAT I BRING
 <div align="center">
-SkillImpact🔐 Security ArchitectureImplemented GuardDuty threat detection with automated response and remediation📊 Monitoring & AlertingBuilt proactive CloudWatch monitoring reducing incident response time by 70%🏗️ Network DesignArchitected multi-tier VPC with proper segmentation and security controls☁️ Content Delivery[REMOVED] secure CloudFront distributions with global edge caching🔄 Infrastructure as CodeAutomated infrastructure provisioning with Terraform and CloudFormation⚡ Cost OptimizationDesigned architectures following AWS Well-Architected Framework principles
+SkillImpactðŸ” Security ArchitectureImplemented GuardDuty threat detection with automated response and remediationðŸ“Š Monitoring & AlertingBuilt proactive CloudWatch monitoring reducing incident response time by 70%ðŸ—ï¸ Network DesignArchitected multi-tier VPC with proper segmentation and security controlsâ˜ï¸ Content Delivery[REMOVED] secure CloudFront distributions with global edge cachingðŸ”„ Infrastructure as CodeAutomated infrastructure provisioning with Terraform and CloudFormationâš¡ Cost OptimizationDesigned architectures following AWS Well-Architected Framework principles
 </div>
 
-🌟 WHY ME?
+ðŸŒŸ WHY ME?
 <div align="center">
 <table>
 <tr>
 <td width="50%">
-💪 SELF-TAUGHT GRINDER
+ðŸ’ª SELF-TAUGHT GRINDER
 No bootcamp. No handholding. Just pure determination, AWS documentation, and debugging at 2 AM until it works.
 </td>
 <td width="50%">
-🎯 [REMOVED]-FOCUSED
+ðŸŽ¯ [REMOVED]-FOCUSED
 Every project is built like it's going to [REMOVED]. No toy apps. No half-finished tutorials. Real infrastructure.
 </td>
 </tr>
 <tr>
 <td width="50%">
-🔥 PROBLEM SOLVER
-I don't just implement solutions—I understand the "why" behind every architecture decision and security control.
+ðŸ”¥ PROBLEM SOLVER
+I don't just implement solutionsâ€”I understand the "why" behind every architecture decision and security control.
 </td>
 <td width="50%">
-📈 GROWTH MINDSET
+ðŸ“ˆ GROWTH MINDSET
 Today's challenge is tomorrow's expertise. I'm constantly leveling up through hands-on building and AWS deep dives.
 </td>
 </tr>
 </table>
 </div>
 
-📫 LET'S BUILD SOMETHING
+ðŸ“« LET'S BUILD SOMETHING
 <div align="center">
 Show Image
 Show Image
 Show Image
 Show Image
-💡 Open to:
-Remote Cloud Engineer Roles • DevOps Positions • AWS Infrastructure Jobs • Security-Focused Opportunities
+ðŸ’¡ Open to:
+Remote Cloud Engineer Roles â€¢ DevOps Positions â€¢ AWS Infrastructure Jobs â€¢ Security-Focused Opportunities
 <img src="[REMOVED]capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=footer&text=Let's%20Build%20The%20Future&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%">
 </div>
 
 <div align="center">
-⚡ "From delivering packages to deploying infrastructure—anything is possible with code and commitment."
+âš¡ "From delivering packages to deploying infrastructureâ€”anything is possible with code and commitment."
 </div>
 ## Lessons Learned
 - Always commit small changes frequently.
@@ -229,5 +229,62 @@ Remote Cloud Engineer Roles • DevOps Positions • AWS Infrastructure Jobs •
 > NOTE: This project was  temporarily for demonstration purposes. No live endpoints exist.
 
 
-NOTE: This project was deployed temporarily for demonstration purposes and is no longer live.
+NOTE: This project was  temporarily for demonstration purposes and is no longer live.
 
+
+# charles-bucher.github.io
+
+⚡ **Project Overview**  
+This repository contains the charles-bucher.github.io project. All resources and scripts were built for learning, demonstration, and personal experimentation. Screenshots or examples may have been created, but this project is **not a live site**.
+
+**Disclaimer:**  
+> NOTE: This project was deployed temporarily for learning or demonstration purposes. No live site is currently available.
+
+---
+
+## 🔗 Links
+
+- LinkedIn: [Charles Bucher](https://www.linkedin.com/in/charles-bucher85813)
+- Repository: [GitHub](https://github.com/charles-bucher/charles-bucher.github.io)
+
+---
+
+## 🏗️ Features / Highlights
+
+- Feature 1: Short description
+- Feature 2: Short description
+- Feature 3: Short description
+
+---
+
+## 🛠️ Tech Stack
+
+- Tech 1
+- Tech 2
+- Tech 3
+
+---
+
+## 🎓 Skills Demonstrated
+
+- Skill 1
+- Skill 2
+- Skill 3
+
+---
+
+## 📋 Usage
+
+1. Clone the repository:
+\\\ash
+git clone https://github.com/charles-bucher/charles-bucher.github.io.git
+\\\
+2. Follow instructions in the code or scripts to test locally.
+
+---
+
+## 💼 Notes
+
+- Educational/demo purposes only.  
+- Screenshots exist to show functionality or output.  
+- No sensitive credentials or live endpoints are included.
