@@ -2,132 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>:Charles Bucher| Cloud Security Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Charles Bucher — Cloud Support & Engineering Portfolio</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      margin: 2rem auto;
+      max-width: 800px;
+      padding: 0 1rem;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .coming-soon {
+      color: #999;
+      font-style: italic;
+    }
+  </style>
 </head>
-<body class="bg-gray-950 text-gray-100 font-[Inter]">
-  <!-- Navbar -->
-  <header class="fixed top-0 w-full bg-gray-900/80 backdrop-blur z-50 shadow-md">
-    <nav class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
-      <h1 class="text-xl font-bold tracking-wide text-indigo-400">Charles Bucher</h1>
-      <ul class="flex gap-6 text-sm font-semibold">
-        <li><a href="#about" class="hover:text-indigo-400">About</a></li>
-        <li><a href="#projects" class="hover:text-indigo-400">Projects</a></li>
-        <li><a href="#skills" class="hover:text-indigo-400">Skills</a></li>
-        <li><a href="#contact" class="hover:text-indigo-400">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<body>
 
-  <!-- Hero -->
-  <section class="h-screen flex items-center justify-center text-center px-6 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950">
-    <div>
-      <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Hi, I'm <span class="text-indigo-400">Charles</span></h2>
-      <h3 class="text-xl md:text-2xl text-gray-300 mb-8">
-        <span id="typed"></span>
-      </h3>
-      <a href="#projects" class="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-full font-semibold shadow-lg transition">View My Work</a>
-    </div>
-  </section>
+  <h1>🧑‍💻 Charles Bucher — Cloud Support & Engineering Portfolio</h1>
+  <p><strong>Self-taught | AWS Security Labs | Incident Response | Terraform | Modular GitHub Proof</strong></p>
 
-  <!-- About -->
-  <section id="about" class="max-w-6xl mx-auto px-6 py-20">
-    <h2 class="text-3xl font-bold text-indigo-400 mb-6">About Me</h2>
-    <p class="text-gray-300 leading-relaxed text-lg">
-      I’m a self-taught Cloud Security enthusiast, building hands-on projects with AWS, Terraform, and DevOps tools. 
-      My goal is to break into remote cloud engineering, grow my technical craft, and eventually create financial freedom through real estate investing. 
-      Every repo I build pushes me one step closer.
-    </p>
-  </section>
+  <h2>🎯 Why I’m a Fit for Cloud Support or Engineering</h2>
+  <ul>
+    <li><strong>Hands-on troubleshooting:</strong> I simulate real support scenarios — IAM issues, alerting gaps, misconfigured policies — and document how I solved them.</li>
+    <li><strong>Customer empathy:</strong> I write every lab like I’m explaining it to a customer. Clear, reproducible, and honest about what worked and what didn’t.</li>
+    <li><strong>Security-first mindset:</strong> I’ve built labs around GuardDuty, IAM, and EventBridge to understand how detection and response actually work.</li>
+    <li><strong>Infrastructure as Code:</strong> I’m learning Terraform to move from manual setup to scalable, supportable automation.</li>
+    <li><strong>Grit and growth:</strong> I’m a full-time delivery driver learning cloud engineering at night. I document everything to prove what I’ve earned.</li>
+  </ul>
 
-  <!-- Projects -->
-  <section id="projects" class="bg-gray-900 py-20 px-6">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-bold text-indigo-400 mb-10">Featured Projects</h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        <!-- Project card -->
-        <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
-          <img src="https://via.placeholder.com/400x200" alt="Project" class="w-full">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold mb-2">EC2 + S3 WebApp</h3>
-            <p class="text-gray-400 text-sm mb-4">Full-stack deployment with AWS EC2 backend and S3 static hosting.</p>
-            <a href="https://github.com/Charles-Bucher/ec2-webapp-with-s3-backend" target="_blank" class="text-indigo-400 hover:underline">View Code →</a>
-          </div>
-        </div>
+  <h2>🛠️ Support-Focused Labs</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Project</th>
+        <th>Scenario</th>
+        <th>Skills Practiced</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/charles-bucher/cloudOps-guardDuty-automation">GuardDuty Security Lab</a></td>
+        <td>“Customer enabled GuardDuty but sees no findings.”</td>
+        <td>Threat detection, alerting, severity analysis</td>
+      </tr>
+      <tr>
+        <td><span class="coming-soon">IAM Policy Debugging (Coming Soon)</span></td>
+        <td>“User can’t access S3 bucket despite policy.”</td>
+        <td>Policy simulation, least privilege, trust relationships</td>
+      </tr>
+      <tr>
+        <td><span class="coming-soon">CloudWatch Alert Setup (Coming Soon)</span></td>
+        <td>“Customer wants alerts for EC2 CPU spikes.”</td>
+        <td>Metric filters, SNS integration, dashboard setup</td>
+      </tr>
+      <tr>
+        <td><span class="coming-soon">Terraform VPC Lab (Coming Soon)</span></td>
+        <td>“Customer needs secure multi-tier VPC.”</td>
+        <td>IaC deployment, subnet isolation, NAT gateway config</td>
+      </tr>
+    </tbody>
+  </table>
 
-        <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
-          <img src="https://via.placeholder.com/400x200" alt="Project" class="w-full">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold mb-2">CI/CD Pipelines</h3>
-            <p class="text-gray-400 text-sm mb-4">Automated build & deploy workflows with GitHub Actions.</p>
-            <a href="https://github.com/Charles-Bucher" target="_blank" class="text-indigo-400 hover:underline">View Code →</a>
-          </div>
-        </div>
+  <h2>📸 Screenshot-Driven Proof</h2>
+  <p>Each repo includes screenshots of every phase — from console clicks to Terraform apply. I treat every lab like a support ticket: reproducible, explainable, and transparent.</p>
 
-        <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
-          <img src="https://via.placeholder.com/400x200" alt="Project" class="w-full">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold mb-2">Terraform Infra</h3>
-            <p class="text-gray-400 text-sm mb-4">Infrastructure as Code projects using Terraform & AWS modules.</p>
-            <a href="https://github.com/Charles-Bucher" target="_blank" class="text-indigo-400 hover:underline">View Code →</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <h2>🧭 My Learning Path</h2>
+  <ul>
+    <li>AWS Cloud Practitioner ✅</li>
+    <li>AWS Solutions Architect (Studying)</li>
+    <li>AWS Security Specialty (Next)</li>
+    <li>Nightly labs in Terraform, IAM, CloudWatch, Lambda</li>
+    <li>Building modular GitHub assets for recruiter conversion</li>
+  </ul>
 
-  <!-- Skills -->
-  <section id="skills" class="max-w-6xl mx-auto px-6 py-20">
-    <h2 class="text-3xl font-bold text-indigo-400 mb-6">Tech Stack</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-      <div class="bg-gray-800 py-6 rounded-xl shadow-md">AWS</div>
-      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Terraform</div>
-      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Linux</div>
-      <div class="bg-gray-800 py-6 rounded-xl shadow-md">GitHub Actions</div>
-      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Docker</div>
-      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Python</div>
-      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Bash</div>
-      <div class="bg-gray-800 py-6 rounded-xl shadow-md">Networking</div>
-    </div>
-  </section>
+  <h2>💬 About Me</h2>
+  <p>I’m Charles Bucher — a self-taught cloud engineer and full-time delivery driver, building a tech career from scratch. I learn by simulating real support scenarios and documenting every step. My goal: land a cloud support or DevOps role and show my kids what grit looks like.</p>
 
-  <!-- Contact -->
-  <section id="contact" class="bg-gray-900 py-20 px-6 text-center">
-    <h2 class="text-3xl font-bold text-indigo-400 mb-6">Get in Touch</h2>
-    <p class="text-gray-300 mb-6">I’m open to remote cloud security/DevOps roles and collaborations.</p>
-    <a href="mailto:your-email@example.com" class="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-full font-semibold shadow-lg transition">Email Me</a>
-  </section>
+  <p>
+    <strong>GitHub:</strong> <a href="https://github.com/charles-bucher">charles-bucher</a><br/>
+    <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/charles-bucher85813">Charles Bucher</a><br/>
+    <strong>Email:</strong> Quietopscb@gmail.com
+  </p>
 
-  <!-- Footer -->
-  <footer class="bg-gray-950 py-6 text-center text-sm text-gray-500">
-    © <span id="year"></span> Charles-Bucher. Built with ❤️ and Tailwind.
-  </footer>
+  <div class="footer">
+    &copy; 2025 Charles Bucher. Built with grit and GitHub Pages.
+  </div>
 
-  <script>
-    // Typed effect
-    new Typed('#typed', {
-      strings: [
-        'Cloud Security Enthusiast',
-        'AWS | Terraform | Linux',
-        'Building Secure Cloud Projects'
-      ],
-      typeSpeed: 50,
-      backSpeed: 30,
-      loop: true
-    });
-
-    // Dynamic year
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
-<div style="text-align: center; margin-top: 40px;">
-  <h2>📸 Portfolio Preview</h2>
-  <img src="screenshots/portfolio-screenshot.png" alt="Portfolio Screenshot" width="600" style="border: 1px solid #ccc; border-radius: 8px;">
-  <p style="font-size: 16px; margin-top: 10px;">
-    This site is hosted on GitHub Pages and maps to AWS Cloud Practitioner and Solutions Architect domains—showcasing cost-aware deployment, modular repo hygiene, and recruiter-facing polish.
-  </p>
-</div>
