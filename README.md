@@ -1,4 +1,4 @@
-🧑‍💻 Charles Bucher — Cloud Support Engineer in Progress
+🧑‍💻 Charles Bucher — Cloud Support Engineer
 Self-taught  Security Labs  Incident Response Workflows  Modular GitHub Portfolio
 
 🚧 What This Site Represents
