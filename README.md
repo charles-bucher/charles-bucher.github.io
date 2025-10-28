@@ -26,7 +26,6 @@ Each project tackles a real-world problem a customer might face. I document the 
 Every repo includes screenshots of each phase — from console clicks to Terraform apply. I treat every lab like a support ticket: reproducible, explainable, and transparent.
 
 🧭 My Learning Path
-- AWS Cloud Practitioner ✅
 - AWS Solutions Architect (Studying)
 - AWS Security Specialty (Next)
 - Nightly labs in Terraform, IAM, CloudWatch, Lambda
