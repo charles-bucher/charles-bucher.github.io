@@ -1,38 +1,80 @@
-🧑‍💻 Charles Bucher — Cloud Support Engineer
-Self-taught  Security Labs  Incident Response Workflows  Modular GitHub Portfolio
+# Charles Bucher — Cloud Support Engineer
 
-🚧 What This Site Represents
-This isn’t a polished product showcase. It’s a living portfolio built from late-night labs, real AWS documentation, and trial-by-error learning. Every repo simulates a support scenario I’ve had to figure out from scratch — just like I would in a cloud support role.
+[Visit My Portfolio](https://charles-bucher.github.io)
 
-🛠️ Support-Focused Labs
-Each project tackles a real-world problem a customer might face. I document the setup, the troubleshooting, and the lessons learned — including what didn’t work.
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
+---
 
+## 🧑‍💻 About Me
 
+I am a self-taught cloud engineer focused on **AWS**, **Terraform**, **Python**, and **automation**. I simulate real-world customer issues, document troubleshooting steps, and implement proactive solutions with a strong focus on:
 
-🧠 What I Practice in Every Lab
-- Reproducing customer issues
-- Documenting root cause analysis
-- Building alerting and remediation workflows
-- Explaining AWS services in plain language
+- Security and incident response
+- Cloud monitoring and observability
+- Automated remediation workflows
 - Cost awareness and support empathy
+
+My goal is to land a cloud support or DevOps role and showcase practical, reproducible cloud skills.
+
+---
+
+## 🚧 Support-Focused Labs
+
+Each project represents a **real-world cloud support scenario**:
+
+- Reproducing customer issues
+- Root cause analysis and documentation
+- Alerting & automated remediation
+- Explaining AWS services in plain language
 - Honest assessment of what I know vs. what I’m learning
 
-📸 Screenshot-Driven Proof
-Every repo includes screenshots of each phase — from console clicks to Terraform apply. I treat every lab like a support ticket: reproducible, explainable, and transparent.
+---
 
-🧭 My Learning Path
-- AWS Solutions Architect (Studying)
-- AWS Security Specialty (Next)
-- Nightly labs in Terraform, IAM, CloudWatch, Lambda
+## 📸 Projects & Proof
+
+Every repo includes screenshots for reproducibility and transparency.
+
+### GuardDuty Threat Simulation & Automation
+Detect & respond to AWS security threats using GuardDuty, Lambda, and Terraform automation.
+
+**Screenshots:**
+- `cloudOps-guardDuty-automation-screenshots/tf_plan.png`
+- `cloudOps-guardDuty-automation-screenshots/pushed_screenshot.png`
+- `cloudOps-guardDuty-automation-screenshots/.tf_plan.png`
+
+### AWS Monitoring & Observability
+CloudWatch dashboards, alerts, and proactive monitoring workflows.
+
+**Screenshots:**
+- `aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png`
+- `aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094450.png`
+- `aws_monitoring_observability_screenshots/Screenshot 2025-11-02 214608.png`
+- `aws_monitoring_observability_screenshots/Screenshot 2025-11-02 214709.png`
+- `aws_monitoring_observability_screenshots/Screenshot 2025-11-02 214956.png`
+- `aws_monitoring_observability_screenshots/Screenshot 2025-11-02 215058.png`
+
+### Multi-Tier Network Simulation
+VPCs, subnets, and routing simulations for scalable architectures.
+
+### IT Support Automation Lab
+Python & PowerShell scripts automating support tasks and incident response.
+
+---
+
+## 🧭 My Learning Path
+
+- **AWS Solutions Architect** (Studying)  
+- **AWS Security Specialty** (Next)  
+- Nightly labs in Terraform, IAM, CloudWatch, Lambda  
 - Building modular GitHub assets for recruiter conversion
 
-💬 About Me
-I’m Charles Bucher — a self-taught cloud engineer and full-time delivery driver, building a tech career from scratch. I learn by simulating real support scenarios and documenting every step. My goal: land a cloud support or DevOps role and show my kids what grit looks like.
-GitHub: charles-bucher
-LinkedIn: Charles Bucher
-Email: Quietopscb@gmail.com
+---
+
+## 💬 Contact
+
+- Email: [quietopscb@gmail.com](mailto:quietopscb@gmail.com)  
+- LinkedIn: [Charles Bucher](https://www.linkedin.com/in/charles-bucher-26598728b)  
+- GitHub: [charles-bucher](https://github.com/charles-bucher)  
+
+---
+
+*This portfolio is a living project. Screenshots and projects are updated regularly as I refine my labs and documentation.*
