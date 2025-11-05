@@ -1,119 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Charles Bucher — Cloud Support & Engineering Portfolio</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      line-height: 1.6;
-      margin: 2rem auto;
-      max-width: 800px;
-      padding: 0 1rem;
-      color: #333;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 0.5rem;
-      text-align: left;
-    }
-    th {
-      background-color: #f4f4f4;
-    }
-    .footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Bucher | Cloud Support Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+        header, section, footer { max-width: 1000px; margin: auto; padding: 20px; }
+        header { background: #1e1e1e; color: white; text-align: center; }
+        h1, h2, h3 { margin-bottom: 10px; }
+        a { color: #007acc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .screenshots { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+        .screenshots img { width: 250px; height: auto; border: 1px solid #ccc; border-radius: 6px; cursor: pointer; transition: transform 0.2s; }
+        .screenshots img:hover { transform: scale(1.05); }
+        .project { margin-bottom: 40px; }
+        ul { list-style: disc inside; margin-top: 10px; }
+        footer { text-align: center; font-size: 0.9em; color: #555; padding-bottom: 40px; }
+
+        /* Lightbox overlay */
+        #lightbox-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        #lightbox-overlay img {
+            max-width: 90%;
+            max-height: 90%;
+            border: 2px solid #fff;
+            border-radius: 6px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Charles Bucher</h1>
+        <p>Cloud Support Engineer | AWS | Terraform | Python | Automation | Security Labs</p>
+    </header>
 
-  <h1>🧑‍💻 Charles Bucher — Cloud Support & Engineering Portfolio</h1>
-  <p><strong>Self-taught | AWS Security Labs | Incident Response | Terraform | Modular GitHub Proof</strong></p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Self-taught cloud engineer building real-world support workflows in AWS.  
+            I simulate customer incidents, document troubleshooting steps, and automate remediation using Terraform, Python, Lambda, and CloudWatch.  
+            My goal: land a cloud support or DevOps role and showcase practical, reproducible cloud skills.
+        </p>
+    </section>
 
-  <h2>🎯 Why I’m a Fit for Cloud Support or Engineering</h2>
-  <ul>
-    <li><strong>Hands-on troubleshooting:</strong> I simulate real support scenarios — IAM issues, alerting gaps, misconfigured policies — and document how I solved them.</li>
-    <li><strong>Customer empathy:</strong> I write every lab like I’m explaining it to a customer. Clear, reproducible, and honest about what worked and what didn’t.</li>
-    <li><strong>Security-first mindset:</strong> I’ve built labs around GuardDuty, IAM, and EventBridge to understand how detection and response actually work.</li>
-    <li><strong>Infrastructure as Code:</strong> I’m learning Terraform to move from manual setup to scalable, supportable automation.</li>
-    <li><strong>Grit and growth:</strong> I’m a full-time delivery driver learning cloud engineering at night. I document everything to prove what I’ve earned.</li>
-  </ul>
+    <section id="labs">
+        <h2>Support-Focused Labs</h2>
+        <p>
+            Each project addresses a real-world problem a customer might face.  
+            I document setup, troubleshooting, and lessons learned — including what didn’t work.
+        </p>
+        <ul>
+            <li>Reproducing customer issues</li>
+            <li>Root cause analysis</li>
+            <li>Alerting & automated remediation workflows</li>
+            <li>Plain-language documentation of AWS services</li>
+            <li>Cost awareness and support empathy</li>
+        </ul>
+    </section>
 
-  <h2>🛠️ Support-Focused Labs</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Project</th>
-        <th>Scenario</th>
-        <th>Skills Practiced</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a href="https://github.com/charles-bucher/cloudOps-guardDuty-automation">GuardDuty Security Lab</a></td>
-        <td>“Customer enabled GuardDuty but sees no findings.”</td>
-        <td>Threat detection, alerting, severity analysis</td>
-      </tr>
-      <tr>
-        <td><a href="https://github.com/charles-bucher/aws_monitoring_observability">Monitoring & Observability Lab</a></td>
-        <td>“Customer needs visibility into EC2 and Lambda performance.”</td>
-        <td>CloudWatch metrics, dashboards, anomaly detection</td>
-      </tr>
-      <tr>
-        <td><a href="https://github.com/charles-bucher/it-support-automation-lab">IT Support Automation Lab</a></td>
-        <td>“Customer wants to automate ticket triage and resolution.”</td>
-        <td>Lambda, EventBridge, Python scripting, support workflows</td>
-      </tr>
-      <tr>
-        <td><a href="https://github.com/charles-bucher/aws_mult_itier_vpc_cloud_ops">Multi-Tier VPC Lab</a></td>
-        <td>“Customer needs secure multi-tier VPC with public/private separation.”</td>
-        <td>Terraform, subnet isolation, NAT gateway config</td>
-      </tr>
-    </tbody>
-  </table>
+    <section id="projects">
+        <h2>Projects & Proof</h2>
+        <p>All projects include screenshots and code demonstrating reproducible, real-world cloud scenarios.</p>
 
-  <h2>📸 Screenshot-Driven Proof</h2>
-  <p>Each repo includes screenshots of every phase — from console clicks to Terraform apply. I treat every lab like a support ticket: reproducible, explainable, and transparent.</p>
+        <!-- GuardDuty Automation -->
+        <div class="project">
+            <h3>GuardDuty Threat Simulation & Automation</h3>
+            <p>Detect & respond to AWS security threats using GuardDuty, Lambda, and Terraform automation.</p>
+            <div class="screenshots">
+                <a href="#" data-img="cloudOps-guardDuty-automation-screenshots/tf_plan.png"><img src="cloudOps-guardDuty-automation-screenshots/tf_plan.png" alt="Terraform Plan Screenshot"></a>
+                <a href="#" data-img="cloudOps-guardDuty-automation-screenshots/pushed_screenshot.png"><img src="cloudOps-guardDuty-automation-screenshots/pushed_screenshot.png" alt="GuardDuty Automation Result"></a>
+                <a href="#" data-img="cloudOps-guardDuty-automation-screenshots/.tf_plan.png"><img src="cloudOps-guardDuty-automation-screenshots/.tf_plan.png" alt="Terraform Plan Hidden Screenshot"></a>
+            </div>
+        </div>
 
-  <h2>🧭 My Learning Path</h2>
-  <ul>
-    <li>AWS Cloud Practitioner ✅</li>
-    <li>AWS Solutions Architect (Studying)</li>
-    <li>AWS Security Specialty (Next)</li>
-    <li>Nightly labs in Terraform, IAM, CloudWatch, Lambda</li>
-    <li>Building modular GitHub assets for recruiter conversion</li>
-  </ul>
+        <!-- AWS Monitoring & Observability -->
+        <div class="project">
+            <h3>AWS Monitoring & Observability</h3>
+            <p>CloudWatch dashboards, alerts, and proactive monitoring workflows.</p>
+            <div class="screenshots">
+                <a href="#" data-img="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png"><img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png" alt="CloudWatch Alarm"></a>
+                <a href="#" data-img="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094450.png"><img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094450.png" alt="Monitoring Dashboard"></a>
+                <a href="#" data-img="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 214608.png"><img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 214608.png" alt="Terraform Apply Screenshot"></a>
+                <a href="#" data-img="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 214709.png"><img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 214709.png" alt="Observability Dashboard"></a>
+                <a href="#" data-img="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 214956.png"><img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 214956.png" alt="Alert Setup Screenshot"></a>
+                <a href="#" data-img="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 215058.png"><img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 215058.png" alt="Monitoring Results Screenshot"></a>
+            </div>
+        </div>
 
-  <h2>💬 About Me</h2>
-  <p>I’m Charles Bucher — a self-taught cloud engineer and full-time delivery driver, building a tech career from scratch. I learn by simulating real support scenarios and documenting every step. My goal: land a cloud support or DevOps role and show my kids what grit looks like.</p>
+        <!-- Multi-Tier Network Simulation -->
+        <div class="project">
+            <h3>Multi-Tier Network Simulation</h3>
+            <p>VPCs, subnets, and routing simulations for scalable architectures.</p>
+        </div>
 
-  <p>
-    <strong>GitHub:</strong> <a href="https://github.com/charles-bucher">charles-bucher</a><br/>
-    <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/charles-bucher85813">Charles Bucher</a><br/>
-    <strong>Email:</strong> Quietopscb@gmail.com
-  </p>
+        <!-- IT Support Automation Lab -->
+        <div class="project">
+            <h3>IT Support Automation Lab</h3>
+            <p>Python & PowerShell scripts automating support tasks and incident response.</p>
+        </div>
+    </section>
 
-  <div class="footer">
-    &copy; 2025 Charles Bucher. Built with grit and GitHub Pages.
-  </div>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:quietopscb@gmail.com">quietopscb@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-26598728b">Charles Bucher</a></p>
+        <p>GitHub: <a href="https://github.com/charles-bucher">charles-bucher</a></p>
+    </section>
 
+    <!-- Lightbox Overlay -->
+    <div id="lightbox-overlay" onclick="closeLightbox()">
+        <img id="lightbox-img" src="" alt="Screenshot Preview">
+    </div>
+
+    <script>
+        const overlay = document.getElementById('lightbox-overlay');
+        const lightboxImg = document.getElementById('lightbox-img');
+
+        document.querySelectorAll('.screenshots a').forEach(link => {
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                lightboxImg.src = link.dataset.img;
+                overlay.style.display = 'flex';
+            });
+        });
+
+        function closeLightbox() {
+            overlay.style.display = 'none';
+            lightboxImg.src = '';
+        }
+    </script>
+
+    <footer>
+        <p>© 2025 Charles Bucher — Cloud Support Engineer Portfolio</p>
+    </footer>
 </body>
 </html>
