@@ -70,7 +70,7 @@
 
     <section id="projects">
         <h2>Projects & Proof</h2>
-        <p>All projects include screenshots and code demonstrating reproducible, real-world cloud scenarios.</p>
+        <p>All projects include code and reproducible cloud scenarios.</p>
 
         <!-- GuardDuty Automation -->
         <div class="project">
@@ -78,8 +78,8 @@
             <p>Detect & respond to AWS security threats using GuardDuty, Lambda, and Terraform automation.</p>
             <p>View code: <a href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank">GitHub Repo</a></p>
             <div class="screenshots">
-                <a href="#" data-img="cloudOps-guardDuty-automation-screenshots/tf_plan.png"><img src="cloudOps-guardDuty-automation-screenshots/tf_plan.png" alt="Terraform Plan Screenshot"></a>
-                <a href="#" data-img="cloudOps-guardDuty-automation-screenshots/pushed_screenshot.png"><img src="cloudOps-guardDuty-automation-screenshots/pushed_screenshot.png" alt="GuardDuty Automation Result"></a>
+                <img src="cloudOps-guardDuty-automation-screenshots/tf_plan.png" alt="Terraform Plan Screenshot">
+                <img src="cloudOps-guardDuty-automation-screenshots/pushed_screenshot.png" alt="GuardDuty Automation Result">
             </div>
         </div>
 
@@ -89,22 +89,11 @@
             <p>CloudWatch dashboards, alerts, and proactive monitoring workflows.</p>
             <p>View code: <a href="https://github.com/charles-bucher/aws_monitoring_observability" target="_blank">GitHub Repo</a></p>
             <div class="screenshots">
-                <a href="#" data-img="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png"><img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png" alt="CloudWatch Alarm"></a>
-                <a href="#" data-img="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094450.png"><img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094450.png" alt="Monitoring Dashboard"></a>
+                <img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png" alt="CloudWatch Alarm">
+                <img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094450.png" alt="Monitoring Dashboard">
             </div>
         </div>
 
-        <!-- Multi-Tier Network Simulation -->
-        <div class="project">
-            <h3>Multi-Tier Network Simulation</h3>
-            <p>VPCs, subnets, and routing simulations for scalable architectures.</p>
-        </div>
-
-        <!-- IT Support Automation Lab -->
-        <div class="project">
-            <h3>IT Support Automation Lab</h3>
-            <p>Python & PowerShell scripts automating support tasks and incident response.</p>
-        </div>
     </section>
 
     <section id="contact">
@@ -113,29 +102,6 @@
         <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-26598728b" target="_blank">Charles Bucher</a></p>
         <p>GitHub: <a href="https://github.com/charles-bucher" target="_blank">charles-bucher</a></p>
     </section>
-
-    <!-- Lightbox Overlay -->
-    <div id="lightbox-overlay" onclick="closeLightbox()">
-        <img id="lightbox-img" src="" alt="Screenshot Preview">
-    </div>
-
-    <script>
-        const overlay = document.getElementById('lightbox-overlay');
-        const lightboxImg = document.getElementById('lightbox-img');
-
-        document.querySelectorAll('.screenshots a').forEach(link => {
-            link.addEventListener('click', e => {
-                e.preventDefault();
-                lightboxImg.src = link.dataset.img;
-                overlay.style.display = 'flex';
-            });
-        });
-
-        function closeLightbox() {
-            overlay.style.display = 'none';
-            lightboxImg.src = '';
-        }
-    </script>
 
     <footer>
         <p>© 2025 Charles Bucher — Cloud Support Engineer Portfolio</p>
