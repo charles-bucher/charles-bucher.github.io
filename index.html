@@ -1,110 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles Bucher | Cloud Support Engineer</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
-        header, section, footer { max-width: 1000px; margin: auto; padding: 20px; }
-        header { background: #1e1e1e; color: white; text-align: center; }
-        h1, h2, h3 { margin-bottom: 10px; }
-        a { color: #007acc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .screenshots { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
-        .screenshots img { width: 250px; height: auto; border: 1px solid #ccc; border-radius: 6px; cursor: pointer; transition: transform 0.2s; }
-        .screenshots img:hover { transform: scale(1.05); }
-        .project { margin-bottom: 40px; }
-        ul { list-style: disc inside; margin-top: 10px; }
-        footer { text-align: center; font-size: 0.9em; color: #555; padding-bottom: 40px; }
-
-        /* Lightbox overlay */
-        #lightbox-overlay {
-            display: none;
-            position: fixed;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            background: rgba(0,0,0,0.8);
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-        }
-        #lightbox-overlay img {
-            max-width: 90%;
-            max-height: 90%;
-            border: 2px solid #fff;
-            border-radius: 6px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Bucher | Cloud Engineer Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
-        <h1>Charles Bucher</h1>
-        <p>Cloud Support Engineer | AWS | Terraform | Python | Automation | Security Labs</p>
-    </header>
+  <header>
+    <h1>Charles Bucher</h1>
+    <p>Self-Taught Cloud Engineer | AWS | Terraform | Python | Automation</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Self-taught cloud engineer building real-world support workflows in AWS.  
-            I simulate customer incidents, document troubleshooting steps, and automate remediation using Terraform, Python, Lambda, and CloudWatch.  
-            My goal: land a cloud support or DevOps role and showcase practical, reproducible cloud skills.
-        </p>
-    </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a self-taught cloud engineer specializing in hands-on AWS, Terraform, Python, and automation. I focus on building secure, scalable systems with practical solutions for cloud monitoring, incident response, and automated workflows.
+    </p>
+    <p>
+      My goal: Land a Cloud Support, Junior CloudOps, or DevOps Associate role and showcase reproducible, real-world cloud skills.
+    </p>
+  </section>
 
-    <section id="labs">
-        <h2>Support-Focused Labs</h2>
-        <p>
-            Each project addresses a real-world problem a customer might face.  
-            I document setup, troubleshooting, and lessons learned — including what didn’t work.
-        </p>
-        <ul>
-            <li>Reproducing customer issues</li>
-            <li>Root cause analysis</li>
-            <li>Alerting & automated remediation workflows</li>
-            <li>Plain-language documentation of AWS services</li>
-            <li>Cost awareness and support empathy</li>
-        </ul>
-    </section>
+  <section id="projects">
+    <h2>Projects & Labs</h2>
 
-    <section id="projects">
-        <h2>Projects & Proof</h2>
-        <p>All projects include code and reproducible cloud scenarios.</p>
+    <!-- GuardDuty Lab -->
+    <div class="project">
+      <h3>GuardDuty Threat Simulation & Automation</h3>
+      <p>💡 Problem Solved: Detects and responds to AWS security threats automatically, reducing incident response time.</p>
+      <p>⚡ Skills: AWS GuardDuty, Lambda, CloudWatch, SNS, Terraform</p>
+      <ul>
+        <li>Automates threat detection & alerts</li>
+        <li>Deployable Terraform module for repeatability</li>
+        <li>Real-time monitoring with notifications</li>
+      </ul>
+      <p>📸 Screenshots:</p>
+      <img src="cloudOps-guardDuty-automation-screenshots/tf_plan.png" alt="Terraform plan screenshot">
+      <img src="cloudOps-guardDuty-automation-screenshots/pushed_screenshot.png" alt="Pushed Terraform screenshot">
+      <p>💻 How to Run:</p>
+      <code>terraform init &amp;&amp; terraform apply</code>
+    </div>
 
-        <!-- GuardDuty Automation -->
-        <div class="project">
-            <h3>GuardDuty Threat Simulation & Automation</h3>
-            <p>Detect & respond to AWS security threats using GuardDuty, Lambda, and Terraform automation.</p>
-            <p>View code: <a href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank">GitHub Repo</a></p>
-            <div class="screenshots">
-                <img src="cloudOps-guardDuty-automation-screenshots/tf_plan.png" alt="Terraform Plan Screenshot">
-                <img src="cloudOps-guardDuty-automation-screenshots/pushed_screenshot.png" alt="GuardDuty Automation Result">
-            </div>
-        </div>
+    <!-- AWS Monitoring & Observability -->
+    <div class="project">
+      <h3>AWS Monitoring & Observability</h3>
+      <p>💡 Problem Solved: Proactively monitors EC2 instances and triggers alerts to reduce downtime.</p>
+      <p>⚡ Skills: CloudWatch, SNS, Terraform, Python</p>
+      <ul>
+        <li>Tracks CPU, memory, and disk metrics</li>
+        <li>Automates notifications and incident response</li>
+        <li>Deployable with reusable Terraform modules</li>
+      </ul>
+      <p>📸 Screenshots:</p>
+      <img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png" alt="CloudWatch dashboard screenshot">
+      <img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094450.png" alt="Alert screenshot">
+      <p>💻 How to Run:</p>
+      <code>terraform init &amp;&amp; terraform apply</code>
+    </div>
 
-        <!-- AWS Monitoring & Observability -->
-        <div class="project">
-            <h3>AWS Monitoring & Observability</h3>
-            <p>CloudWatch dashboards, alerts, and proactive monitoring workflows.</p>
-            <p>View code: <a href="https://github.com/charles-bucher/aws_monitoring_observability" target="_blank">GitHub Repo</a></p>
-            <div class="screenshots">
-                <img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png" alt="CloudWatch Alarm">
-                <img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094450.png" alt="Monitoring Dashboard">
-            </div>
-        </div>
+    <!-- Multi-Tier Network Simulation -->
+    <div class="project">
+      <h3>Multi-Tier Network Simulation</h3>
+      <p>💡 Problem Solved: Builds scalable, isolated network architectures for AWS.</p>
+      <p>⚡ Skills: AWS VPC, Subnets, Routing, Terraform</p>
+      <ul>
+        <li>Simulates multi-tier VPC design</li>
+        <li>Enforces network security and best practices</li>
+        <li>Reusable architecture modules</li>
+      </ul>
+    </div>
 
-    </section>
+    <!-- IT Support Automation Lab -->
+    <div class="project">
+      <h3>IT Support Automation Lab</h3>
+      <p>💡 Problem Solved: Automates support tasks and incident response to save time and reduce errors.</p>
+      <p>⚡ Skills: Python, PowerShell, AWS Automation</p>
+      <ul>
+        <li>Automates common support workflows</li>
+        <li>Proactive incident response scripts</li>
+        <li>Reproducible and modular scripts for real-world scenarios</li>
+      </ul>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:quietopscb@gmail.com">quietopscb@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-26598728b" target="_blank">Charles Bucher</a></p>
-        <p>GitHub: <a href="https://github.com/charles-bucher" target="_blank">charles-bucher</a></p>
-    </section>
+  <section id="skills">
+    <h2>Skills & Learning Path</h2>
+    <ul>
+      <li>AWS: EC2, VPC, IAM, CloudWatch, GuardDuty, Lambda, SNS</li>
+      <li>Infrastructure as Code: Terraform</li>
+      <li>Programming & Automation: Python, PowerShell</li>
+      <li>Monitoring & Observability, Incident Response</li>
+      <li>CI/CD & DevOps Practices</li>
+    </ul>
+    <p>Learning Path:</p>
+    <ul>
+      <li>AWS Solutions Architect (Studying)</li>
+      <li>AWS Security Specialty (Next)</li>
+      <li>Daily labs in Terraform, IAM, CloudWatch, Lambda</li>
+    </ul>
+  </section>
 
-    <footer>
-        <p>© 2025 Charles Bucher — Cloud Support Engineer Portfolio</p>
-    </footer>
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:quietopscb@gmail.com">quietopscb@gmail.com</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-26598728b">Charles Bucher</a></li>
+      <li>GitHub: <a href="https://github.com/charles-bucher">charles-bucher</a></li>
+      <li>Portfolio: <a href="https://charles-bucher.github.io">charles-bucher.github.io</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Charles Bucher | Self-Taught Cloud Engineer</p>
+  </footer>
 </body>
 </html>
