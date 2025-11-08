@@ -9,7 +9,7 @@
 Hands-on CloudOps engineer specializing in NOC automation, AWS monitoring, and incident response. Builds Python & Terraform solutions for dashboards, alerts, and proactive remediation workflows. Skilled in CloudWatch, GuardDuty, EC2, Lambda, CI/CD, and Infrastructure as Code. Seeking Cloud Support, NOC, or Junior CloudOps roles.
 ---
 
-## 🚧 Support-Focused Labs
+## 🚧 Projects & Labs
 
 Each project represents a **real-world cloud support scenario**:
 
