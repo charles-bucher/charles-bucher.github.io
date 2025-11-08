@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles Bucher – Remote IT Support | Helpdesk | Troubleshooting</title>
+    <title>Charles Bucher – Cloud Support | Tier 2 | DevOps | NOC & CloudOps</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,6 +31,11 @@
             margin: 20px 0;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
         .tech-stack {
             font-weight: bold;
@@ -55,19 +60,10 @@
             max-width: 100%;
             margin: 10px 0;
             border-radius: 5px;
-        }
-        .badge {
-            display: inline-block;
-            margin-right: 5px;
-        }
-        .project:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            transition: all 0.3s ease;
+            transition: transform 0.3s ease;
         }
         .screenshot:hover {
             transform: scale(1.05);
-            transition: transform 0.3s ease;
         }
         @media (max-width: 768px) {
             .project {
@@ -78,70 +74,71 @@
     </style>
 </head>
 <body>
-    <h1>Charles Bucher – Remote IT Support | Helpdesk | Troubleshooting</h1>
+    <h1>Charles Bucher – Cloud Support | Tier 2 | DevOps | NOC & CloudOps</h1>
 
-    <h2>📸 Projects & Practical Work</h2>
+    <h2>📸 Cloud & DevOps Projects</h2>
 
-    <!-- IT Support Automation -->
+    <!-- Cloud Monitoring & Alerting -->
     <div class="project">
-        <h3>💻 IT Support Automation Lab</h3>
-        <p>Automated routine IT support tasks for remote helpdesk efficiency.</p>
-        <p class="tech-stack">Tech Stack: Python | PowerShell | Windows/Linux | Ticketing Systems | Flask</p>
+        <h3>☁️ AWS Monitoring & GuardDuty Automation</h3>
+        <p>Automated cloud monitoring, incident response, and security alerts for AWS workloads.</p>
+        <p class="tech-stack">Tech Stack: AWS (EC2, GuardDuty, CloudWatch, SNS) | Terraform | Python | Lambda</p>
         <ul>
-            <li>Automated ticket creation, updates, and resolution</li>
-            <li>Endpoint management scripts for Windows and Linux devices</li>
-            <li>Simulated remote support for user troubleshooting</li>
+            <li>Deploy multi-tier VPCs with security best practices</li>
+            <li>Automated threat detection & incident notifications</li>
+            <li>Infrastructure as Code for reproducible cloud setups</li>
         </ul>
-        <img src="screenshots/it_support.png" alt="IT Support Automation Screenshot" class="screenshot">
+        <img src="screenshots/cloud_monitoring.png" alt="AWS Monitoring Screenshot" class="screenshot">
         <p>
-            <a href="https://github.com/charles-bucher/it-support-automation-lab" target="_blank">View Repo</a>
+            <a href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank">View Repo</a>
         </p>
     </div>
 
-    <!-- Helpdesk Ticket Tracker -->
+    <!-- NOC Toolkit -->
     <div class="project">
-        <h3>📋 Helpdesk Ticket Tracker</h3>
-        <p>Tracks and manages IT support tickets for a remote helpdesk environment.</p>
-        <p class="tech-stack">Tech Stack: Python | SQLite | Flask | Bootstrap</p>
+        <h3>🛰️ NOC Toolkit Automation</h3>
+        <p>Simulates a Network Operations Center workflow for monitoring, alerting, and incident resolution.</p>
+        <p class="tech-stack">Tech Stack: Python | Flask | Paramiko | Netmiko | AWS EC2</p>
         <ul>
-            <li>Create, assign, and resolve support tickets efficiently</li>
-            <li>Real-time dashboard showing ticket status and priority</li>
-            <li>Metrics and reporting to improve remote team performance</li>
+            <li>Automated device health checks & incident simulations</li>
+            <li>Live dashboards for network visibility</li>
+            <li>Deployable in cloud or local labs</li>
         </ul>
-        <img src="screenshots/ticket_tracker.png" alt="Helpdesk Ticket Tracker Screenshot" class="screenshot">
+        <img src="screenshots/noc_toolkit.png" alt="NOC Toolkit Screenshot" class="screenshot">
         <p>
-            <a href="https://github.com/charles-bucher/helpdesk-ticket-tracker" target="_blank">View Repo</a>
+            <a href="https://github.com/charles-bucher/NOC-Toolkit-Automation" target="_blank">View Repo</a>
         </p>
     </div>
 
-    <!-- Remote Device Monitoring -->
+    <!-- Serverless API -->
     <div class="project">
-        <h3>📶 Remote Device Monitoring</h3>
-        <p>Monitors endpoints and devices remotely to ensure IT infrastructure stability.</p>
-        <p class="tech-stack">Tech Stack: Python | SNMP | Paramiko | Flask</p>
+        <h3>⚡ Serverless Real API</h3>
+        <p>Scalable serverless API demonstrating CRUD operations and async processing.</p>
+        <p class="tech-stack">Tech Stack: AWS Lambda | API Gateway | DynamoDB | Node.js 18</p>
         <ul>
-            <li>Track device uptime, connectivity, and health</li>
-            <li>Receive alerts for network or system issues</li>
-            <li>Centralized dashboard for remote IT teams</li>
+            <li>Serverless design for cost efficiency and scalability</li>
+            <li>Asynchronous processing with Lambda functions</li>
+            <li>Automated deployments via IaC pipelines</li>
         </ul>
-        <img src="screenshots/device_monitoring.png" alt="Remote Device Monitoring Screenshot" class="screenshot">
+        <img src="screenshots/serverless_api.png" alt="Serverless API Screenshot" class="screenshot">
         <p>
-            <a href="https://github.com/charles-bucher/remote-device-monitoring" target="_blank">View Repo</a>
+            <a href="https://github.com/charles-bucher/serverless-real-api" target="_blank">View Repo</a>
         </p>
     </div>
 
-    <!-- IT Lab Simulations -->
+    <!-- Cloud Support Troubleshooting -->
     <div class="project">
-        <h3>🛠️ IT Lab Simulations</h3>
-        <p>Hands-on labs simulating real-world IT support and troubleshooting scenarios.</p>
+        <h3>🔧 Cloud Support Troubleshooting Toolkit</h3>
+        <p>Automated tools for diagnosing connectivity, security, and cost issues in AWS environments.</p>
+        <p class="tech-stack">Tech Stack: Python | AWS CloudWatch | Boto3 | Terraform</p>
         <ul>
-            <li>Simulated user support and remote troubleshooting exercises</li>
-            <li>Documented incident reports and resolutions</li>
-            <li>Prepares candidates for remote IT support roles</li>
+            <li>Quickly identify cloud infrastructure problems</li>
+            <li>Automated reporting for remote support teams</li>
+            <li>Prepares for Tier 2 and CloudOps support roles</li>
         </ul>
-        <img src="screenshots/lab_simulation.png" alt="IT Lab Simulation Screenshot" class="screenshot">
+        <img src="screenshots/cloud_troubleshooting.png" alt="Cloud Troubleshooting Screenshot" class="screenshot">
         <p>
-            <a href="https://github.com/charles-bucher/it-support-lab-simulations" target="_blank">View Repo</a>
+            <a href="https://github.com/charles-bucher/cloud-support-troubleshooting-toolkit" target="_blank">View Repo</a>
         </p>
     </div>
 
