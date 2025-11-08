@@ -6,15 +6,7 @@
 
 ## 🧑‍💻 About Me
 
-I am a self-taught cloud engineer focused on **AWS**, **Terraform**, **Python**, and **automation**. I simulate real-world customer issues, document troubleshooting steps, and implement proactive solutions with a strong focus on:
-
-- Security and incident response
-- Cloud monitoring and observability
-- Automated remediation workflows
-- Cost awareness and support empathy
-
-My goal is to land a cloud support or DevOps role and showcase practical, reproducible cloud skills.
-
+Hands-on CloudOps engineer specializing in NOC automation, AWS monitoring, and incident response. Builds Python & Terraform solutions for dashboards, alerts, and proactive remediation workflows. Skilled in CloudWatch, GuardDuty, EC2, Lambda, CI/CD, and Infrastructure as Code. Seeking Cloud Support, NOC, or Junior CloudOps roles.
 ---
 
 ## 🚧 Support-Focused Labs
