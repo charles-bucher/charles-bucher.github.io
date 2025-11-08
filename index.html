@@ -1,74 +1,161 @@
-<section id="projects">
-  <h2>📸 Projects & Proof</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Bucher – CloudOps | DevOps | Cloud Security</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0 20px;
+            background-color: #f4f4f4;
+            color: #222;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #0d47a1;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+        h2 {
+            border-bottom: 2px solid #0d47a1;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        .project {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .tech-stack {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "✅";
+            margin-right: 8px;
+        }
+        a {
+            color: #0d47a1;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 30px 0;
+        }
+        .screenshot {
+            max-width: 100%;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .badge {
+            display: inline-block;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Charles Bucher – CloudOps | DevOps | Cloud Security</h1>
 
-  <!-- NOC-Toolkit-Automation -->
-  <div class="project">
-    <h3>🛰️ NOC-Toolkit-Automation</h3>
-    <p>Simulates a Network Operations Center workflow with <strong>automated device monitoring, incident simulation, and live dashboards</strong>. Ideal for CloudOps, DevOps, and Cloud Security portfolios.</p>
+    <h2>📸 Projects & Proof</h2>
 
-    <p><strong>Tech Stack:</strong> Python | Flask | Netmiko | Paramiko | AWS | Boto3 | Schedule | Matplotlib</p>
-    
-    <ul>
-      <li>Automated network/device monitoring</li>
-      <li>Incident generation & alerts</li>
-      <li>Real-time Flask dashboard visualization</li>
-      <li>Modular architecture, deployable to AWS/EC2</li>
-    </ul>
-
-    <div class="screenshots">
-      <img src="screenshots/01_repo_created.png" alt="Repo Created">
-      <img src="screenshots/05_monitor_py.png" alt="Monitor.py Running">
-      <img src="screenshots/06_dashboard_py.png" alt="Flask Dashboard">
-      <img src="screenshots/10_monitor_output.png" alt="Monitor Output">
+    <!-- NOC-Toolkit-Automation -->
+    <div class="project">
+        <h3>🛰️ NOC-Toolkit-Automation</h3>
+        <p>Simulates a <strong>Network Operations Center workflow</strong> with automated device monitoring, incident simulation, and live dashboards.</p>
+        <p class="tech-stack">Tech Stack: Python | Flask | Netmiko | Paramiko | AWS | Boto3 | Schedule | Matplotlib</p>
+        <ul>
+            <li>Automated network/device monitoring & incident generation</li>
+            <li>Real-time Flask dashboard visualization</li>
+            <li>Modular architecture, deployable to AWS/EC2</li>
+        </ul>
+        <img src="screenshots/noc_dashboard.png" alt="NOC Dashboard Screenshot" class="screenshot">
+        <p>
+            <a href="https://github.com/charles-bucher/NOC-Toolkit-Automation" target="_blank">View Repo</a> |
+            <a href="#" target="_blank">Live Dashboard</a>
+        </p>
+        <p>
+            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" class="badge">
+            <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" class="badge">
+            <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" class="badge">
+        </p>
     </div>
 
-    <p><a href="https://github.com/charles-bucher/NOC-Toolkit-Automation" target="_blank" class="btn">View on GitHub</a></p>
-
-    <div class="badges">
-      <span class="badge">Python</span>
-      <span class="badge">Flask</span>
-      <span class="badge">AWS</span>
-      <span class="badge">CloudOps</span>
-      <span class="badge">Automation</span>
-      <span class="badge">DevOps</span>
-      <span class="badge">Network Monitoring</span>
-    </div>
-  </div>
-
-  <!-- GuardDuty Threat Simulation & Automation -->
-  <div class="project">
-    <h3>🛡️ GuardDuty Threat Simulation & Automation</h3>
-    <p>Detect and respond to AWS security threats using GuardDuty, Lambda, and Terraform automation.</p>
-
-    <div class="screenshots">
-      <img src="cloudOps-guardDuty-automation-screenshots/tf_plan.png" alt="Terraform Plan">
-      <img src="cloudOps-guardDuty-automation-screenshots/pushed_screenshot.png" alt="Screenshot">
+    <!-- GuardDuty -->
+    <div class="project">
+        <h3>🛡️ GuardDuty Threat Simulation & Automation</h3>
+        <p>Automates <strong>AWS security threat detection & response</strong> with Lambda and Terraform.</p>
+        <p class="tech-stack">Tech Stack: AWS GuardDuty | Lambda | Terraform | Python</p>
+        <ul>
+            <li>Threat simulation & alerts</li>
+            <li>Automated remediation via Lambda</li>
+            <li>Terraform IaC for deployments</li>
+        </ul>
+        <img src="screenshots/guardduty.png" alt="GuardDuty Screenshot" class="screenshot">
+        <p>
+            <a href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank">View Repo</a>
+        </p>
+        <p>
+            <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white" class="badge">
+            <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" class="badge">
+        </p>
     </div>
 
-    <p><a href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank" class="btn">View on GitHub</a></p>
-  </div>
-
-  <!-- AWS Monitoring & Observability -->
-  <div class="project">
-    <h3>📊 AWS Monitoring & Observability</h3>
-    <p>End-to-end CloudWatch dashboards, alerts, and proactive monitoring workflows.</p>
-
-    <div class="screenshots">
-      <img src="aws_monitoring_observability_screenshots/Screenshot 2025-11-02 094413.png" alt="CloudWatch Dashboard">
+    <!-- AWS Monitoring -->
+    <div class="project">
+        <h3>📊 AWS Monitoring & Observability</h3>
+        <ul>
+            <li>Monitors EC2, RDS, and VPC metrics</li>
+            <li>Configurable alerts & logging</li>
+            <li>CloudOps/SysOps hands-on demonstration</li>
+        </ul>
+        <img src="screenshots/cloudwatch_dashboard.png" alt="CloudWatch Dashboard Screenshot" class="screenshot">
+        <p>
+            <a href="https://github.com/charles-bucher/aws-monitoring-observability" target="_blank">View Repo</a>
+        </p>
+        <p>
+            <img src="https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" class="badge">
+        </p>
     </div>
 
-    <p><a href="https://github.com/charles-bucher/aws_monitoring_observability" target="_blank" class="btn">View on GitHub</a></p>
-  </div>
+    <!-- Multi-Tier Network -->
+    <div class="project">
+        <h3>🌐 Multi-Tier Network Simulation</h3>
+        <ul>
+            <li>Multi-tier network setup & testing</li>
+            <li>Scalable architecture visualization</li>
+        </ul>
+        <img src="screenshots/multi_tier.png" alt="Multi-Tier Network Screenshot" class="screenshot">
+        <p>
+            <a href="https://github.com/charles-bucher/multi-tier-network-simulation" target="_blank">View Repo</a>
+        </p>
+    </div>
 
-  <!-- Multi-Tier Network Simulation -->
-  <div class="project">
-    <h3>🌐 Multi-Tier Network Simulation</h3>
-    <p>VPCs, subnets, and routing simulations for scalable cloud architectures.</p>
-  </div>
+    <!-- IT Support Lab -->
+    <div class="project">
+        <h3>💻 IT Support Automation Lab</h3>
+        <ul>
+            <li>Streamlines ticket resolution & device management</li>
+            <li>Prepares for helpdesk-to-cloud transitions</li>
+        </ul>
+        <img src="screenshots/it_support.png" alt="IT Support Automation Screenshot" class="screenshot">
+        <p>
+            <a href="https://github.com/charles-bucher/it-support-automation-lab" target="_blank">View Repo</a>
+        </p>
+    </div>
 
-  <!-- IT Support Automation Lab -->
-  <div class="project">
-    <h3>💻 IT Support Automation Lab</h3>
-    <p>Python & PowerShell scripts automating support tasks and incident response.</p>
-  </div>
-</section>
+</body>
+</html>
