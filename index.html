@@ -3,159 +3,400 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles Bucher – Remote IT Support | Helpdesk | Tech Troubleshooting</title>
+    <title>Charles Bucher – Cloud Support Engineer | AWS | DevOps</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
-            padding: 0 20px;
-            background-color: #f4f4f4;
-            color: #222;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
             line-height: 1.6;
+            min-height: 100vh;
         }
-        h1, h2, h3 {
-            color: #0d47a1;
-        }
-        h1 {
-            text-align: center;
-            margin-top: 30px;
-        }
-        h2 {
-            border-bottom: 2px solid #0d47a1;
-            padding-bottom: 5px;
-            margin-top: 40px;
-        }
-        .project {
-            background: #fff;
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        .tech-stack {
-            font-weight: bold;
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            color: #0d47a1;
+            font-size: 2.5em;
             margin-bottom: 10px;
         }
-        ul {
-            list-style: none;
-            padding-left: 0;
+        
+        .tagline {
+            color: #555;
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
-        ul li::before {
-            content: "✅";
-            margin-right: 8px;
+        
+        .badges {
+            margin: 20px 0;
         }
-        a {
-            color: #0d47a1;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        hr {
-            border: 0;
-            border-top: 1px solid #ccc;
-            margin: 30px 0;
-        }
-        .screenshot {
-            max-width: 100%;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
+        
         .badge {
             display: inline-block;
-            margin-right: 5px;
+            margin: 5px;
         }
-        .project:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        
+        .contact-links {
+            margin-top: 20px;
+        }
+        
+        .contact-links a {
+            display: inline-block;
+            margin: 0 15px;
+            color: #0d47a1;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        .contact-links a:hover {
+            color: #667eea;
+        }
+        
+        h2 {
+            color: #fff;
+            font-size: 2em;
+            margin: 40px 0 20px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .project {
+            background: #fff;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
             transition: all 0.3s ease;
         }
-        .screenshot:hover {
-            transform: scale(1.05);
+        
+        .project:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+        }
+        
+        .project h3 {
+            color: #0d47a1;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        
+        .project-description {
+            color: #555;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .tech-stack {
+            background: #f0f0f0;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-weight: bold;
+            color: #0d47a1;
+        }
+        
+        .features {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .features li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .features li::before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+        }
+        
+        .screenshot-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .screenshot {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin: 10px 0;
             transition: transform 0.3s ease;
         }
+        
+        .screenshot:hover {
+            transform: scale(1.02);
+        }
+        
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .repo-link {
+            display: inline-block;
+            background: #0d47a1;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 10px 5px;
+            transition: background 0.3s;
+            font-weight: bold;
+        }
+        
+        .repo-link:hover {
+            background: #667eea;
+        }
+        
+        .skills-section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .skill-category h4 {
+            color: #0d47a1;
+            margin-bottom: 10px;
+        }
+        
+        .skill-category ul {
+            list-style: none;
+        }
+        
+        .skill-category li {
+            padding: 5px 0;
+            color: #555;
+        }
+        
+        footer {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
         @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
             .project {
-                margin: 10px 0;
-                padding: 15px;
+                padding: 20px;
+            }
+            
+            .screenshot-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
-    <h1>Charles Bucher – Remote IT Support | Helpdesk | Tech Troubleshooting</h1>
+    <div class="container">
+        <header>
+            <h1>👨‍💻 Charles Bucher</h1>
+            <p class="tagline">Cloud Support Engineer | AWS Specialist | DevOps Automation</p>
+            
+            <div class="badges">
+                <img src="https://img.shields.io/badge/AWS-Cloud_Support-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" class="badge" alt="AWS">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" class="badge" alt="Python">
+                <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" class="badge" alt="Terraform">
+                <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" class="badge" alt="Docker">
+            </div>
+            
+            <div class="contact-links">
+                <a href="mailto:quietopscb@gmail.com">📧 Email</a>
+                <a href="https://www.linkedin.com/in/charles-bucher-26598728b" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/charles-bucher" target="_blank">🐙 GitHub</a>
+            </div>
+        </header>
 
-    <h2>📸 Projects & Proof</h2>
+        <h2>🚀 Featured Cloud Projects</h2>
 
-    <!-- IT Support Automation -->
-    <div class="project">
-        <h3>💻 IT Support Automation Lab</h3>
-        <p>Automates common IT support tasks to streamline ticket resolution and device management.</p>
-        <p class="tech-stack">Tech Stack: Python | Flask | Windows/Linux | PowerShell | Ticketing Systems</p>
-        <ul>
-            <li>Automated ticket handling & resolution workflows</li>
-            <li>Device management scripts for Windows and Linux endpoints</li>
-            <li>Prepares IT support professionals for remote helpdesk operations</li>
-        </ul>
-        <img src="screenshots/it_support.png" alt="IT Support Automation Screenshot" class="screenshot">
-        <p>
-            <a href="https://github.com/charles-bucher/it-support-automation-lab" target="_blank">View Repo</a>
-        </p>
-        <p>
-            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" class="badge">
-            <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" class="badge">
-        </p>
+        <!-- CloudOps GuardDuty Automation -->
+        <div class="project">
+            <h3>🛡️ CloudOps GuardDuty Automation</h3>
+            <p class="project-description">Automated threat detection and response system using AWS GuardDuty with Terraform infrastructure as code.</p>
+            
+            <p class="tech-stack">Tech Stack: AWS GuardDuty | Terraform | Python | Lambda | SNS</p>
+            
+            <ul class="features">
+                <li>Automated threat detection and real-time alerting</li>
+                <li>Infrastructure provisioned with Terraform</li>
+                <li>Lambda-based automated incident response</li>
+                <li>CloudWatch monitoring and dashboards</li>
+            </ul>
+            
+            <div class="screenshot-grid">
+                <img src="screenshots/cloudOps_guardDuty_screenshots/clone_Repo.png" alt="Clone Repository" class="screenshot">
+                <img src="screenshots/cloudOps_guardDuty_screenshots/terraform_installed.png" alt="Terraform Setup" class="screenshot">
+                <img src="screenshots/cloudOps_guardDuty_screenshots/terraform-plan.png" alt="Terraform Plan" class="screenshot">
+                <img src="screenshots/cloudOps_guardDuty_screenshots/guardduty-running.png" alt="GuardDuty Active" class="screenshot">
+                <img src="screenshots/cloudOps_guardDuty_screenshots/deployed.png" alt="Deployment Complete" class="screenshot">
+            </div>
+            
+            <a href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank" class="repo-link">View Repository</a>
+        </div>
+
+        <!-- AWS Monitoring & Observability -->
+        <div class="project">
+            <h3>🔍 AWS Monitoring & Observability</h3>
+            <p class="project-description">Comprehensive monitoring solution with custom CloudWatch metrics, dashboards, and automated alerting.</p>
+            
+            <p class="tech-stack">Tech Stack: CloudWatch | SNS | Lambda | Python | Boto3</p>
+            
+            <ul class="features">
+                <li>Custom CloudWatch metrics and dashboards</li>
+                <li>Automated alerting via SNS notifications</li>
+                <li>Log aggregation and analysis</li>
+                <li>Performance monitoring and optimization</li>
+            </ul>
+            
+            <div class="screenshot-container">
+                <img src="screenshots/aws_monitoring_screenshots/monitoring_dashboard.png" alt="AWS Monitoring Dashboard" class="screenshot" onerror="this.style.display='none'">
+            </div>
+            
+            <a href="https://github.com/charles-bucher/aws_monitoring_observability" target="_blank" class="repo-link">View Repository</a>
+        </div>
+
+        <!-- Cloud Support Troubleshooting Knowledge Base -->
+        <div class="project">
+            <h3>🛠️ Cloud Support Troubleshooting Knowledge Base</h3>
+            <p class="project-description">Interactive troubleshooting guide with step-by-step workflows for common AWS support scenarios.</p>
+            
+            <p class="tech-stack">Tech Stack: Python | Bash | AWS CLI | Terraform | Markdown</p>
+            
+            <ul class="features">
+                <li>Common AWS incident troubleshooting scenarios</li>
+                <li>Diagnostic automation scripts</li>
+                <li>Step-by-step resolution guides</li>
+                <li>Terraform modules for issue simulation</li>
+            </ul>
+            
+            <div class="screenshot-grid">
+                <img src="screenshots/Cloud_Support_Troubleshooting_screenshots/setup_01.png" alt="KB Setup" class="screenshot" onerror="this.style.display='none'">
+                <img src="screenshots/Cloud_Support_Troubleshooting_screenshots/troubleshooting_workflow.png" alt="Troubleshooting Workflow" class="screenshot" onerror="this.style.display='none'">
+            </div>
+            
+            <a href="https://github.com/charles-bucher/Cloud-Support-Troubleshooting-Knowledge-Base" target="_blank" class="repo-link">View Repository</a>
+        </div>
+
+        <!-- NOC Toolkit Automation -->
+        <div class="project">
+            <h3>🚨 NOC Toolkit Automation</h3>
+            <p class="project-description">Network Operations Center automation tools for monitoring, alerting, and incident management.</p>
+            
+            <p class="tech-stack">Tech Stack: Python | PowerShell | Bash | AWS | Monitoring Tools</p>
+            
+            <ul class="features">
+                <li>Automated incident detection and response</li>
+                <li>Health check automation scripts</li>
+                <li>Alert management and escalation</li>
+                <li>Reporting dashboards and metrics</li>
+            </ul>
+            
+            <div class="screenshot-container">
+                <img src="screenshots/NOC_Toolkit_screenshots/noc_dashboard.png" alt="NOC Dashboard" class="screenshot" onerror="this.style.display='none'">
+            </div>
+            
+            <a href="https://github.com/charles-bucher/NOC-Toolkit-Automation" target="_blank" class="repo-link">View Repository</a>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+            <h2 style="color: #0d47a1; text-shadow: none;">🛠️ Technical Skills</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>☁️ Cloud Platforms</h4>
+                    <ul>
+                        <li>AWS (EC2, S3, Lambda, CloudWatch)</li>
+                        <li>GuardDuty, IAM, VPC, RDS</li>
+                        <li>SNS, CloudFormation</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>💻 Programming & Scripting</h4>
+                    <ul>
+                        <li>Python (boto3, Flask)</li>
+                        <li>Bash scripting</li>
+                        <li>PowerShell automation</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>🔧 DevOps & IaC</h4>
+                    <ul>
+                        <li>Terraform</li>
+                        <li>Git & GitHub</li>
+                        <li>CI/CD (learning)</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>📊 Monitoring & Support</h4>
+                    <ul>
+                        <li>CloudWatch metrics & logs</li>
+                        <li>Incident response</li>
+                        <li>Troubleshooting & diagnostics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h3 style="color: #0d47a1; margin-bottom: 15px;">🤝 Open to Opportunities</h3>
+            <p style="color: #555; margin-bottom: 20px;">
+                Seeking Cloud Support Engineer, Junior DevOps, or NOC/CloudOps roles.<br>
+                <strong>Remote-friendly | Entry to mid-level positions</strong>
+            </p>
+            
+            <div style="margin: 20px 0;">
+                <a href="https://github.com/charles-bucher" target="_blank" class="repo-link">View All Projects</a>
+                <a href="mailto:quietopscb@gmail.com" class="repo-link">Get In Touch</a>
+            </div>
+            
+            <p style="color: #888; margin-top: 20px;">
+                © 2025 Charles Bucher | Cloud Support Portfolio<br>
+                Built with hands-on AWS experience
+            </p>
+        </footer>
     </div>
-
-    <!-- Helpdesk Ticket Tracker -->
-    <div class="project">
-        <h3>📋 Helpdesk Ticket Tracker</h3>
-        <p>Tracks and manages IT support tickets in a simulated remote environment.</p>
-        <p class="tech-stack">Tech Stack: Python | SQLite | Flask | Bootstrap</p>
-        <ul>
-            <li>Create, assign, and resolve support tickets</li>
-            <li>Real-time ticket status dashboard</li>
-            <li>Reports and metrics for remote team management</li>
-        </ul>
-        <img src="screenshots/ticket_tracker.png" alt="Ticket Tracker Screenshot" class="screenshot">
-        <p>
-            <a href="https://github.com/charles-bucher/helpdesk-ticket-tracker" target="_blank">View Repo</a>
-        </p>
-        <p>
-            <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" class="badge">
-        </p>
-    </div>
-
-    <!-- Remote Device Monitoring -->
-    <div class="project">
-        <h3>📶 Remote Device Monitoring</h3>
-        <p>Monitors connected devices and endpoints remotely, ensuring smooth IT operations.</p>
-        <p class="tech-stack">Tech Stack: Python | SNMP | Paramiko | Flask</p>
-        <ul>
-            <li>Track device uptime and health</li>
-            <li>Alerts for system issues and network problems</li>
-            <li>Centralized dashboard for remote teams</li>
-        </ul>
-        <img src="screenshots/device_monitoring.png" alt="Device Monitoring Screenshot" class="screenshot">
-        <p>
-            <a href="https://github.com/charles-bucher/remote-device-monitoring" target="_blank">View Repo</a>
-        </p>
-    </div>
-
-    <!-- IT Support Lab Simulations -->
-    <div class="project">
-        <h3>🛠️ IT Support Lab Simulations</h3>
-        <p>Hands-on lab projects simulating real-world IT support and troubleshooting scenarios.</p>
-        <ul>
-            <li>Simulated user support & remote troubleshooting</li>
-            <li>Prepares for helpdesk-to-remote IT transitions</li>
-            <li>Documented incident logs and resolutions</li>
-        </ul>
-        <img src="screenshots/lab_simulation.png" alt="IT Lab Simulation Screenshot" class="screenshot">
-        <p>
-            <a href="https://github.com/charles-bucher/it-support-lab-simulations" target="_blank">View Repo</a>
-        </p>
-    </div>
-
 </body>
 </html>
