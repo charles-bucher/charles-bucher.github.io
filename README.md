@@ -44,12 +44,6 @@ I’m a Cloud Support & DevOps Engineer specializing in **AWS troubleshooting, a
 **Tech Stack:** AWS GuardDuty, Terraform, Python, Lambda  
 **Repo:** [CloudOps-GuardDuty-Automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
 
-**Screenshots / Workflow:**
-| Step | Screenshot | Description |
-|------|-----------|-------------|
-| 01 | ![Clone Repo](screenshots/cloudOps_guardDuty_screenshots/01_clone.png) | Repository cloned locally |
-| 02 | ![Deployed](screenshots/cloudOps_guardDuty_screenshots/02_deployed.png) | Terraform changes pushed to AWS |
-| 10 | ![Pushed Screenshot](screenshots/cloudOps_guardDuty_screenshots/10_pushed_screenshot.png) | Active GuardDuty monitoring & alerts live |
 
 **Highlights:**
 - Infrastructure as Code with Terraform for GuardDuty deployment  
