@@ -57,12 +57,6 @@ I’m a Cloud Support & DevOps Engineer specializing in **AWS troubleshooting, a
 **Tech Stack:** CloudWatch, SNS, Lambda, Python  
 **Repo:** [AWS-Monitoring-Observability](https://github.com/charles-bucher/aws_monitoring_observability)
 
-**Screenshots / Workflow:**
-| Step | Screenshot | Description |
-|------|-----------|-------------|
-| 00 | ![Clone Success](screenshots/aws_monitoring_screenshots/00_clone_success.png) | Repository cloned successfully |
-| 02 | ![Confirm Terraform](screenshots/aws_monitoring_screenshots/02_confirm.png) | Terraform plan verification |
-| 04 | ![Terraform Init](screenshots/aws_monitoring_screenshots/04_terraform_init_.png) | Terraform infrastructure initialization |
 
 **Highlights:**
 - Custom CloudWatch metrics & dashboards  
@@ -75,13 +69,6 @@ I’m a Cloud Support & DevOps Engineer specializing in **AWS troubleshooting, a
 **Step-by-step AWS incident resolution guide**  
 **Tech Stack:** Python, Bash, AWS CLI, Terraform  
 **Repo:** [Cloud-Support-Troubleshooting-KB](https://github.com/charles-bucher/Cloud-Support-Troubleshooting-Knowledge-Base)
-
-**Screenshots / Workflow:**
-| Step | Screenshot | Description |
-|------|-----------|-------------|
-| 01 | ![Prerequisites](screenshots/Cloud_Support_Troubleshooting_screenshots/01_prerequisites_git_python_installed.png) | Git & Python installed |
-| 05 | ![Config Editing](screenshots/Cloud_Support_Troubleshooting_screenshots/05_config_editing.png) | Config file editing |
-| 08 | ![App Running](screenshots/Cloud_Support_Troubleshooting_screenshots/08_app_running.png) | Knowledge base application running |
 
 **Highlights:**
 - Diagnostic automation scripts for common AWS incidents  
