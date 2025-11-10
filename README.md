@@ -1,208 +1,165 @@
-# 👨‍💻 Charles Bucher | Cloud Support & DevOps Engineer
+👨‍💻 Charles Bucher | Cloud Support & DevOps Engineer
 
-![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/charles-bucher-26598728b)
-[![Email](https://img.shields.io/badge/Email-quietopscb%40gmail.com-red)](mailto:quietopscb@gmail.com)
+Portfolio
+ | GitHub
+ | LinkedIn
+ | Email
 
-## 🚀 About Me
+🚀 About Me
 
-Cloud Support Engineer specializing in AWS troubleshooting, automation, and DevOps practices. I build hands-on projects that solve real-world cloud operations challenges and demonstrate practical skills for CloudOps, NOC, and Site Reliability Engineering roles.
+I’m a Cloud Support & DevOps Engineer specializing in AWS troubleshooting, automation, and operational workflows. I build hands-on projects that solve real-world cloud operations challenges and demonstrate practical skills for CloudOps, NOC, and Site Reliability Engineering roles.
 
-**Current Focus:** Transitioning into cloud support/DevOps with a focus on automation, monitoring, and incident response.
+Current Focus: Transitioning into cloud support/DevOps with a focus on automation, monitoring, and incident response.
 
----
+📂 Featured Projects with Screenshots
+1. 🚨 NOC Toolkit Automation
 
-## 📂 Featured Projects
+Hands-on Network Operations Center automation & monitoring
+Tech Stack: Python, PowerShell, Bash, AWS
+Repo: NOC-Toolkit-Automation
 
-### 1. 🛡️ CloudOps GuardDuty Automation
-**Automated threat detection and response using AWS GuardDuty**
+Step-by-Step Visuals:
 
-![Clone Repo](screenshots/cloudOps_guardDuty_screenshots/clone_Repo.png)
-*Initial repository setup*
+Step	Screenshot	Description
+01	
+	Initial repository created on GitHub
+02	
+	Cloned repository locally
+03	
+	Project folder structure setup
+04	
+	Git status and initial commit verification
+05	
+	Python monitoring script
+06	
+	Dashboard automation script
+07	
+	Devices configuration JSON file
+08	
+	VS Code explorer view
+09	
+	Environment setup and dependencies installed
+10	
+	Monitoring script output & dashboard live view
 
-![Terraform Plan](screenshots/cloudOps_guardDuty_screenshots/terraform-plan.png)
-*Infrastructure planning with Terraform*
+Highlights:
 
-![GuardDuty Running](screenshots/cloudOps_guardDuty_screenshots/guardduty-running.png)
-*Active GuardDuty monitoring*
+Automated incident detection & health checks
 
-![Deployed](screenshots/cloudOps_guardDuty_screenshots/deployed.png)
-*Successfully deployed infrastructure*
+Alert management & reporting dashboards
 
-**Tech Stack:** AWS GuardDuty, Terraform, Python, Lambda  
-**Repository:** [CloudOps-GuardDuty-Automation](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
+Real-time operational monitoring for cloud environments
 
-**Key Features:**
-- Automated threat detection and alerting
-- Infrastructure as Code with Terraform
-- Lambda-based automated response
-- Real-time security monitoring
+Demonstrates readiness for NOC/CloudOps roles
 
----
+2. 🛡️ CloudOps GuardDuty Automation
 
-### 2. 🔍 AWS Monitoring & Observability
-**Comprehensive monitoring solution for AWS environments**
+Automated AWS threat detection & response
+Tech Stack: AWS GuardDuty, Terraform, Python, Lambda
+Repo: CloudOps-GuardDuty-Automation
 
-![Monitoring Dashboard](screenshots/aws_monitoring_screenshots/)
-*CloudWatch dashboards and alerting*
+Screenshots / Workflow:
 
-**Tech Stack:** CloudWatch, SNS, Lambda, Python  
-**Repository:** [AWS-Monitoring-Observability](https://github.com/charles-bucher/aws_monitoring_observability)
+Step	Screenshot	Description
+01	
+	Terraform plan showing infrastructure to be deployed
+02	
+	Terraform changes pushed to AWS
+03	
+	Active GuardDuty monitoring & alerts live
 
-**Key Features:**
-- Custom CloudWatch metrics and dashboards
-- Automated alerting via SNS
-- Log aggregation and analysis
-- Performance monitoring
+Highlights:
 
----
+Infrastructure as Code with Terraform for GuardDuty deployment
 
-### 3. 🛠️ Cloud Support Troubleshooting Knowledge Base
-**Interactive troubleshooting guide for AWS cloud support**
+Lambda-based automated remediation
 
-![Troubleshooting Setup](screenshots/Cloud_Support_Troubleshooting_screenshots/)
-*Step-by-step troubleshooting workflows*
+Real-time security alerting
 
-**Tech Stack:** Python, Bash, AWS CLI, Terraform  
-**Repository:** [Cloud-Support-Troubleshooting-KB](https://github.com/charles-bucher/Cloud-Support-Troubleshooting-Knowledge-Base)
+3. 🔍 AWS Monitoring & Observability
 
-**Key Features:**
-- Common AWS incident scenarios
-- Diagnostic automation scripts
-- Step-by-step resolution guides
-- Terraform modules for issue simulation
+Centralized monitoring solution for AWS environments
+Tech Stack: CloudWatch, SNS, Lambda, Python
+Repo: AWS-Monitoring-Observability
 
----
+Screenshots / Workflow:
 
-### 4. 🚨 NOC Toolkit Automation
-**Network Operations Center automation and monitoring tools**
+Step	Screenshot	Description
+01	
+	AWS environment configuration and credentials setup
+02	
+	Repository cloned locally
+03	
+	Terraform plan for monitoring infrastructure
+04	
+	Terraform applied, AWS monitoring setup completed
 
-![NOC Dashboard](screenshots/NOC_Toolkit_screenshots/)
-*NOC monitoring and automation*
+Highlights:
 
-**Tech Stack:** Python, PowerShell, Bash, AWS  
-**Repository:** [NOC-Toolkit-Automation](https://github.com/charles-bucher/NOC-Toolkit-Automation)
+Custom CloudWatch metrics & dashboards
 
-**Key Features:**
-- Automated incident detection
-- Health check automation
-- Alert management
-- Reporting dashboards
+Automated alerting via SNS
 
----
+Log aggregation and performance monitoring
 
-## 🛠️ Technical Skills
+4. 🛠️ Cloud Support Troubleshooting Knowledge Base
 
-### Cloud Platforms
-- **AWS:** EC2, S3, Lambda, CloudWatch, GuardDuty, IAM, VPC, RDS, SNS
-- **Infrastructure as Code:** Terraform, CloudFormation
+Step-by-step AWS incident resolution guide
+Tech Stack: Python, Bash, AWS CLI, Terraform
+Repo: Cloud-Support-Troubleshooting-KB
 
-### Programming & Scripting
-- **Languages:** Python, Bash, PowerShell
-- **Automation:** boto3, AWS CLI, automated remediation
+Screenshot Example:
 
-### DevOps & Tools
-- **Version Control:** Git, GitHub
-- **CI/CD:** GitHub Actions (learning)
-- **Monitoring:** CloudWatch, Custom metrics, Log analysis
 
-### Cloud Support & Operations
-- AWS troubleshooting and diagnostics
-- Incident response and remediation
-- Security monitoring and compliance
-- Cost optimization and FinOps
+Interactive guides and Terraform modules for simulating AWS incidents.
 
----
+Highlights:
 
-## 🎯 Current Projects
+Diagnostic automation scripts for common AWS incidents
 
-### 🔄 In Progress
-- **Multi-tier VPC Architecture:** Building production-grade VPC with public/private subnets
-- **Serverless API:** Lambda + API Gateway + DynamoDB CRUD application
-- **CI/CD Pipeline:** Automated testing and deployment with GitHub Actions
+Step-by-step troubleshooting workflows
 
-### 📚 Learning
-- AWS Solutions Architect certification prep
-- Advanced Terraform modules and state management
-- Container orchestration with ECS
-- AWS Security Specialty (next certification)
+Terraform modules to simulate real-world issues
 
----
+🛠️ Technical Skills
 
-## 📊 GitHub Stats
+Cloud Platforms: AWS (EC2, S3, Lambda, CloudWatch, GuardDuty, IAM, VPC, RDS, SNS)
+Infrastructure as Code: Terraform, CloudFormation
+Programming/Scripting: Python, Bash, PowerShell, AWS CLI, boto3
+DevOps Tools: Git/GitHub, CI/CD (GitHub Actions), monitoring/logging
+Cloud Support & Operations: Troubleshooting, incident response, security monitoring, cost optimization
 
-![Charles's GitHub Stats](https://github-readme-stats.vercel.app/api?username=charles-bucher&show_icons=true&theme=dark)
+🎯 Current Projects & Learning
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=charles-bucher&layout=compact&theme=dark)
+Multi-tier VPC Architecture with public/private subnets
 
----
+Serverless API: Lambda + API Gateway + DynamoDB
 
-## 🧭 My Learning Path
+CI/CD Pipeline: automated testing & deployment
 
-**Current (2024-2025):**
-- ✅ AWS Cloud Practitioner fundamentals
-- 🔄 AWS Solutions Architect Associate (studying)
-- 🔄 Nightly labs: Terraform, IAM, CloudWatch, Lambda
-- 🔄 Building modular GitHub projects for portfolio
+AWS Solutions Architect Associate prep
 
-**Roadmap:**
-1. AWS Solutions Architect Associate
-2. AWS SysOps Administrator Associate  
-3. AWS Security Specialty
-4. AWS DevOps Engineer Professional
+AWS Security Specialty (next certification)
 
-**Daily Practice:**
-- Hands-on AWS lab environments
-- Infrastructure as Code projects
-- Automation script development
-- Documentation and knowledge sharing
+💼 Professional Background
 
----
+Self-taught cloud engineer with 10+ years in logistics & operations
 
-## 💼 Professional Background
+Passion for troubleshooting, automation, and operational efficiency
 
-**Transition to Cloud:**  
-Self-taught cloud engineer with 10+ years in logistics and operations. Bringing strong problem-solving, attention to detail, and process optimization skills to cloud support and DevOps roles.
+Focus on helping teams succeed with cloud infrastructure
 
-**Why Cloud Support?**
-- Passion for troubleshooting and problem-solving
-- Love for automation and efficiency
-- Interest in helping customers succeed
-- Desire to work with cutting-edge technology
+📬 Contact & Opportunities
 
----
+Open to: Cloud Support Engineer (AWS), Junior DevOps, NOC/CloudOps, remote-friendly positions
+Email: quietopscb@gmail.com
 
-## 📬 Contact & Links
+LinkedIn: Charles Bucher
 
-- **Email:** [quietopscb@gmail.com](mailto:quietopscb@gmail.com)
-- **LinkedIn:** [Charles Bucher](https://www.linkedin.com/in/charles-bucher-26598728b)
-- **GitHub:** [charles-bucher](https://github.com/charles-bucher)
-- **Portfolio:** [charles-bucher.github.io](https://charles-bucher.github.io/)
+GitHub: charles-bucher
 
----
+💡 Portfolio Philosophy
 
-## 🤝 Open to Opportunities
+Showcases hands-on CloudOps, NOC simulations, serverless APIs, automated pipelines, proactive monitoring, and alerting workflows for AWS environments. Every project solves a real problem and demonstrates production-ready skills.
 
-I'm actively seeking:
-- **Cloud Support Engineer** roles (AWS)
-- **Junior DevOps Engineer** positions
-- **NOC/CloudOps** opportunities
-- **Remote-friendly** companies
-
-**Ideal Role:** Entry to mid-level position where I can apply my AWS knowledge, automation skills, and troubleshooting abilities while continuing to learn and grow.
-
----
-
-**💡 Portfolio Philosophy**
-
-> This portfolio showcases hands-on CloudOps, NOC simulations, serverless APIs, automated pipelines, proactive monitoring, and alerting workflows for AWS environments. Every project solves a real problem and demonstrates production-ready skills.
-
----
-
-<div align="center">
-
-### ⭐ If you find my projects helpful, please consider starring them!
-
-**Thanks for visiting!** 🚀
-
-</div>
+⭐ If you find my projects helpful, please consider starring them!
