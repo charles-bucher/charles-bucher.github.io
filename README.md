@@ -8,6 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-Scripting-yellowgreen)](https://www.python.org/)
 [![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub%20Actions-blue)](https://github.com/features/actions)
 [![License](https://img.shields.io/github/license/charles-bucher/charles-bucher.github.io)](LICENSE.md)
+![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue&style=flat-square)
 
 ---
 
