@@ -47,3 +47,12 @@
 ![08_vscode_explorer.png](screenshots/03.NOC_Toolkit_screenshots/08_vscode_explorer.png)
 ![09_env_setup.png](screenshots/03.NOC_Toolkit_screenshots/09_env_setup.png)
 ![10_monitor_output.png](screenshots/03.NOC_Toolkit_screenshots/10_monitor_output.png)
+
+## 🖼️ Screenshots
+
+Below are visual examples from this project:
+){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher.github.io/screenshots/00.aws_monitoring_screenshots/)
+){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher.github.io/screenshots/01.Cloud_Support_Troubleshooting_screenshots/)
+){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher.github.io/screenshots/02.cloudOps_guardDuty_screenshots/)
+){img}](/c/Users/buche/repos/Cloud_Work/repos/charles-bucher.github.io/screenshots/03.NOC_Toolkit_screenshots/)
+
