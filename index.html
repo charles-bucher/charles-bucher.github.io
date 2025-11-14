@@ -42,7 +42,13 @@
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       overflow: hidden;
-      transition: transform 0.2s, box-shadow 0.2s;
+      transition: transform 0.2s, box-shadow 0.2s, opacity 0.6s;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    .project-card.visible {
+      opacity: 1;
+      transform: translateY(0);
     }
     .project-card:hover {
       transform: translateY(-5px);
@@ -51,6 +57,11 @@
     .project-card img {
       width: 100%;
       display: block;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .project-card img:hover {
+      transform: scale(1.05);
     }
     .project-content {
       padding: 1rem 1.2rem;
@@ -73,12 +84,26 @@
     .project-content a:hover {
       text-decoration: underline;
     }
+    .toggle-btn {
+      background: #0d47a1;
+      color: white;
+      border: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+    }
     footer {
       text-align: center;
       padding: 2rem;
       background-color: #e3f2fd;
       margin-top: 3rem;
       font-size: 0.9rem;
+    }
+    footer a {
+      color: #0d47a1;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -90,16 +115,17 @@
 </header>
 
 <div class="container">
-
   <h2>Featured Projects</h2>
   <div class="projects">
 
     <!-- NOC Toolkit Automation -->
     <div class="project-card">
-      <img src="screenshots/10_monitor_output.png" alt="NOC Dashboard Live Output">
+      <img src="screenshots/NOC/NOC_dashboard_py.png" alt="NOC Dashboard Live Output">
       <div class="project-content">
         <h3>🚨 NOC Toolkit Automation</h3>
-        <p>Hands-on Network Operations Center automation & monitoring.</p>
+        <p class="short-desc">Hands-on Network Operations Center automation & monitoring.</p>
+        <p class="full-desc" style="display:none;">Automates device monitoring, triggers alerts, and visualizes live dashboards. Perfect for operational simulations and NOC workflow testing.</p>
+        <button class="toggle-btn">Show More</button>
         <p><strong>Tech Stack:</strong> Python, PowerShell, Bash, AWS</p>
         <p><a href="https://github.com/charles-bucher/NOC-Toolkit-Automation" target="_blank">View Repository</a></p>
       </div>
@@ -107,10 +133,12 @@
 
     <!-- CloudOps GuardDuty Automation -->
     <div class="project-card">
-      <img src="screenshots/guardduty_dashboard.png" alt="GuardDuty Active Monitoring">
+      <img src="screenshots/GUARDDUTY/gd_github_push.png" alt="GuardDuty Active Monitoring">
       <div class="project-content">
         <h3>🛡️ CloudOps GuardDuty Automation</h3>
-        <p>Automated AWS threat detection & Lambda-based remediation.</p>
+        <p class="short-desc">Automated AWS threat detection & Lambda-based remediation.</p>
+        <p class="full-desc" style="display:none;">Includes continuous monitoring, automated Lambda remediation, and alerts for cloud security incidents. Built for real-time AWS threat response.</p>
+        <button class="toggle-btn">Show More</button>
         <p><strong>Tech Stack:</strong> AWS GuardDuty, Terraform, Python, Lambda</p>
         <p><a href="https://github.com/charles-bucher/CloudOps-GuardDuty-Automation" target="_blank">View Repository</a></p>
       </div>
@@ -118,26 +146,24 @@
 
     <!-- AWS Monitoring & Observability -->
     <div class="project-card">
-      <img src="screenshots/04_terraform.png" alt="AWS Monitoring Terraform Applied">
+      <img src="screenshots/aws/aws_terraform.png" alt="AWS Monitoring Terraform Applied">
       <div class="project-content">
         <h3>🔍 AWS Monitoring & Observability</h3>
-        <p>Centralized monitoring solution with CloudWatch dashboards and alerting.</p>
+        <p class="short-desc">Centralized monitoring solution with CloudWatch dashboards and alerting.</p>
+        <p class="full-desc" style="display:none;">Tracks EC2 metrics, sets up automated SNS alerts, and provides observability dashboards for proactive incident response.</p>
+        <button class="toggle-btn">Show More</button>
         <p><strong>Tech Stack:</strong> CloudWatch, SNS, Lambda, Python</p>
         <p><a href="https://github.com/charles-bucher/AWS-Monitoring-Observability" target="_blank">View Repository</a></p>
       </div>
     </div>
 
-    <!-- Cloud Support Troubleshooting KB -->
-    <div class="project-card">
-      <img src="screenshots/troubleshooting_kb.png" alt="Cloud Support Troubleshooting KB">
-      <div class="project-content">
-        <h3>🛠️ Cloud Support Troubleshooting KB</h3>
-        <p>Step-by-step AWS incident resolution guide with automation scripts.</p>
-        <p><strong>Tech Stack:</strong> Python, Bash, AWS CLI, Terraform</p>
-        <p><a href="https://github.com/charles-bucher/Cloud-Support-Troubleshooting-KB" target="_blank">View Repository</a></p>
-      </div>
-    </div>
+  </div>
 
+  <!-- Traffic/visitor badges -->
+  <div style="text-align:center; margin-top:2rem;">
+    <img src="https://img.shields.io/github/stars/charles-bucher/charles-bucher.github.io?style=social" alt="GitHub Stars">
+    <img src="https://img.shields.io/github/forks/charles-bucher/charles-bucher.github.io?style=social" alt="GitHub Forks">
+    <img src="https://komarev.com/ghpvc/?username=charles-bucher&style=flat-square" alt="Profile Views">
   </div>
 
 </div>
@@ -145,6 +171,50 @@
 <footer>
   © 2025 Charles Bucher | <a href="mailto:quietopscb@gmail.com">Email</a> | <a href="https://github.com/charles-bucher">GitHub</a> | <a href="#">LinkedIn</a>
 </footer>
+
+<script>
+  // Scroll reveal
+  const cards = document.querySelectorAll('.project-card');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1 });
+  cards.forEach(card => observer.observe(card));
+
+  // Modal image popup
+  const images = document.querySelectorAll('.project-card img');
+  images.forEach(img => {
+    img.addEventListener('click', () => {
+      const modal = document.createElement('div');
+      modal.style = `
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0,0,0,0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+      `;
+      const modalImg = document.createElement('img');
+      modalImg.src = img.src;
+      modalImg.style = "max-width: 90%; max-height: 90%; border-radius: 12px;";
+      modal.appendChild(modalImg);
+      modal.addEventListener('click', () => modal.remove());
+      document.body.appendChild(modal);
+    });
+  });
+
+  // Toggle Show More
+  document.querySelectorAll('.toggle-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const full = btn.previousElementSibling;
+      full.style.display = full.style.display === 'none' ? 'block' : 'none';
+      btn.textContent = full.style.display === 'block' ? 'Show Less' : 'Show More';
+    });
+  });
+</script>
 
 </body>
 </html>
