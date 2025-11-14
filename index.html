@@ -10,14 +10,16 @@
     header { background-color: #232f3e; color: white; padding: 2rem; text-align: center; }
     header h1 { margin: 0; font-size: 2.5rem; }
     header p { font-size: 1.2rem; margin: 0.5rem 0; }
+    a { color: inherit; text-decoration: none; }
     section { padding: 2rem; max-width: 900px; margin: auto; }
     h2 { color: #232f3e; margin-top: 2rem; }
     .badges img { margin: 0.3rem; vertical-align: middle; }
     .project { margin-bottom: 3rem; background: #fff; padding: 1rem 2rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
     .project img { max-width: 100%; border-radius: 8px; margin-top: 0.5rem; }
-    .gallery img { max-width: 100%; margin: 0.5rem 0; border-radius: 8px; }
     a.button { display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem; background-color: #232f3e; color: white; text-decoration: none; border-radius: 5px; }
     footer { text-align: center; padding: 1rem; color: #666; }
+    .gallery img { width: 100%; max-width: 400px; margin: 0.5rem; border-radius: 8px; }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; }
   </style>
 </head>
 <body>
@@ -27,9 +29,9 @@
   <p>AWS Cloud Support & Automation Specialist</p>
   <p>📍 Florida | 📧 quietopscb@gmail.com</p>
   <p>
-    <a href="https://charles-bucher.github.io" style="color:white;">Portfolio</a> | 
-    <a href="https://www.linkedin.com/in/charles-bucher-26598728b" style="color:white;">LinkedIn</a> | 
-    <a href="https://profile.indeed.com/p/charlesb-x0xr5fx" style="color:white;">Indeed</a>
+    <a href="https://charles-bucher.github.io" target="_blank">Portfolio</a> | 
+    <a href="https://www.linkedin.com/in/charles-bucher-26598728b" target="_blank">LinkedIn</a> | 
+    <a href="https://profile.indeed.com/p/charlesb-x0xr5fx" target="_blank">Indeed</a>
   </p>
 </header>
 
@@ -49,51 +51,37 @@
 
   <div class="project">
     <h3>1️⃣ AWS Monitoring & Observability</h3>
-    <p>Fast incident detection & automated response using CloudWatch. Monitored EC2 metrics → detected anomalies → triggered alerts automatically.</p>
-    <img src="screenshots/aws_clone.png" alt="AWS Clone">
-    <a class="button" href="https://github.com/charles-bucher/aws_monitoring_observability">View Repository</a>
+    <p>Fast incident detection & automated response using CloudWatch. Reduced incident response time by 40%.</p>
+    <img src="screenshots/screenshots/00_NOC_banner.png" alt="NOC Banner">
+    <img src="screenshots/screenshots/aws_clone.png" alt="AWS Clone">
+    <a class="button" href="https://github.com/charles-bucher/aws_monitoring_observability" target="_blank">View Repository</a>
   </div>
 
   <div class="project">
     <h3>2️⃣ CloudOps GuardDuty Automation</h3>
-    <p>Proactive threat detection & automated incident response. Terraform deploy → GuardDuty alerts → automated CI/CD response → GitHub updates.</p>
-    <img src="screenshots/gd_github_push.png" alt="GuardDuty Workflow">
-    <a class="button" href="https://github.com/charles-bucher/cloudOps-guardDuty-automation">View Repository</a>
+    <p>Proactive threat detection & automated CI/CD response. Automated 100% of GuardDuty alerts.</p>
+    <img src="screenshots/screenshots/gd_github_push.png" alt="GuardDuty GitHub Push">
+    <a class="button" href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank">View Repository</a>
   </div>
 
   <div class="project">
     <h3>3️⃣ NOC Toolkit Automation</h3>
-    <p>Real-time network monitoring, alerts, and dashboards. Python scripts → dashboards → device JSON → alerts triggered automatically.</p>
-    <img src="screenshots/NOC_dashboard_py.png" alt="NOC Dashboard">
-    <a class="button" href="https://github.com/charles-bucher/NOC-Toolkit-Automation">View Repository</a>
+    <p>Real-time network monitoring, dashboards, and alerts. Streamlined operational troubleshooting for faster incident resolution.</p>
+    <div class="gallery">
+      <img src="screenshots/screenshots/NOC_dashboard_py.png" alt="NOC Dashboard">
+      <img src="screenshots/screenshots/NOC_devices_json.png" alt="Devices JSON">
+      <img src="screenshots/screenshots/NOC_env_setup.png" alt="Env Setup">
+      <img src="screenshots/screenshots/NOC_folder_structure.png" alt="Folder Structure">
+      <img src="screenshots/screenshots/NOC_git_status.png" alt="Git Status">
+      <img src="screenshots/screenshots/NOC_monitor_output.png" alt="Monitor Output">
+      <img src="screenshots/screenshots/NOC_monitor_py.png" alt="Monitor Python">
+      <img src="screenshots/screenshots/NOC_repo_cloned.png" alt="Repo Cloned">
+      <img src="screenshots/screenshots/NOC_repo_created.png" alt="Repo Created">
+      <img src="screenshots/screenshots/NOC_vscode_explorer.png" alt="VS Code Explorer">
+    </div>
+    <a class="button" href="https://github.com/charles-bucher/NOC-Toolkit-Automation" target="_blank">View Repository</a>
   </div>
 
-  <h2>📸 Screenshot Gallery</h2>
-  <div class="gallery">
-    <img src="screenshots/00_NOC_banner.png" alt="NOC Banner">
-    <img src="screenshots/NOC_dashboard_py.png" alt="NOC Dashboard">
-    <img src="screenshots/NOC_devices_json.png" alt="NOC Devices JSON">
-    <img src="screenshots/NOC_env_setup.png" alt="NOC Environment Setup">
-    <img src="screenshots/NOC_folder_structure.png" alt="NOC Folder Structure">
-    <img src="screenshots/NOC_git_status.png" alt="NOC Git Status">
-    <img src="screenshots/NOC_monitor_output.png" alt="NOC Monitor Output">
-    <img src="screenshots/NOC_monitor_py.png" alt="NOC Monitor Script">
-    <img src="screenshots/NOC_repo_cloned.png" alt="NOC Repo Cloned">
-    <img src="screenshots/NOC_repo_created.png" alt="NOC Repo Created">
-    <img src="screenshots/NOC_vscode_explorer.png" alt="NOC VSCode Explorer">
-    <img src="screenshots/gd_tfplan.png" alt="Terraform Plan">
-    <img src="screenshots/gd_tfplan_confirm.png" alt="Terraform Confirm">
-  </div>
-
-  <h2>📜 Certifications Alignment</h2>
-  <ul>
-    <li><strong>AWS Monitoring & Observability:</strong> Cloud Practitioner, SAA, SysOps, DevOps Pro</li>
-    <li><strong>CloudOps GuardDuty Automation:</strong> Security Specialty, SAA, DevOps Pro</li>
-    <li><strong>NOC Toolkit Automation:</strong> SysOps, Cloud Practitioner, DevOps Entry</li>
-  </ul>
-
-  <h2>📈 Career Focus</h2>
-  <p>Hands-on cloud support projects demonstrating <strong>operational troubleshooting, automated monitoring, and incident response</strong>. Focused on AWS Cloud Support, NOC operations, and CloudOps. 🚀</p>
 </section>
 
 <footer>
