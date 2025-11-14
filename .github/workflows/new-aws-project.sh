@@ -204,7 +204,7 @@ cat > README.md <<EOF
 ### 1. Clone and Setup
 
 \`\`\`bash
-git clone https://github.com/Tommy813-lab/$PROJECT_NAME.git
+git clone https://github.com/charles-bucher/$PROJECT_NAME.git
 cd $PROJECT_NAME/terraform
 \`\`\`
 
@@ -323,7 +323,7 @@ MIT License - Feel free to use and modify
 **Charles Bucher**
 - Email: Quietopscb@gmail.com
 - LinkedIn: [linkedin.com/in/charles-bucher-26598728](https://www.linkedin.com/in/charles-bucher-26598728)
-- GitHub: [github.com/Tommy813-lab](https://github.com/Tommy813-lab)
+- GitHub: [github.com/charles-bucher](https://github.com/charles-bucher)
 
 ---
 

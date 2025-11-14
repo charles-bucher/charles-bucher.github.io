@@ -3,8 +3,8 @@
 github_recruiter_audit.py
 
 Usage:
-    python github_recruiter_audit.py --org Tommy813-lab
-    python github_recruiter_audit.py --user Tommy813-lab
+    python github_recruiter_audit.py --org charles-bucher
+    python github_recruiter_audit.py --user charles-bucher
 
 Outputs:
  - Console report (pretty)
