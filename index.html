@@ -3,218 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charles Bucher | Cloud Support & DevOps Engineer</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Charles Bucher | AWS Cloud Support</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f6f8;
-      color: #1a1a1a;
-    }
-    header {
-      background-color: #0d47a1;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.2rem;
-    }
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1rem;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
-    }
-    .project-card {
-      background-color: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.2s, box-shadow 0.2s, opacity 0.6s;
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    .project-card.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    .project-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    }
-    .project-card img {
-      width: 100%;
-      display: block;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
-    .project-card img:hover {
-      transform: scale(1.05);
-    }
-    .project-content {
-      padding: 1rem 1.2rem;
-    }
-    .project-content h3 {
-      margin: 0 0 0.5rem;
-      font-size: 1.2rem;
-      color: #0d47a1;
-    }
-    .project-content p {
-      margin: 0.3rem 0;
-      font-size: 0.95rem;
-      line-height: 1.4;
-    }
-    .project-content a {
-      color: #0d47a1;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .project-content a:hover {
-      text-decoration: underline;
-    }
-    .toggle-btn {
-      background: #0d47a1;
-      color: white;
-      border: none;
-      padding: 0.4rem 0.8rem;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-top: 0.5rem;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background-color: #e3f2fd;
-      margin-top: 3rem;
-      font-size: 0.9rem;
-    }
-    footer a {
-      color: #0d47a1;
-      text-decoration: none;
-      font-weight: bold;
-    }
+    body { font-family: 'Inter', sans-serif; background-color: #f9f9f9; margin: 0; padding: 0; }
+    header { background-color: #232f3e; color: white; padding: 2rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { font-size: 1.2rem; margin: 0.5rem 0; }
+    section { padding: 2rem; max-width: 900px; margin: auto; }
+    h2 { color: #232f3e; margin-top: 2rem; }
+    .badges img { margin: 0.3rem; vertical-align: middle; }
+    .project { margin-bottom: 3rem; background: #fff; padding: 1rem 2rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .project img { max-width: 100%; border-radius: 8px; margin-top: 0.5rem; }
+    a.button { display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem; background-color: #232f3e; color: white; text-decoration: none; border-radius: 5px; }
+    footer { text-align: center; padding: 1rem; color: #666; }
   </style>
 </head>
 <body>
 
 <header>
   <h1>Charles Bucher</h1>
-  <p>Cloud Support & DevOps Engineer | AWS | NOC | CloudOps</p>
+  <p>AWS Cloud Support & Automation Specialist</p>
+  <p>📍 Florida | 📧 quietopscb@gmail.com</p>
+  <p>
+    <a href="https://charles-bucher.github.io" style="color:white;">Portfolio</a> | 
+    <a href="https://www.linkedin.com/in/charles-bucher-26598728b" style="color:white;">LinkedIn</a> | 
+    <a href="https://profile.indeed.com/p/charlesb-x0xr5fx" style="color:white;">Indeed</a>
+  </p>
 </header>
 
-<div class="container">
-  <h2>Featured Projects</h2>
-  <div class="projects">
-
-    <!-- NOC Toolkit Automation -->
-    <div class="project-card">
-      <img src="screenshots/NOC/NOC_dashboard_py.png" alt="NOC Dashboard Live Output">
-      <div class="project-content">
-        <h3>🚨 NOC Toolkit Automation</h3>
-        <p class="short-desc">Hands-on Network Operations Center automation & monitoring.</p>
-        <p class="full-desc" style="display:none;">Automates device monitoring, triggers alerts, and visualizes live dashboards. Perfect for operational simulations and NOC workflow testing.</p>
-        <button class="toggle-btn">Show More</button>
-        <p><strong>Tech Stack:</strong> Python, PowerShell, Bash, AWS</p>
-        <p><a href="https://github.com/charles-bucher/NOC-Toolkit-Automation" target="_blank">View Repository</a></p>
-      </div>
-    </div>
-
-    <!-- CloudOps GuardDuty Automation -->
-    <div class="project-card">
-      <img src="screenshots/GUARDDUTY/gd_github_push.png" alt="GuardDuty Active Monitoring">
-      <div class="project-content">
-        <h3>🛡️ CloudOps GuardDuty Automation</h3>
-        <p class="short-desc">Automated AWS threat detection & Lambda-based remediation.</p>
-        <p class="full-desc" style="display:none;">Includes continuous monitoring, automated Lambda remediation, and alerts for cloud security incidents. Built for real-time AWS threat response.</p>
-        <button class="toggle-btn">Show More</button>
-        <p><strong>Tech Stack:</strong> AWS GuardDuty, Terraform, Python, Lambda</p>
-        <p><a href="https://github.com/charles-bucher/CloudOps-GuardDuty-Automation" target="_blank">View Repository</a></p>
-      </div>
-    </div>
-
-    <!-- AWS Monitoring & Observability -->
-    <div class="project-card">
-      <img src="screenshots/aws/aws_terraform.png" alt="AWS Monitoring Terraform Applied">
-      <div class="project-content">
-        <h3>🔍 AWS Monitoring & Observability</h3>
-        <p class="short-desc">Centralized monitoring solution with CloudWatch dashboards and alerting.</p>
-        <p class="full-desc" style="display:none;">Tracks EC2 metrics, sets up automated SNS alerts, and provides observability dashboards for proactive incident response.</p>
-        <button class="toggle-btn">Show More</button>
-        <p><strong>Tech Stack:</strong> CloudWatch, SNS, Lambda, Python</p>
-        <p><a href="https://github.com/charles-bucher/AWS-Monitoring-Observability" target="_blank">View Repository</a></p>
-      </div>
-    </div>
-
+<section>
+  <h2>🔧 Skills & Technologies</h2>
+  <div class="badges">
+    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900">
+    <img src="https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge">
+    <img src="https://img.shields.io/badge/GuardDuty-FF9900?style=for-the-badge">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white">
+    <img src="https://img.shields.io/badge/CI%2FCD-A100FF?style=for-the-badge">
+    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
   </div>
 
-  <!-- Traffic/visitor badges -->
-  <div style="text-align:center; margin-top:2rem;">
-    <img src="https://img.shields.io/github/stars/charles-bucher/charles-bucher.github.io?style=social" alt="GitHub Stars">
-    <img src="https://img.shields.io/github/forks/charles-bucher/charles-bucher.github.io?style=social" alt="GitHub Forks">
-    <img src="https://komarev.com/ghpvc/?username=charles-bucher&style=flat-square" alt="Profile Views">
+  <h2>📂 Cloud Support Projects</h2>
+
+  <div class="project">
+    <h3>1️⃣ AWS Monitoring & Observability</h3>
+    <p>Fast incident detection & automated response with CloudWatch. EC2 → CloudWatch metrics → anomaly detection → alert notifications.</p>
+    <img src="screenshots/aws_monitoring_workflow.gif" alt="AWS Monitoring Workflow">
+    <a class="button" href="https://github.com/charles-bucher/aws_monitoring_observability">View Repository</a>
   </div>
 
-</div>
+  <div class="project">
+    <h3>2️⃣ CloudOps GuardDuty Automation</h3>
+    <p>Proactive threat detection & automated incident response. Terraform deploy → GuardDuty alerts → CI/CD automated responses.</p>
+    <img src="screenshots/gd_workflow.gif" alt="GuardDuty Workflow">
+    <a class="button" href="https://github.com/charles-bucher/cloudOps-guardDuty-automation">View Repository</a>
+  </div>
+
+  <div class="project">
+    <h3>3️⃣ NOC Toolkit Automation</h3>
+    <p>Real-time monitoring, alerts, and dashboards for operational support. Python scripts → dashboards → device JSON → alerts triggered.</p>
+    <img src="screenshots/NOC_live_dashboard.gif" alt="NOC Dashboard">
+    <a class="button" href="https://github.com/charles-bucher/NOC-Toolkit-Automation">View Repository</a>
+  </div>
+
+  <h2>📈 Career Focus</h2>
+  <p>Hands-on cloud support projects demonstrating <strong>operational troubleshooting, automated monitoring, and incident response</strong>. Focused on AWS Cloud Support, NOC operations, and CloudOps. 🚀</p>
+</section>
 
 <footer>
-  © 2025 Charles Bucher | <a href="mailto:quietopscb@gmail.com">Email</a> | <a href="https://github.com/charles-bucher">GitHub</a> | <a href="#">LinkedIn</a>
+  &copy; 2025 Charles Bucher | Built for Cloud Support
 </footer>
-
-<script>
-  // Scroll reveal
-  const cards = document.querySelectorAll('.project-card');
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if(entry.isIntersecting) entry.target.classList.add('visible');
-    });
-  }, { threshold: 0.1 });
-  cards.forEach(card => observer.observe(card));
-
-  // Modal image popup
-  const images = document.querySelectorAll('.project-card img');
-  images.forEach(img => {
-    img.addEventListener('click', () => {
-      const modal = document.createElement('div');
-      modal.style = `
-        position: fixed;
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        background: rgba(0,0,0,0.8);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 1000;
-      `;
-      const modalImg = document.createElement('img');
-      modalImg.src = img.src;
-      modalImg.style = "max-width: 90%; max-height: 90%; border-radius: 12px;";
-      modal.appendChild(modalImg);
-      modal.addEventListener('click', () => modal.remove());
-      document.body.appendChild(modal);
-    });
-  });
-
-  // Toggle Show More
-  document.querySelectorAll('.toggle-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const full = btn.previousElementSibling;
-      full.style.display = full.style.display === 'none' ? 'block' : 'none';
-      btn.textContent = full.style.display === 'block' ? 'Show Less' : 'Show More';
-    });
-  });
-</script>
 
 </body>
 </html>
