@@ -1,72 +1,65 @@
-# 👋 Charles Bucher
-**AWS Cloud Support & Automation Specialist**  
-Solving cloud infrastructure issues quickly with hands-on monitoring, incident response, and operational automation.
+# Charles Bucher – Cloud Support & DevOps Engineer 🚀
 
-📍 Florida | 📧 quietopscb@gmail.com | 🌐 [Portfolio](https://charles-bucher.github.io)  
-🔗 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728b) | [Indeed](https://profile.indeed.com/p/charlesb-x0xr5fx)  
+[![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/charles-bucher)
 
-![Profile Views](https://komarev.com/ghpvc/?username=charles-bucher&color=blue)
-
----
-
-## 🔧 Core Skills & Technologies
-**Cloud & Monitoring:** AWS (EC2, CloudWatch, GuardDuty, Lambda), CloudOps, NOC dashboards  
-**Automation & IaC:** Python, Terraform, CI/CD, GitHub Actions  
-**Tools:** Docker, Flask, VS Code  
-
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge)
-![Terraform](https://img.shields.io/badge/Terraform-Infrastructure-blueviolet?style=for-the-badge)
-![AWS](https://img.shields.io/badge/AWS-Cloud-yellow?style=for-the-badge)
-![CloudWatch](https://img.shields.io/badge/CloudWatch-Monitoring-orange?style=for-the-badge)
+Building cost-effective cloud solutions, automating infrastructure, and keeping systems secure and observable.
 
 ---
 
-## 📂 Cloud Support Projects
+## 🔧 Featured Projects
 
-### 1️⃣ AWS Monitoring & Observability
-**Purpose:** Fast incident detection & automated response with CloudWatch  
-**Workflow:** EC2 → CloudWatch metrics → anomaly detection → alert notifications  
-**Tech Stack:** AWS, Python, CloudWatch, CloudOps  
+### 1. NOC Toolkit Automation
+Hands-on Network Operations Center automation & monitoring.  
+**Tech Stack:** Python, PowerShell, Bash, AWS  
+[![Repo](https://img.shields.io/badge/Repo-NOC%20Toolkit-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher/NOC-Toolkit-Automation)
 
-![Monitoring Dashboard](screenshots/aws_monitoring_workflow.gif)  
+### 2. GuardDuty Automation
+Automated security findings detection and remediation.  
+**Tech Stack:** Python, AWS Lambda, CloudWatch  
+[![Repo](https://img.shields.io/badge/Repo-GuardDuty%20Automation-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
 
-[Repository Link](https://github.com/charles-bucher/aws_monitoring_observability)
-
----
-
-### 2️⃣ CloudOps GuardDuty Automation
-**Purpose:** Proactive threat detection & automated response  
-**Workflow:** Terraform deploy → GuardDuty alerts → automated CI/CD response → GitHub updates  
-**Tech Stack:** AWS, GuardDuty, Terraform, CloudWatch, CI/CD  
-
-![GuardDuty Automation](screenshots/gd_workflow.gif)  
-
-[Repository Link](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
+### 3. AWS Monitoring & Observability
+Full-stack cloud monitoring and logging to prevent downtime.  
+**Tech Stack:** CloudWatch, Lambda, SNS, Python  
+[![Repo](https://img.shields.io/badge/Repo-AWS%20Monitoring-181717?style=for-the-badge&logo=github)](https://github.com/charles-bucher/aws_monitoring_observability)
 
 ---
 
-### 3️⃣ NOC Toolkit Automation
-**Purpose:** Real-time monitoring, alerting, and dashboards for operational support  
-**Workflow:** Environment setup → Python scripts → dashboards → device JSON → automated alerts  
-**Tech Stack:** Python, AWS, Flask, CloudOps  
+## 📸 Screenshots Galore
 
-![NOC Dashboard](screenshots/NOC_live_dashboard.gif)  
+<details>
+<summary>Click to expand gallery</summary>
 
-[Repository Link](https://github.com/charles-bucher/NOC-Toolkit-Automation)
+| NOC Toolkit | GuardDuty | AWS Monitoring |
+|-------------|-----------|----------------|
+| ![00_NOC_banner.png](screenshots/00_NOC_banner.png) | ![gd_github_push.png](screenshots/gd_github_push.png) | ![gd_tfplan.png](screenshots/gd_tfplan.png) |
+| ![gd_tfplan_confirm.png](screenshots/gd_tfplan_confirm.png) | ![NOC_dashboard_py.png](screenshots/NOC_dashboard_py.png) | ![NOC_devices_json.png](screenshots/NOC_devices_json.png) |
+| ![NOC_env_setup.png](screenshots/NOC_env_setup.png) | ![NOC_folder_structure.png](screenshots/NOC_folder_structure.png) | ![NOC_git_status.png](screenshots/NOC_git_status.png) |
+| ![NOC_monitor_output.png](screenshots/NOC_monitor_output.png) | ![NOC_monitor_py.png](screenshots/NOC_monitor_py.png) | ![NOC_repo_cloned.png](screenshots/NOC_repo_cloned.png) |
+| ![NOC_repo_created.png](screenshots/NOC_repo_created.png) | ![NOC_vscode_explorer.png](screenshots/NOC_vscode_explorer.png) |  |
 
----
-
-## 🎓 Certifications & In-Progress
-| Certification | Status | Target |
-|---------------|--------|--------|
-| AWS Solutions Architect – Associate (SAA) | 🟡 In Progress | Early 2026 |
-
-*Focused on continuous skill growth for AWS Cloud Support.*  
-
-![AWS SAA](https://img.shields.io/badge/AWS%20SAA-In%20Progress-orange?style=for-the-badge)
+</details>
 
 ---
 
-## 📈 Career Focus
-Hands-on cloud support projects demonstrating **operational troubleshooting, automated monitoring, and incident response**.  
-Focused on **AWS Cloud Support, NOC operations, and CloudOps**. 🚀
+## 📊 Tech Stack
+
+- **AWS:** EC2, S3, CloudWatch, GuardDuty, Lambda, SNS  
+- **Scripting/Automation:** Python, PowerShell, Bash  
+- **DevOps Tools:** Terraform, CI/CD pipelines, Monitoring & Observability  
+
+---
+
+## 💡 Highlights
+
+- Automated NOC operations, reducing response time by X%  
+- GuardDuty automation detecting & remediating security events instantly  
+- Centralized monitoring dashboards to prevent downtime and incidents  
+- Hands-on experience with cloud infrastructure, automation, and observability  
+
+---
+
+> Check out my full portfolio at [charles-bucher.github.io](https://charles-bucher.github.io)
