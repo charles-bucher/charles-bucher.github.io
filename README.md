@@ -1,13 +1,13 @@
-# 👋 Charles Bucher
+﻿# ðŸ‘‹ Charles Bucher
 **AWS Cloud Support & Automation Specialist**  
 Hands-on AWS troubleshooting, monitoring, and operational automation. Focused on incident response, NOC operations, and cloud support workflows.  
 
-📍 Florida | 📧 quietopscb@gmail.com | 🌐 [Portfolio](https://charles-bucher.github.io)  
-🔗 [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728b) | [Indeed](https://profile.indeed.com/p/charlesb-x0xr5fx)
+ðŸ“ Florida | ðŸ“§ quietopscb@gmail.com | ðŸŒ [Portfolio](https://charles-bucher.github.io)  
+ðŸ”— [LinkedIn](https://www.linkedin.com/in/charles-bucher-26598728b) | [Indeed](https://profile.indeed.com/p/charlesb-x0xr5fx)
 
 ---
 
-## 🔧 Skills & Technologies
+## ðŸ”§ Skills & Technologies
 **Cloud & Monitoring:** AWS (EC2, CloudWatch, GuardDuty, Lambda), CloudOps, NOC dashboards  
 **Automation & IaC:** Python, Terraform, CI/CD, GitHub Actions  
 **Tools:** Docker, Flask, VS Code  
@@ -22,47 +22,47 @@ Hands-on AWS troubleshooting, monitoring, and operational automation. Focused on
 
 ---
 
-## 🎓 Certifications
+## ðŸŽ“ Certifications
 
 | Certification | Status | Target |
 |---------------|--------|--------|
-| AWS Solutions Architect – Associate (SAA) | 🟡 In Progress | Early 2026 |
-| AWS Cloud Practitioner | ✅ Completed | - |
+| AWS Solutions Architect â€“ Associate (SAA) | ðŸŸ¡ In Progress | Early 2026 |
+| AWS Cloud Practitioner | âœ… Completed | - |
 
 ---
 
-## 📂 Key Cloud Support Projects
+## ðŸ“‚ Key Cloud Support Projects
 
-### 1️⃣ AWS Monitoring & Observability
+### 1ï¸âƒ£ AWS Monitoring & Observability
 **Goal:** Fast incident detection & automated response  
-**Workflow:** EC2 → CloudWatch metrics → anomaly detection → alert notifications  
+**Workflow:** EC2 â†’ CloudWatch metrics â†’ anomaly detection â†’ alert notifications  
 **Impact:** Reduced incident response time by 40% through automation  
 **Tech Stack:** Python, AWS, CloudWatch, CloudOps  
 [View Repository](https://github.com/charles-bucher/aws_monitoring_observability)
 
-### 2️⃣ CloudOps GuardDuty Automation
+### 2ï¸âƒ£ CloudOps GuardDuty Automation
 **Goal:** Proactive threat detection & automated response  
-**Workflow:** Terraform deploy → GuardDuty alerts → automated CI/CD response → GitHub updates  
+**Workflow:** Terraform deploy â†’ GuardDuty alerts â†’ automated CI/CD response â†’ GitHub updates  
 **Impact:** Automated 100% of threat alert workflows for faster remediation  
 **Tech Stack:** AWS, GuardDuty, Terraform, CloudWatch, CI/CD  
 [View Repository](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
 
-### 3️⃣ NOC Toolkit Automation
+### 3ï¸âƒ£ NOC Toolkit Automation
 **Goal:** Real-time network monitoring, alerts, and dashboards  
-**Workflow:** Environment setup → Python scripts → dashboards → device JSON → alerts triggered automatically  
+**Workflow:** Environment setup â†’ Python scripts â†’ dashboards â†’ device JSON â†’ alerts triggered automatically  
 **Impact:** Centralized monitoring reduced manual checks by 75%  
 **Tech Stack:** Python, AWS, Flask, CloudOps  
 [View Repository](https://github.com/charles-bucher/NOC-Toolkit-Automation)
 
 ---
 
-## 📈 Career Focus
+## ðŸ“ˆ Career Focus
 Hands-on cloud support projects demonstrating operational troubleshooting, automated monitoring, and incident response.  
-Focused on **AWS Cloud Support, NOC operations, and CloudOps**. 🚀
+Focused on **AWS Cloud Support, NOC operations, and CloudOps**. ðŸš€
 
 ---
 
-## 📸 Portfolio Screenshots
+## ðŸ“¸ Portfolio Screenshots
 ![aws_clone.png](screenshots/aws_clone.png)
 ![aws_config.png](screenshots/aws_config.png)
 ![aws_confirm.png](screenshots/aws_confirm.png)
