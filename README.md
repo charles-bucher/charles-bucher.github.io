@@ -1,10 +1,10 @@
 # ⚡ Charles Bucher – Cloud Support & DevOps Portfolio
 
 <!-- Banner -->
-![Banner](./assets/banner_dark_voltgreen.png)
+![Banner](./assets/banner_dark_voltgreen.gif)
 
 [![GitHub followers](https://img.shields.io/github/followers/charles-bucher?style=social&color=brightgreen)](https://github.com/charles-bucher)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/charles-bucher/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/charles-bucher-cloud/)
 [![AWS Certified](https://img.shields.io/badge/AWS-Certification-orange?logo=amazon-aws)](#)
 [![Repo Size](https://img.shields.io/github/repo-size/charles-bucher/cloud-work?color=brightgreen)](https://github.com/charles-bucher)
 
@@ -12,7 +12,7 @@
 
 ## 👨‍💻 About Me
 **Hands-on AWS CloudOps & NOC engineer**  
-Specialized in **multi-tier troubleshooting, monitoring, and automation**. I solve real-world cloud problems, automate processes, and document workflows clearly.  
+Specialized in **multi-tier troubleshooting, monitoring, and automation**. I solve real-world cloud problems, automate workflows, and document everything clearly.  
 
 **Focus Areas:**
 - AWS EC2, S3, IAM, VPC, RDS, CloudWatch  
@@ -38,15 +38,14 @@ Specialized in **multi-tier troubleshooting, monitoring, and automation**. I sol
 ### 1️⃣ Multi-Tier App Troubleshooting Playground
 **End-to-end AWS troubleshooting lab** simulating frontend, backend, and database layers.
 
-<!-- Embedded Screenshots -->
-![Frontend Screenshot](./screenshots/frontend.png)
-![Backend Screenshot](./screenshots/backend.png)
-![Database Screenshot](./screenshots/database.png)
+![Frontend GIF](./screenshots/frontend.gif)
+![Backend GIF](./screenshots/backend.gif)
+![Database GIF](./screenshots/database.gif)
 
 **Highlights:**
 - Simulated production environment  
 - CloudWatch dashboards & alerts  
-- Full troubleshooting workflow
+- Full troubleshooting workflow  
 
 🔗 [View Project](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
 
@@ -55,26 +54,26 @@ Specialized in **multi-tier troubleshooting, monitoring, and automation**. I sol
 ### 2️⃣ AWS Monitoring & Observability
 Automates dashboards, anomaly detection, and GuardDuty alerts.
 
-![Monitoring Screenshot](./screenshots/monitoring.png)
+![Monitoring GIF](./screenshots/monitoring.gif)
 
 **Highlights:**
 - Real-time cloud monitoring  
 - Automated alerts & incident response  
-- Dashboard visualizations for NOC operations
+- Dashboard visualizations for NOC operations  
 
 🔗 [View Project](https://github.com/charles-bucher/aws_monitoring_observability)
 
 ---
 
 ### 3️⃣ CloudOps GuardDuty Automation
-Automated threat detection & security incident response for AWS.
+Automated threat detection & incident response for AWS.
 
-![GuardDuty Screenshot](./screenshots/guardduty.png)
+![GuardDuty GIF](./screenshots/guardduty.gif)
 
 **Highlights:**
 - Security monitoring & auto-alert scripts  
 - Integrates with dashboards & notifications  
-- Hands-on incident response scenarios
+- Hands-on incident response scenarios  
 
 🔗 [View Project](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
 
@@ -94,12 +93,13 @@ Automated threat detection & security incident response for AWS.
 📁 Multi-Tier-App-Troubleshooting-Playground
 ├─ README.md
 ├─ assets/
-│ └─ banner_dark_voltgreen.png
+│ └─ banner_dark_voltgreen.gif
 ├─ screenshots/
-│ ├─ frontend.png
-│ ├─ backend.png
-│ ├─ database.png
-│ └─ monitoring.png
+│ ├─ frontend.gif
+│ ├─ backend.gif
+│ ├─ database.gif
+│ ├─ monitoring.gif
+│ └─ guardduty.gif
 ├─ scripts/
 └─ docs/
 
@@ -111,6 +111,6 @@ Copy code
 ## 📬 Contact Me
 - LinkedIn: [https://www.linkedin.com/in/charles-bucher-cloud/](https://www.linkedin.com/in/charles-bucher-cloud/)  
 - GitHub: [https://github.com/charles-bucher](https://github.com/charles-bucher)  
-- Email: Quietopscb@gmail.com
+- Email: `Quietopscb@gmail.com`
 
 > ⚡ “Hands-on experience beats theory. I solve problems, build solutions, and automate processes.”
