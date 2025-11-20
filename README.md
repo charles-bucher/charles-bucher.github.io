@@ -1,156 +1,59 @@
-☁️ Charles Bucher – Cloud Support Engineer (AWS | Troubleshooting | Automation)
 
+**Step-by-Step Screenshots:**
 
+| Step | Screenshot |
+|------|------------|
+| 01   | [![Clone](screenshots/Multi_01_cloned.png)](screenshots/Multi_01_cloned.png) |
+| 02   | [![CLI Config](screenshots/Multi_02_CLI_configured.png)](screenshots/Multi_02_CLI_configured.png) |
+| 03   | [![IAM Role](screenshots/Multi_03_IAM_Role_Creation_Complete.png)](screenshots/Multi_03_IAM_Role_Creation_Complete.png) |
+| 04   | [![EC2 List](screenshots/Multi_04_EC2_Instance_List.png)](screenshots/Multi_04_EC2_Instance_List.png) |
+| 05   | [![EC2 Details](screenshots/Multi_05_EC2_Instance_Details.png)](screenshots/Multi_05_EC2_Instance_Details.png) |
+| 06   | [![Security Group](screenshots/Multi_06_Security_Group_Rules.png)](screenshots/Multi_06_Security_Group_Rules.png) |
+| 07   | [![SSH Key](screenshots/Multi_07_SSH_Key_Generated.png)](screenshots/Multi_07_SSH_Key_Generated.png) |
+| 08   | [![Frontend Role](screenshots/Multi_08_-Frontend-Role.png)](screenshots/Multi_08_-Frontend-Role.png) |
+| 09   | [![EC2 Running](screenshots/Multi_09_Ec2_Running.png)](screenshots/Multi_09_Ec2_Running.png) |
+| 10   | [![Repo Cloned](screenshots/Multi_10_Repo_Cloned.png)](screenshots/Multi_10_Repo_Cloned.png) |
+| 14   | [![Apache Start](screenshots/Multi_14_Apache_Start_Enable.png)](screenshots/Multi_14_Apache_Start_Enable.png) |
+| 15   | [![Backend Dir](screenshots/Multi_15_Backend_Directory_Structure.png)](screenshots/Multi_15_Backend_Directory_Structure.png) |
+| 16   | [![Database Dir](screenshots/Multi_16_Database_Directory_Structure.png)](screenshots/Multi_16_Database_Directory_Structure.png) |
+| ...  | *(additional screenshots in folder)* |
 
+---
 
+### 2️⃣ AWS Monitoring & Observability
+Automated monitoring pipeline for EC2 metrics, CloudWatch logs, alarms, and incident response. Includes anomaly detection and alert automation using SNS.
 
-High-impact Cloud Support Engineer focused on diagnosing and solving AWS infrastructure, permissions, network, and service-specific issues using real troubleshooting workflows.
+**Screenshots:**
+| Screenshot | Preview |
+|------------|--------|
+| Terraform Apply | [![Terraform](screenshots/Obv_04_terraform_update.PNG)](screenshots/Obv_04_terraform_update.PNG) |
+| Alerts | [![Alerts](screenshots/Obv_02_alerts.png)](screenshots/Obv_02_alerts.png) |
+| CPU Metrics | [![CPU](screenshots/Obv_03_cpu.png)](screenshots/Obv_03_cpu.png) |
 
-🌩️ What I Bring as a Cloud Support Engineer
-Straightforward, real-world support skillset:
+---
 
-⚡ Fast break/fix resolution
+### 3️⃣ CloudOps GuardDuty Automation
+Automated threat detection and incident response pipeline using GuardDuty, CloudWatch, and Python Lambda. Simulates real CloudOps/Security workflows.
 
-🔐 IAM Access Denied investigation
+**Screenshots:**
+| Screenshot | Preview |
+|------------|--------|
+| GuardDuty Findings | [![GD 01](screenshots/GD_01_.png)](screenshots/GD_01_.png) |
+| Event Routing | [![GD 02](screenshots/GD_02_.png)](screenshots/GD_02_.png) |
+| GitHub Push | [![GD 03](screenshots/GD_03_.png)](screenshots/GD_03_.png) |
 
-🚦 EC2, SG, NACL connectivity triage
+---
 
-💾 EBS volume issues, instance recovery
+## ⚡ Skills
+AWS EC2, S3, Lambda, CloudWatch, IAM, VPC, Security Groups, Terraform, CloudFormation, Python, Bash, PowerShell, Monitoring, Alerting, Automation, NOC workflows.
 
-📡 VPC misconfig troubleshooting
+---
 
-🖥️ Web app not loading / 5xx diagnostics
+## 📬 Contact
+- GitHub: [https://github.com/charles-bucher](https://github.com/charles-bucher)  
+- LinkedIn: [https://www.linkedin.com/in/charles-bucher-cloud](https://www.linkedin.com/in/charles-bucher-cloud)  
+- Email: Quietopscb@gmail.com
 
-🪵 CloudWatch logs + metric alarms decoding
+---
 
-🛠 Reproducing customer issues in lab
-
-🔍 Root-cause analysis + documentation
-
-This entire portfolio is built around support workflows, not theory.
-
-📌 Top Cloud Support Projects
-1️⃣ Multi-Tier App Troubleshooting Playground
-Hands-down your strongest Cloud Support portfolio piece. This simulates real customer tickets.
-
-▶ View Repo
-
-🎯 What You Troubleshoot in This Lab
-“My website isn’t loading.”
-
-“EC2 won’t start.”
-
-“I can’t SSH — key denied.”
-
-“I'm getting AccessDenied on S3/IAM.”
-
-“My app shows 503 / 504.”
-
-“My instance has high CPU.”
-
-“Apache is running but the site is down.”
-
-“Nothing changed but everything broke” (classic customer line)
-
-This lab mimics actual support cases AWS, Azure, GCP support engineers receive daily.
-
-🧩 Architecture (Clean Text Diagram)
-        Internet
-            │
-            ▼
-       Application Tier (broken load balancer / misconfigured SG)
-            │
-            ▼
-       Backend Tier (EC2 + Apache failures)
-            │
-            ▼
-       Database Tier (connectivity, credentials, subnet issues)
-📸 Screenshot Gallery
-From your folder: screenshots/Multi-Tier-App-Troubleshooting-Playground_screenshots/
-
-Description	Image
-Repo cloned	
-AWS CLI configured	
-IAM role created	
-EC2 list	
-SG Analysis	
-SSH Confirmation	
-Apache Installed	
-Apache Fixed	
-2️⃣ AWS Monitoring & Observability Lab
-This project shows you handle performance issues like a support pro.
-
-
-What You Diagnose Here:
-High CPU / throttling
-
-Missing CloudWatch agents
-
-Alarm misconfigurations
-
-LogGroup missing logs
-
-Dashboard troubleshooting
-
-Terraform infrastructure drift
-
-Screenshots live under:
-screenshots/AWS_monitoring_observability_screenshots/
-
-3️⃣ GuardDuty Incident Detection Lab
-Shows you can handle security alerts and customer escalations.
-
-
-This demonstrates:
-
-GuardDuty alert investigation
-
-IAM unusual API calls
-
-Compromised EC2 response
-
-Automated remediation flow
-
-Screenshots under:
-screenshots/cloudOps-guardDuty-automation_screenshots/
-
-🧪 Why These Projects Matter for Cloud Support Roles
-Recruiters for AWS, Google, Oracle, and enterprise support teams look for:
-✔ Logs interpretation
-✔ Misconfig detection
-✔ IAM troubleshooting
-✔ Infra triage
-✔ Ability to reproduce & fix issues
-✔ Clear documentation
-✔ Customer-ready communication
-
-You hit all of these directly with these labs.
-
-🧑‍💼 Why Hire Me for Cloud Support
-Because I do the job before getting the job.
-
-I’ve already:
-
-Built full-scale troubleshooting environments
-
-Documented issues like real customer tickets
-
-Captured screenshot proof
-
-Walked through root causes
-
-Automated tests to reproduce issues
-
-Solved incidents across compute, network, IAM, monitoring, and security
-
-I bring experience, grit, and speed — not fluff.
-
-📂 Folder Structure
-charles-bucher.github.io/
-│
-├── screenshots/
-│    ├── Multi-Tier-App-Troubleshooting-Playground_screenshots/
-│    ├── AWS_monitoring_observability_screenshots/
-│    ├── cloudOps-guardDuty-automation_screenshots/
-│
-└── README.md
+*Portfolio generated automatically. Screenshots are clickable to view full-size.*
