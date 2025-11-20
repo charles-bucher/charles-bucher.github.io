@@ -1,59 +1,114 @@
+# ⚡ Charles Bucher – Cloud Support & DevOps Portfolio
 
-**Step-by-Step Screenshots:**
+![Banner](./assets/banner_dark_voltgreen.png)
 
-| Step | Screenshot |
-|------|------------|
-| 01   | [![Clone](screenshots/Multi_01_cloned.png)](screenshots/Multi_01_cloned.png) |
-| 02   | [![CLI Config](screenshots/Multi_02_CLI_configured.png)](screenshots/Multi_02_CLI_configured.png) |
-| 03   | [![IAM Role](screenshots/Multi_03_IAM_Role_Creation_Complete.png)](screenshots/Multi_03_IAM_Role_Creation_Complete.png) |
-| 04   | [![EC2 List](screenshots/Multi_04_EC2_Instance_List.png)](screenshots/Multi_04_EC2_Instance_List.png) |
-| 05   | [![EC2 Details](screenshots/Multi_05_EC2_Instance_Details.png)](screenshots/Multi_05_EC2_Instance_Details.png) |
-| 06   | [![Security Group](screenshots/Multi_06_Security_Group_Rules.png)](screenshots/Multi_06_Security_Group_Rules.png) |
-| 07   | [![SSH Key](screenshots/Multi_07_SSH_Key_Generated.png)](screenshots/Multi_07_SSH_Key_Generated.png) |
-| 08   | [![Frontend Role](screenshots/Multi_08_-Frontend-Role.png)](screenshots/Multi_08_-Frontend-Role.png) |
-| 09   | [![EC2 Running](screenshots/Multi_09_Ec2_Running.png)](screenshots/Multi_09_Ec2_Running.png) |
-| 10   | [![Repo Cloned](screenshots/Multi_10_Repo_Cloned.png)](screenshots/Multi_10_Repo_Cloned.png) |
-| 14   | [![Apache Start](screenshots/Multi_14_Apache_Start_Enable.png)](screenshots/Multi_14_Apache_Start_Enable.png) |
-| 15   | [![Backend Dir](screenshots/Multi_15_Backend_Directory_Structure.png)](screenshots/Multi_15_Backend_Directory_Structure.png) |
-| 16   | [![Database Dir](screenshots/Multi_16_Database_Directory_Structure.png)](screenshots/Multi_16_Database_Directory_Structure.png) |
-| ...  | *(additional screenshots in folder)* |
+[![GitHub followers](https://img.shields.io/github/followers/charles-bucher?style=social&color=brightgreen)](https://github.com/charles-bucher)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/charles-bucher/)  
+[![AWS Certified](https://img.shields.io/badge/AWS-Certification-orange?logo=amazon-aws)](#)  
+[![Repo Size](https://img.shields.io/github/repo-size/charles-bucher/cloud-work?color=brightgreen)](https://github.com/charles-bucher)
+
+---
+
+## 👨‍💻 About Me
+**Hands-on AWS CloudOps & NOC engineer**  
+I specialize in **multi-tier troubleshooting, monitoring, and automation** across AWS environments. I solve problems, automate workflows, and document everything like a pro.
+
+**Focus Areas:**
+- AWS EC2, S3, IAM, VPC, RDS, CloudWatch  
+- Python, Bash, PowerShell scripting  
+- CI/CD basics: CodePipeline, CloudFormation  
+- Security & monitoring: GuardDuty, VPC Flow Logs, ELB metrics  
+
+> ⚡ Building hands-on projects that replicate real-world cloud support challenges.
+
+---
+
+## ⚡ Skills & Badges
+[![AWS](https://img.shields.io/badge/AWS-CloudOps-orange?logo=amazon-aws)](https://aws.amazon.com/)  
+[![Python](https://img.shields.io/badge/Python-Scripting-blue?logo=python)](https://www.python.org/)  
+[![PowerShell](https://img.shields.io/badge/PowerShell-Automation-blue?logo=powershell)](https://learn.microsoft.com/powershell/)  
+[![CloudWatch](https://img.shields.io/badge/Monitoring-CloudWatch-brightgreen)](https://aws.amazon.com/cloudwatch/)  
+[![DevOps](https://img.shields.io/badge/DevOps-Automation-yellowgreen)](https://www.atlassian.com/devops)
+
+---
+
+## 🏆 Projects – Level 10
+
+### 1️⃣ Multi-Tier App Troubleshooting Playground
+**End-to-end AWS troubleshooting lab** simulating frontend, backend, and database layers. Includes dashboards, alarms, and incident simulations.
+
+![Frontend GIF](./screenshots/frontend.gif)  
+![Backend GIF](./screenshots/backend.gif)  
+![Database GIF](./screenshots/database.gif)
+
+**Highlights:**
+- Simulated production environment  
+- CloudWatch dashboards & alerts  
+- Full troubleshooting workflow from frontend to database
+
+🔗 [View Project](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
 
 ---
 
 ### 2️⃣ AWS Monitoring & Observability
-Automated monitoring pipeline for EC2 metrics, CloudWatch logs, alarms, and incident response. Includes anomaly detection and alert automation using SNS.
+Automates dashboards, anomaly detection, and GuardDuty alerts across AWS services.
 
-**Screenshots:**
-| Screenshot | Preview |
-|------------|--------|
-| Terraform Apply | [![Terraform](screenshots/Obv_04_terraform_update.PNG)](screenshots/Obv_04_terraform_update.PNG) |
-| Alerts | [![Alerts](screenshots/Obv_02_alerts.png)](screenshots/Obv_02_alerts.png) |
-| CPU Metrics | [![CPU](screenshots/Obv_03_cpu.png)](screenshots/Obv_03_cpu.png) |
+![Monitoring GIF](./screenshots/monitoring.gif)
+
+**Highlights:**
+- Real-time cloud monitoring  
+- Automated alerting & incident response  
+- Dashboard visualizations for NOC operations
+
+🔗 [View Project](https://github.com/charles-bucher/aws_monitoring_observability)
 
 ---
 
 ### 3️⃣ CloudOps GuardDuty Automation
-Automated threat detection and incident response pipeline using GuardDuty, CloudWatch, and Python Lambda. Simulates real CloudOps/Security workflows.
+Automated threat detection & security incident response for AWS.
 
-**Screenshots:**
-| Screenshot | Preview |
-|------------|--------|
-| GuardDuty Findings | [![GD 01](screenshots/GD_01_.png)](screenshots/GD_01_.png) |
-| Event Routing | [![GD 02](screenshots/GD_02_.png)](screenshots/GD_02_.png) |
-| GitHub Push | [![GD 03](screenshots/GD_03_.png)](screenshots/GD_03_.png) |
+![GuardDuty GIF](./screenshots/guardduty.gif)
 
----
+**Highlights:**
+- Security monitoring & auto-alert scripts  
+- Integrates with dashboards & notifications  
+- Hands-on incident response scenarios
 
-## ⚡ Skills
-AWS EC2, S3, Lambda, CloudWatch, IAM, VPC, Security Groups, Terraform, CloudFormation, Python, Bash, PowerShell, Monitoring, Alerting, Automation, NOC workflows.
+🔗 [View Project](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
 
 ---
 
-## 📬 Contact
+## 📊 Achievements & Badges
+[![GitHub Stars](https://img.shields.io/github/stars/charles-bucher/Multi-Tier-App-Troubleshooting-Playground?style=social&color=brightgreen)](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground/stargazers)  
+[![GitHub Forks](https://img.shields.io/github/forks/charles-bucher/Multi-Tier-App-Troubleshooting-Playground?style=social&color=brightgreen)](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground/network/members)
+
+- AWS Cloud Practitioner in progress  
+- AWS Solutions Architect Associate coming soon  
+- Hands-on labs for troubleshooting, monitoring, and automation  
+
+---
+
+## 📂 Portfolio Structure
+📁 Multi-Tier-App-Troubleshooting-Playground
+├─ README.md
+├─ screenshots/
+│ ├─ frontend.gif
+│ ├─ backend.gif
+│ └─ database.gif
+├─ assets/
+│ └─ banner_dark_voltgreen.png
+├─ scripts/
+└─ docs/
+
+yaml
+Copy code
+
+---
+
+## 📬 Contact Me
+- LinkedIn: [https://www.linkedin.com/in/charles-bucher-cloud/](https://www.linkedin.com/in/charles-bucher-cloud/)  
 - GitHub: [https://github.com/charles-bucher](https://github.com/charles-bucher)  
-- LinkedIn: [https://www.linkedin.com/in/charles-bucher-cloud](https://www.linkedin.com/in/charles-bucher-cloud)  
 - Email: Quietopscb@gmail.com
 
----
+> ⚡ “Hands-on experience beats theory. I solve problems, build solutions, and automate processes.”
 
-*Portfolio generated automatically. Screenshots are clickable to view full-size.*
