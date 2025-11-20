@@ -1,67 +1,156 @@
-👋 Charles Bucher | AWS Cloud Support Engineer | CloudOps Automation
-Self-taught AWS engineer with 300+ GitHub contributions building monitoring, security automation, and troubleshooting solutions. Learning in public through hands-on projects with Python, Terraform, and AWS services.
+☁️ Charles Bucher – Cloud Support Engineer (AWS | Troubleshooting | Automation)
 
-📍 Pinellas Park, Florida (Remote) | 📧  | 🌐 Portfolio | 🔗 LinkedIn | 📋 Indeed Profile
 
-🎯 About Me
-Cloud Support Engineer learning through hands-on AWS projects and error-driven development. I build real infrastructure, break things, troubleshoot failures, and document what I learn.
 
-What I Bring:
 
-⚡ AWS troubleshooting: EC2, S3, CloudWatch, IAM, GuardDuty, Lambda
 
-🤖 Python automation (boto3, AWS CLI)
+High-impact Cloud Support Engineer focused on diagnosing and solving AWS infrastructure, permissions, network, and service-specific issues using real troubleshooting workflows.
 
-🏗️ Terraform & CI/CD pipelines
+🌩️ What I Bring as a Cloud Support Engineer
+Straightforward, real-world support skillset:
 
-📊 Monitoring dashboards & alerting workflows
+⚡ Fast break/fix resolution
 
-🔧 Error-driven learning: debug, fix, and document
+🔐 IAM Access Denied investigation
 
-🏠 Remote-ready: Self-motivated, independent
+🚦 EC2, SG, NACL connectivity triage
 
-🛠️ Technical Skills
-Cloud Platforms: AWS (EC2, S3, Lambda, CloudWatch, GuardDuty, RDS, IAM, VPC, SNS, EventBridge, ECS) | Linux basics
-Automation & Scripting: Python (boto3), Bash, Terraform, AWS CLI, GitHub Actions, CI/CD pipelines
-CloudOps & Support: Monitoring, Incident response, Alerting, Root cause analysis, Runbooks, Documentation
-Security & Observability: Threat detection, GuardDuty, Log analysis, Dashboard creation, IAM troubleshooting
-Dev Tools: Git, VS Code, Docker, Flask, Markdown, YAML/JSON
+💾 EBS volume issues, instance recovery
 
-📂 CloudOps Projects & Screenshots
-Project	Description	Tech Stack	Screenshots
-AWS Troubleshooting Lab	Real-world AWS support scenarios: EC2, S3, IAM, Lambda, CloudWatch	AWS, Python, Terraform	
-AWS Monitoring & Observability	Built automated monitoring and alerting with CloudWatch & SNS	AWS, Python, Terraform, GitHub Actions	
-CloudOps GuardDuty Automation	Automated threat detection & alerts using GuardDuty → EventBridge → SNS	AWS GuardDuty, EventBridge, SNS, Lambda, Terraform	
-Portfolio Website	Showcase my cloud projects professionally	HTML, CSS, JavaScript, Jekyll, GitHub Pages	
-Screenshots link directly from the /screenshots folder so recruiters can see the work immediately.
+📡 VPC misconfig troubleshooting
 
-💼 Work Experience
-Delivery Driver | Part-Time | 2020–Present
+🖥️ Web app not loading / 5xx diagnostics
 
-Manage time-sensitive logistics independently
+🪵 CloudWatch logs + metric alarms decoding
 
-Solve problems with minimal supervision
+🛠 Reproducing customer issues in lab
 
-Maintain on-time delivery rates
+🔍 Root-cause analysis + documentation
 
-Transferable Skills: Problem-solving, customer service, time management, independent work
+This entire portfolio is built around support workflows, not theory.
 
-🎯 Why I'm Worth Considering
-✅ Built real AWS infrastructure — not just tutorials
-✅ Solve problems independently — 300+ GitHub contributions
-✅ Learn from errors — every project includes fixes & documentation
-✅ Self-motivated & detail-oriented
-✅ Document everything — each error becomes a guide
+📌 Top Cloud Support Projects
+1️⃣ Multi-Tier App Troubleshooting Playground
+Hands-down your strongest Cloud Support portfolio piece. This simulates real customer tickets.
 
-📈 What I'm Looking For
-Role: Cloud Support Engineer, CloudOps, Tier 1/2 Support
-Location: Remote (Pinellas Park, FL)
-Availability: Full-time, nights/weekends/on-call
-Ideal Company: Remote-first, growth opportunities, supportive of self-taught engineers
+▶ View Repo
 
-📧 Let's Connect
-📧 
-🔗 LinkedIn
-🌐 Portfolio
-💻 
+🎯 What You Troubleshoot in This Lab
+“My website isn’t loading.”
 
+“EC2 won’t start.”
+
+“I can’t SSH — key denied.”
+
+“I'm getting AccessDenied on S3/IAM.”
+
+“My app shows 503 / 504.”
+
+“My instance has high CPU.”
+
+“Apache is running but the site is down.”
+
+“Nothing changed but everything broke” (classic customer line)
+
+This lab mimics actual support cases AWS, Azure, GCP support engineers receive daily.
+
+🧩 Architecture (Clean Text Diagram)
+        Internet
+            │
+            ▼
+       Application Tier (broken load balancer / misconfigured SG)
+            │
+            ▼
+       Backend Tier (EC2 + Apache failures)
+            │
+            ▼
+       Database Tier (connectivity, credentials, subnet issues)
+📸 Screenshot Gallery
+From your folder: screenshots/Multi-Tier-App-Troubleshooting-Playground_screenshots/
+
+Description	Image
+Repo cloned	
+AWS CLI configured	
+IAM role created	
+EC2 list	
+SG Analysis	
+SSH Confirmation	
+Apache Installed	
+Apache Fixed	
+2️⃣ AWS Monitoring & Observability Lab
+This project shows you handle performance issues like a support pro.
+
+
+What You Diagnose Here:
+High CPU / throttling
+
+Missing CloudWatch agents
+
+Alarm misconfigurations
+
+LogGroup missing logs
+
+Dashboard troubleshooting
+
+Terraform infrastructure drift
+
+Screenshots live under:
+screenshots/AWS_monitoring_observability_screenshots/
+
+3️⃣ GuardDuty Incident Detection Lab
+Shows you can handle security alerts and customer escalations.
+
+
+This demonstrates:
+
+GuardDuty alert investigation
+
+IAM unusual API calls
+
+Compromised EC2 response
+
+Automated remediation flow
+
+Screenshots under:
+screenshots/cloudOps-guardDuty-automation_screenshots/
+
+🧪 Why These Projects Matter for Cloud Support Roles
+Recruiters for AWS, Google, Oracle, and enterprise support teams look for:
+✔ Logs interpretation
+✔ Misconfig detection
+✔ IAM troubleshooting
+✔ Infra triage
+✔ Ability to reproduce & fix issues
+✔ Clear documentation
+✔ Customer-ready communication
+
+You hit all of these directly with these labs.
+
+🧑‍💼 Why Hire Me for Cloud Support
+Because I do the job before getting the job.
+
+I’ve already:
+
+Built full-scale troubleshooting environments
+
+Documented issues like real customer tickets
+
+Captured screenshot proof
+
+Walked through root causes
+
+Automated tests to reproduce issues
+
+Solved incidents across compute, network, IAM, monitoring, and security
+
+I bring experience, grit, and speed — not fluff.
+
+📂 Folder Structure
+charles-bucher.github.io/
+│
+├── screenshots/
+│    ├── Multi-Tier-App-Troubleshooting-Playground_screenshots/
+│    ├── AWS_monitoring_observability_screenshots/
+│    ├── cloudOps-guardDuty-automation_screenshots/
+│
+└── README.md
