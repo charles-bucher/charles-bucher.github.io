@@ -1,17 +1,18 @@
 # ⚡ Charles Bucher – Cloud Support & DevOps Portfolio
 
+<!-- Banner -->
 ![Banner](./assets/banner_dark_voltgreen.png)
 
-[![GitHub followers](https://img.shields.io/github/followers/charles-bucher?style=social&color=brightgreen)](https://github.com/charles-bucher)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/charles-bucher/)  
-[![AWS Certified](https://img.shields.io/badge/AWS-Certification-orange?logo=amazon-aws)](#)  
+[![GitHub followers](https://img.shields.io/github/followers/charles-bucher?style=social&color=brightgreen)](https://github.com/charles-bucher)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/charles-bucher/)
+[![AWS Certified](https://img.shields.io/badge/AWS-Certification-orange?logo=amazon-aws)](#)
 [![Repo Size](https://img.shields.io/github/repo-size/charles-bucher/cloud-work?color=brightgreen)](https://github.com/charles-bucher)
 
 ---
 
 ## 👨‍💻 About Me
 **Hands-on AWS CloudOps & NOC engineer**  
-I specialize in **multi-tier troubleshooting, monitoring, and automation** across AWS environments. I solve problems, automate workflows, and document everything like a pro.
+Specialized in **multi-tier troubleshooting, monitoring, and automation**. I solve real-world cloud problems, automate processes, and document workflows clearly.  
 
 **Focus Areas:**
 - AWS EC2, S3, IAM, VPC, RDS, CloudWatch  
@@ -35,29 +36,30 @@ I specialize in **multi-tier troubleshooting, monitoring, and automation** acros
 ## 🏆 Projects – Level 10
 
 ### 1️⃣ Multi-Tier App Troubleshooting Playground
-**End-to-end AWS troubleshooting lab** simulating frontend, backend, and database layers. Includes dashboards, alarms, and incident simulations.
+**End-to-end AWS troubleshooting lab** simulating frontend, backend, and database layers.
 
-![Frontend GIF](./screenshots/frontend.gif)  
-![Backend GIF](./screenshots/backend.gif)  
-![Database GIF](./screenshots/database.gif)
+<!-- Embedded Screenshots -->
+![Frontend Screenshot](./screenshots/frontend.png)
+![Backend Screenshot](./screenshots/backend.png)
+![Database Screenshot](./screenshots/database.png)
 
 **Highlights:**
 - Simulated production environment  
 - CloudWatch dashboards & alerts  
-- Full troubleshooting workflow from frontend to database
+- Full troubleshooting workflow
 
 🔗 [View Project](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
 
 ---
 
 ### 2️⃣ AWS Monitoring & Observability
-Automates dashboards, anomaly detection, and GuardDuty alerts across AWS services.
+Automates dashboards, anomaly detection, and GuardDuty alerts.
 
-![Monitoring GIF](./screenshots/monitoring.gif)
+![Monitoring Screenshot](./screenshots/monitoring.png)
 
 **Highlights:**
 - Real-time cloud monitoring  
-- Automated alerting & incident response  
+- Automated alerts & incident response  
 - Dashboard visualizations for NOC operations
 
 🔗 [View Project](https://github.com/charles-bucher/aws_monitoring_observability)
@@ -67,7 +69,7 @@ Automates dashboards, anomaly detection, and GuardDuty alerts across AWS service
 ### 3️⃣ CloudOps GuardDuty Automation
 Automated threat detection & security incident response for AWS.
 
-![GuardDuty GIF](./screenshots/guardduty.gif)
+![GuardDuty Screenshot](./screenshots/guardduty.png)
 
 **Highlights:**
 - Security monitoring & auto-alert scripts  
@@ -78,7 +80,7 @@ Automated threat detection & security incident response for AWS.
 
 ---
 
-## 📊 Achievements & Badges
+## 📈 Achievements & Badges
 [![GitHub Stars](https://img.shields.io/github/stars/charles-bucher/Multi-Tier-App-Troubleshooting-Playground?style=social&color=brightgreen)](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground/stargazers)  
 [![GitHub Forks](https://img.shields.io/github/forks/charles-bucher/Multi-Tier-App-Troubleshooting-Playground?style=social&color=brightgreen)](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground/network/members)
 
@@ -91,12 +93,13 @@ Automated threat detection & security incident response for AWS.
 ## 📂 Portfolio Structure
 📁 Multi-Tier-App-Troubleshooting-Playground
 ├─ README.md
-├─ screenshots/
-│ ├─ frontend.gif
-│ ├─ backend.gif
-│ └─ database.gif
 ├─ assets/
 │ └─ banner_dark_voltgreen.png
+├─ screenshots/
+│ ├─ frontend.png
+│ ├─ backend.png
+│ ├─ database.png
+│ └─ monitoring.png
 ├─ scripts/
 └─ docs/
 
@@ -111,4 +114,3 @@ Copy code
 - Email: Quietopscb@gmail.com
 
 > ⚡ “Hands-on experience beats theory. I solve problems, build solutions, and automate processes.”
-
