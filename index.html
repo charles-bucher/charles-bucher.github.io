@@ -1,202 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Charles Bucher | Cloud Support Engineer</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-    body {
-        margin: 0;
-        font-family: 'Inter', sans-serif;
-        background-color: #0d1117;
-        color: #c9d1d9;
-    }
-    header {
-        text-align: center;
-        padding: 2rem 1rem;
-        background-color: #161b22;
-    }
-    header h1 {
-        margin: 0.5rem 0;
-        font-size: 2.5rem;
-        color: #58a6ff;
-    }
-    header p {
-        margin: 0.5rem 0;
-        font-size: 1.1rem;
-        color: #8b949e;
-    }
-    nav {
-        margin-top: 1rem;
-    }
-    nav a {
-        color: #58a6ff;
-        margin: 0 1rem;
-        text-decoration: none;
-        font-weight: 600;
-    }
-    section {
-        max-width: 1000px;
-        margin: 2rem auto;
-        padding: 0 1rem;
-    }
-    h2 {
-        color: #58a6ff;
-        margin-bottom: 1rem;
-        border-bottom: 2px solid #30363d;
-        display: inline-block;
-        padding-bottom: 0.25rem;
-    }
-    .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 1.5rem;
-    }
-    .project-card {
-        background-color: #161b22;
-        padding: 1rem;
-        border-radius: 10px;
-        border: 1px solid #30363d;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        transition: transform 0.2s;
-    }
-    .project-card:hover {
-        transform: translateY(-5px);
-        border-color: #58a6ff;
-    }
-    .project-card h3 {
-        margin-top: 0;
-        color: #58a6ff;
-    }
-    .tags {
-        margin: 0.5rem 0;
-    }
-    .tag {
-        display: inline-block;
-        background-color: #21262d;
-        color: #8b949e;
-        padding: 0.2rem 0.5rem;
-        border-radius: 6px;
-        margin-right: 0.3rem;
-        font-size: 0.85rem;
-    }
-    a.button {
-        display: inline-block;
-        margin-top: auto;
-        padding: 0.5rem 1rem;
-        background-color: #238636;
-        color: #fff;
-        border-radius: 6px;
-        text-decoration: none;
-        font-weight: 600;
-        text-align: center;
-    }
-    a.button:hover {
-        background-color: #2ea043;
-    }
-    .skills, .contact {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-    .skill, .contact-item {
-        background-color: #161b22;
-        padding: 0.5rem 1rem;
-        border-radius: 8px;
-        border: 1px solid #30363d;
-    }
-    footer {
-        text-align: center;
-        padding: 2rem 1rem;
-        margin-top: 2rem;
-        background-color: #161b22;
-        color: #8b949e;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Bucher | Cloud Support Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f111a;
+            --accent: #00ff94;
+            --text-light: #ccc;
+            --card-bg: #1a1c29;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Roboto', sans-serif; background: var(--bg-dark); color: var(--text-light); }
+        header { text-align: center; padding: 3rem 1rem; background: var(--bg-dark); border-bottom: 2px solid var(--accent); }
+        header h1 { font-size: 3rem; color: var(--accent); margin-bottom: 0.5rem; }
+        header p { font-size: 1.2rem; color: var(--text-light); }
+        nav { margin-top: 1rem; display: flex; justify-content: center; gap: 1.5rem; }
+        nav a { color: var(--accent); text-decoration: none; font-weight: bold; transition: color 0.3s; }
+        nav a:hover { color: #ffffff; }
+        section { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+        h2 { color: var(--accent); font-size: 2rem; border-bottom: 2px solid var(--accent); display: inline-block; margin-bottom: 1rem; padding-bottom: 0.3rem; }
+        .project { background: var(--card-bg); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 6px 20px rgba(0,0,0,0.5); transition: transform 0.3s; }
+        .project:hover { transform: translateY(-5px); }
+        .project h3 { color: var(--accent); font-size: 1.6rem; margin-bottom: 0.5rem; }
+        .project p { color: var(--text-light); }
+        .badges { margin-top: 0.5rem; }
+        .badge { display: inline-block; margin: 0.2rem; padding: 0.3rem 0.6rem; background: var(--accent); color: var(--bg-dark); font-size: 0.8rem; border-radius: 5px; font-weight: bold; }
+        .project img { width: 100%; max-height: 300px; object-fit: contain; border-radius: 8px; margin-top: 1rem; }
+        footer { text-align: center; padding: 2rem 1rem; background: var(--bg-dark); border-top: 2px solid var(--accent); }
+        footer a { color: var(--accent); text-decoration: none; margin: 0 0.5rem; transition: color 0.3s; }
+        footer a:hover { color: #ffffff; }
+    </style>
 </head>
 <body>
+
 <header>
     <h1>Charles Bucher</h1>
-    <p>Cloud Support | NOC & CloudOps | AWS Monitoring & Automation | Python / Terraform</p>
+    <p>Independent Cloud Support & NOC Engineer | AWS | Python | Terraform</p>
     <nav>
-        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>Independent Cloud Support Engineer based in Florida. I build hands-on CloudOps automation, monitoring, and alerting solutions in AWS. Projects include operational troubleshooting, incident response, and proactive automation. Learning in public through GitHub projects and real-world labs.</p>
-</section>
-
 <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-        <div class="project-card">
-            <h3>AWS Troubleshooting Lab</h3>
-            <p>Hands-on AWS labs demonstrating real-world problems, step-by-step troubleshooting, and solutions. Highlights EC2, Lambda, and operational skills.</p>
-            <div class="tags">
-                <span class="tag">AWS</span>
-                <span class="tag">EC2</span>
-                <span class="tag">Lambda</span>
-                <span class="tag">Python</span>
-            </div>
-            <a class="button" href="https://github.com/charles-bucher/AWS_Troubleshooting_Lab" target="_blank">View Repo</a>
-        </div>
+    <h2>Portfolio Projects</h2>
 
-        <div class="project-card">
-            <h3>AWS Monitoring & Observability</h3>
-            <p>Proactive monitoring and alerting using CloudWatch. Tracks EC2 metrics, detects anomalies, and automates notifications for fast incident response.</p>
-            <div class="tags">
-                <span class="tag">AWS</span>
-                <span class="tag">CloudWatch</span>
-                <span class="tag">Observability</span>
-                <span class="tag">Automation</span>
-            </div>
-            <a class="button" href="https://github.com/charles-bucher/aws_monitoring_observability" target="_blank">View Repo</a>
+    <div class="project">
+        <h3>Multi-Tier App Troubleshooting Playground</h3>
+        <p>Hands-on AWS CloudOps lab deploying multi-tier web applications using EC2, VPC, Load Balancers, and CloudFormation/Terraform. Designed for troubleshooting, monitoring, alerting, and incident response practice.</p>
+        <div class="badges">
+            <span class="badge">AWS</span>
+            <span class="badge">EC2</span>
+            <span class="badge">VPC</span>
+            <span class="badge">Load Balancer</span>
+            <span class="badge">Terraform</span>
+            <span class="badge">CloudFormation</span>
         </div>
-
-        <div class="project-card">
-            <h3>CloudOps GuardDuty Automation</h3>
-            <p>Automated threat detection and incident response with AWS GuardDuty, CloudWatch, and Terraform. Includes CI/CD pipelines and secure infrastructure setup.</p>
-            <div class="tags">
-                <span class="tag">AWS</span>
-                <span class="tag">GuardDuty</span>
-                <span class="tag">Terraform</span>
-                <span class="tag">CI/CD</span>
-            </div>
-            <a class="button" href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank">View Repo</a>
-        </div>
+        <img src="screenshots/Multi-Tier-App-Troubleshooting-Playground_screenshots/Multi_01_cloned.png" alt="Multi-Tier App Cloned Repo">
+        <img src="screenshots/Multi-Tier-App-Troubleshooting-Playground_screenshots/Multi_03_IAM_Role_Creation_Complete.png" alt="IAM Role Creation Complete">
+        <img src="screenshots/Multi-Tier-App-Troubleshooting-Playground_screenshots/Multi_14_Apache_Start_Enable.png" alt="Apache Start Enable">
     </div>
+
+    <div class="project">
+        <h3>AWS Monitoring & Observability</h3>
+        <p>Full AWS monitoring and alerting pipeline focused on EC2 health, performance metrics, anomaly detection, and automated incident response. Simulates real Cloud Support & NOC workflows.</p>
+        <div class="badges">
+            <span class="badge">AWS CloudWatch</span>
+            <span class="badge">Lambda</span>
+            <span class="badge">SNS</span>
+            <span class="badge">Python</span>
+            <span class="badge">Monitoring</span>
+        </div>
+        <img src="screenshots/AWS_monitoring_observability_screenshots/Obv_02_alerts.png" alt="AWS Alerts">
+        <img src="screenshots/AWS_monitoring_observability_screenshots/Obv_03_cpu.png" alt="CPU Metrics">
+    </div>
+
+    <div class="project">
+        <h3>CloudOps GuardDuty Automation</h3>
+        <p>Automated AWS security and CloudOps solution for threat detection and incident response using GuardDuty, CloudWatch, Security Hub, and Terraform. Fully automated CI/CD deployment.</p>
+        <div class="badges">
+            <span class="badge">AWS Security</span>
+            <span class="badge">GuardDuty</span>
+            <span class="badge">Terraform</span>
+            <span class="badge">Automation</span>
+        </div>
+        <img src="screenshots/cloudOps-guardDuty-automation_screenshots/GD_01_.png" alt="GuardDuty Detection">
+        <img src="screenshots/cloudOps-guardDuty-automation_screenshots/GD_02_.png" alt="GuardDuty Alerts">
+    </div>
+
 </section>
 
 <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-        <div class="skill">AWS (EC2, Lambda, CloudWatch, S3, GuardDuty)</div>
-        <div class="skill">Python / Terraform / CI/CD</div>
-        <div class="skill">Monitoring & Incident Response</div>
-        <div class="skill">GitHub Pages / Jekyll / Docker / Security</div>
-    </div>
+    <h2>Skills & Expertise</h2>
+    <p>AWS Cloud Infrastructure, EC2, VPC, S3, IAM, Lambda, CloudWatch, Security, Terraform, CloudFormation, Python, Bash, Monitoring & Alerting, Incident Response, NOC Operations.</p>
 </section>
 
 <section id="contact">
     <h2>Contact</h2>
-    <div class="contact">
-        <div class="contact-item">Email: <a href="mailto:quietopscb@gmail.com">quietopscb@gmail.com</a></div>
-        <div class="contact-item">GitHub: <a href="https://github.com/charles-bucher" target="_blank">github.com/charles-bucher</a></div>
-        <div class="contact-item">LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher85813/" target="_blank">linkedin.com/in/charles-bucher85813</a></div>
-        <div class="contact-item">Indeed: <a href="https://profile.indeed.com/p/charlesb-x0xr5fx" target="_blank">profile.indeed.com</a></div>
-    </div>
+    <p>Reach me professionally:</p>
+    <p>
+        GitHub: <a href="https://github.com/charles-bucher">charles-bucher</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-cloud">Charles Bucher</a><br>
+        Email: <a href="mailto:Quietopscb@gmail.com">Quietopscb@gmail.com</a>
+    </p>
 </section>
 
 <footer>
-    <p>© 2025 Charles Bucher</p>
+    <p>© 2025 Charles Bucher | Cloud Support Portfolio</p>
 </footer>
+
 </body>
 </html>
