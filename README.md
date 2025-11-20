@@ -38,14 +38,19 @@ Specialized in **multi-tier troubleshooting, monitoring, and automation**. I sol
 ### 1️⃣ Multi-Tier App Troubleshooting Playground
 **End-to-end AWS troubleshooting lab** simulating frontend, backend, and database layers.
 
-![Frontend GIF](./screenshots/frontend.gif)
-![Backend GIF](./screenshots/backend.gif)
-![Database GIF](./screenshots/database.gif)
-
-**Highlights:**
-- Simulated production environment  
-- CloudWatch dashboards & alerts  
-- Full troubleshooting workflow  
+![Cloned Repo](./screenshots/Multi_01_cloned.png)
+![CLI Configured](./screenshots/Multi_02_CLI_configured.png)
+![IAM Role Creation Complete](./screenshots/Multi_03_IAM_Role_Creation_Complete.png)
+![EC2 Instance List](./screenshots/Multi_04_EC2_Instance_List.png)
+![EC2 Instance Details](./screenshots/Multi_05_EC2_Instance_Details.png)
+![Security Group Rules](./screenshots/Multi_06_Security_Group_Rules.png)
+![SSH Key Generated](./screenshots/Multi_07_SSH_Key_Generated.png)
+![Frontend Role](./screenshots/Multi_08_-Frontend-Role.png)
+![EC2 Running](./screenshots/Multi_09_Ec2_Running.png)
+![Repo Cloned](./screenshots/Multi_10_Repo_Cloned.png)
+![Apache Start & Enable](./screenshots/Multi_14_Apache_Start_Enable.png)
+![Backend Directory Structure](./screenshots/Multi_15_Backend_Directory_Structure.png)
+![Database Directory Structure](./screenshots/Multi_16_Database_Directory_Structure.png)
 
 🔗 [View Project](https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground)
 
@@ -54,12 +59,17 @@ Specialized in **multi-tier troubleshooting, monitoring, and automation**. I sol
 ### 2️⃣ AWS Monitoring & Observability
 Automates dashboards, anomaly detection, and GuardDuty alerts.
 
-![Monitoring GIF](./screenshots/monitoring.gif)
-
-**Highlights:**
-- Real-time cloud monitoring  
-- Automated alerts & incident response  
-- Dashboard visualizations for NOC operations  
+![Clone Success](./screenshots/Obv_01_clone_success.png)
+![Alerts](./screenshots/Obv_02_alerts.png)
+![CPU Metrics](./screenshots/Obv_03_cpu.png)
+![Terraform Update](./screenshots/Obv_04_terraform_update.PNG)
+![Terraform Confirm](./screenshots/Obv_05_terraform_confirm.png)
+![Monitoring 06](./screenshots/Obv_06.png)
+![Monitoring 07](./screenshots/Obv_07.png)
+![Monitoring 08](./screenshots/Obv_08.png)
+![Monitoring 09](./screenshots/Obv_09_.png)
+![Monitoring 10](./screenshots/Obv_10.png)
+![Monitoring 11](./screenshots/Obv_11.png)
 
 🔗 [View Project](https://github.com/charles-bucher/aws_monitoring_observability)
 
@@ -68,12 +78,9 @@ Automates dashboards, anomaly detection, and GuardDuty alerts.
 ### 3️⃣ CloudOps GuardDuty Automation
 Automated threat detection & incident response for AWS.
 
-![GuardDuty GIF](./screenshots/guardduty.gif)
-
-**Highlights:**
-- Security monitoring & auto-alert scripts  
-- Integrates with dashboards & notifications  
-- Hands-on incident response scenarios  
+![GD 01](./screenshots/GD_01.png)
+![GD 02](./screenshots/GD_02.png)
+![GD 03](./screenshots/GD_03.png)
 
 🔗 [View Project](https://github.com/charles-bucher/cloudOps-guardDuty-automation)
 
@@ -95,13 +102,33 @@ Automated threat detection & incident response for AWS.
 ├─ assets/
 │ └─ banner_dark_voltgreen.gif
 ├─ screenshots/
-│ ├─ frontend.gif
-│ ├─ backend.gif
-│ ├─ database.gif
-│ ├─ monitoring.gif
-│ └─ guardduty.gif
-├─ scripts/
-└─ docs/
+│ ├─ Multi_01_cloned.png
+│ ├─ Multi_02_CLI_configured.png
+│ ├─ Multi_03_IAM_Role_Creation_Complete.png
+│ ├─ Multi_04_EC2_Instance_List.png
+│ ├─ Multi_05_EC2_Instance_Details.png
+│ ├─ Multi_06_Security_Group_Rules.png
+│ ├─ Multi_07_SSH_Key_Generated.png
+│ ├─ Multi_08_-Frontend-Role.png
+│ ├─ Multi_09_Ec2_Running.png
+│ ├─ Multi_10_Repo_Cloned.png
+│ ├─ Multi_14_Apache_Start_Enable.png
+│ ├─ Multi_15_Backend_Directory_Structure.png
+│ ├─ Multi_16_Database_Directory_Structure.png
+│ ├─ Obv_01_clone_success.png
+│ ├─ Obv_02_alerts.png
+│ ├─ Obv_03_cpu.png
+│ ├─ Obv_04_terraform_update.PNG
+│ ├─ Obv_05_terraform_confirm.png
+│ ├─ Obv_06.png
+│ ├─ Obv_07.png
+│ ├─ Obv_08.png
+│ ├─ Obv_09_.png
+│ ├─ Obv_10.png
+│ ├─ Obv_11.png
+│ ├─ GD_01.png
+│ ├─ GD_02.png
+│ └─ GD_03.png
 
 yaml
 Copy code
