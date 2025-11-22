@@ -1,106 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Charles Bucher | Cloud Support Portfolio</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<style>
-    :root {
-        --bg-dark: #0f111a;
-        --accent: #00ff94;
-        --text-light: #ccc;
-        --card-bg: #1a1c29;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Roboto', sans-serif; background: var(--bg-dark); color: var(--text-light); }
-    header { text-align: center; padding: 3rem 1rem; background: var(--bg-dark); border-bottom: 2px solid var(--accent); }
-    header h1 { font-size: 3rem; color: var(--accent); margin-bottom: 0.5rem; }
-    header p { font-size: 1.2rem; color: var(--text-light); }
-    nav { margin-top: 1rem; display: flex; justify-content: center; gap: 1.5rem; }
-    nav a { color: var(--accent); text-decoration: none; font-weight: bold; transition: color 0.3s; }
-    nav a:hover { color: #ffffff; }
-    section { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
-    h2 { color: var(--accent); font-size: 2rem; border-bottom: 2px solid var(--accent); display: inline-block; margin-bottom: 1rem; padding-bottom: 0.3rem; }
-    .project { background: var(--card-bg); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 6px 20px rgba(0,0,0,0.5); transition: transform 0.3s; }
-    .project:hover { transform: translateY(-5px); }
-    .project h3 { color: var(--accent); font-size: 1.6rem; margin-bottom: 0.5rem; }
-    .project p { color: var(--text-light); }
-    .badges { margin-top: 0.5rem; }
-    .badge { display: inline-block; margin: 0.2rem; padding: 0.3rem 0.6rem; background: var(--accent); color: var(--bg-dark); font-size: 0.8rem; border-radius: 5px; font-weight: bold; }
-    .project img { width: 100%; max-height: 300px; object-fit: contain; border-radius: 8px; margin-top: 1rem; }
-    footer { text-align: center; padding: 2rem 1rem; background: var(--bg-dark); border-top: 2px solid var(--accent); }
-    footer a { color: var(--accent); text-decoration: none; margin: 0 0.5rem; transition: color 0.3s; }
-    footer a:hover { color: #ffffff; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Bucher | Cloud Support Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0b3d91;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 1.1em;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0b3d91;
+        }
+        .project {
+            margin-bottom: 30px;
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+        ul.skills {
+            list-style: none;
+            padding: 0;
+        }
+        ul.skills li {
+            background: #e2e2e2;
+            margin: 5px 0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0b3d91;
+            color: #fff;
+            margin-top: 20px;
+        }
+        a {
+            color: #0b3d91;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Charles Bucher</h1>
+        <p>Independent Cloud Support & NOC Engineer | AWS | Python | Terraform</p>
+    </header>
 
-<header>
-    <h1>Charles Bucher</h1>
-    <p>Independent Cloud Support & NOC Engineer | AWS | Python | Terraform</p>
-    <nav>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+    <section>
+        <h2>Portfolio Projects</h2>
 
-<section id="projects">
-    <h2>Portfolio Projects</h2>
-
-    <!-- Multi-Tier App Project -->
-    <div class="project">
-        <h3>Multi-Tier App Troubleshooting Playground</h3>
-        <p>Hands-on AWS CloudOps lab deploying multi-tier web applications using EC2, VPC, Load Balancers, and CloudFormation/Terraform. Designed for troubleshooting, monitoring, alerting, and incident response practice.</p>
-        <div class="badges">
-            <span class="badge">AWS</span>
-            <span class="badge">EC2</span>
-            <span class="badge">VPC</span>
-            <span class="badge">Load Balancer</span>
-            <span class="badge">Terraform</span>
-            <span class="badge">CloudFormation</span>
+        <div class="project">
+            <h3>Multi-Tier App Troubleshooting Playground</h3>
+            <p>Hands-on AWS CloudOps lab deploying multi-tier web applications using EC2, VPC, Load Balancers, and CloudFormation/Terraform. Designed for troubleshooting, monitoring, alerting, and incident response practice.</p>
+            <img src="images/multi-tier-dashboard.png" alt="Multi-Tier App Dashboard Screenshot">
+            <img src="images/multi-tier-diagram.png" alt="Architecture Diagram Screenshot">
+            <p><strong>Technologies:</strong> AWS EC2, VPC, Load Balancer, Terraform, CloudFormation, IAM</p>
         </div>
-        <img src="screenshots/Multi_Tier/Multi_03_IAM_Role_Creation_Complete.png" alt="IAM Role Creation Complete">
-        <img src="screenshots/Multi_Tier/Multi_14_Apache_Start_Enable.png" alt="Apache Start Enable">
-    </div>
 
-    <!-- AWS Monitoring & Observability Project -->
-    <div class="project">
-        <h3>AWS Monitoring & Observability</h3>
-        <p>Full AWS monitoring and alerting pipeline focused on EC2 health, performance metrics, anomaly detection, and automated incident response. Simulates real Cloud Support & NOC workflows.</p>
-        <div class="badges">
-            <span class="badge">AWS CloudWatch</span>
-            <span class="badge">Lambda</span>
-            <span class="badge">SNS</span>
-            <span class="badge">Python</span>
-            <span class="badge">Monitoring</span>
+        <div class="project">
+            <h3>AWS Monitoring & Observability</h3>
+            <p>End-to-end AWS monitoring and alerting pipeline for EC2 health, performance metrics, and anomaly detection. Includes automated incident response to simulate real Cloud Support & NOC workflows.</p>
+            <img src="images/cloudwatch-dashboard.png" alt="AWS CloudWatch Dashboard Screenshot">
+            <p><strong>Technologies:</strong> AWS CloudWatch, Lambda, SNS, Python</p>
         </div>
-        <img src="screenshots/Obv/Obv_02_alerts.png" alt="AWS Alerts">
-        <img src="screenshots/Obv/Obv_03_cpu.png" alt="CPU Metrics">
-    </div>
+    </section>
 
-</section>
+    <section>
+        <h2>Skills & Expertise</h2>
+        <ul class="skills">
+            <li>AWS EC2</li>
+            <li>VPC</li>
+            <li>S3</li>
+            <li>IAM</li>
+            <li>Lambda</li>
+            <li>Terraform</li>
+            <li>CloudFormation</li>
+            <li>Python</li>
+            <li>Bash</li>
+            <li>Monitoring & Alerting</li>
+            <li>Incident Response</li>
+            <li>NOC Operations</li>
+        </ul>
+    </section>
 
-<section id="skills">
-    <h2>Skills & Expertise</h2>
-    <p>AWS Cloud Infrastructure, EC2, VPC, S3, IAM, Lambda, CloudWatch, Security, Terraform, CloudFormation, Python, Bash, Monitoring & Alerting, Incident Response, NOC Operations.</p>
-</section>
+    <section>
+        <h2>Contact</h2>
+        <p>GitHub: <a href="https://github.com/charles-bucher" target="_blank">charles-bucher</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher" target="_blank">Charles Bucher</a></p>
+        <p>Email: <a href="mailto:Quietopscb@gmail.com">Quietopscb@gmail.com</a></p>
+    </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Reach me professionally:</p>
-    <p>
-        GitHub: <a href="https://github.com/charles-bucher">charles-bucher</a><br>
-        LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-cloud">Charles Bucher</a><br>
-        Email: <a href="mailto:Quietopscb@gmail.com">Quietopscb@gmail.com</a>
-    </p>
-</section>
-
-<footer>
-    <p>© 2025 Charles Bucher | Cloud Support Portfolio</p>
-</footer>
-
+    <footer>
+        © 2025 Charles Bucher | Cloud Support Portfolio
+    </footer>
 </body>
 </html>
