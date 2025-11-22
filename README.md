@@ -133,3 +133,6 @@ Diagnostic tools for AWS Cloud Support Engineers.
 ---
 
 > 💡 *Self-taught, hands-on, and results-oriented cloud engineer driving practical AWS support, automation, and observability.*
+
+## Screenshots
+
