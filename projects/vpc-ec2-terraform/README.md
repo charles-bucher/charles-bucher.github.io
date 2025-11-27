@@ -1,3 +1,0 @@
-## README.md
-This file is part of Tommy813's live cloud lab. Expect real builds, cert alignment, and zero fluff.
-
