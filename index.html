@@ -3,175 +3,197 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Charles Bucher | Cloud Support Portfolio</title>
+<title>Charles Bucher – Cloud Support Portfolio</title>
+
 <style>
-    body { 
-        font-family: 'Arial', sans-serif; 
-        background-color: #0b0c10; 
-        color: #c5c6c7; 
-        margin: 0; padding: 0; 
-        line-height: 1.6; 
-    }
-    header { 
-        background-color: #1f2833; 
-        color: #66fcf1; 
-        text-align: center; 
-        padding: 40px 20px; 
-        border-bottom: 2px solid #45a29e;
-    }
-    header h1 { font-size: 3em; margin: 0; text-shadow: 0 0 10px #45a29e; }
-    header p { font-size: 1.2em; font-weight: 300; margin-top: 10px; }
-    
-    section { 
-        max-width: 1000px; 
-        margin: 30px auto; 
-        padding: 30px 20px; 
-    }
-    h2 { 
-        font-size: 2em; 
-        color: #45a29e; 
-        border-bottom: 2px solid #45a29e; 
-        padding-bottom: 8px; 
-        margin-bottom: 25px; 
-        text-shadow: 0 0 5px #45a29e; 
-    }
-    h3 { font-size: 1.5em; color: #66fcf1; margin-top: 20px; text-shadow: 0 0 3px #45a29e; }
-    
-    .project { 
-        background-color: #1f2833; 
-        border-left: 5px solid #45a29e; 
-        border-radius: 10px; 
-        padding: 20px; 
-        margin-bottom: 40px; 
-        box-shadow: 0 0 15px rgba(0,255,255,0.2); 
-        transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    }
-    .project:hover { 
-        transform: translateY(-5px); 
-        box-shadow: 0 0 25px rgba(102,252,241,0.6); 
-    }
-    .project img { 
-        max-width: 100%; 
-        border-radius: 8px; 
-        border: 1px solid #45a29e; 
-        margin: 12px 0; 
-        transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    }
-    .project img:hover { 
-        transform: scale(1.05); 
-        box-shadow: 0 0 20px #66fcf1; 
-    }
-    .caption { 
-        font-size: 0.9em; 
-        color: #66fcf1; 
-        font-style: italic; 
-        margin-bottom: 12px; 
-    }
-    .badges img { height: 28px; margin: 4px 4px 4px 0; filter: brightness(1.2); }
-    
-    footer { 
-        text-align: center; 
-        padding: 20px; 
-        background-color: #1f2833; 
-        color: #66fcf1; 
-        font-size: 0.9em; 
-        border-top: 2px solid #45a29e; 
-        margin-top: 40px; 
-    }
-    a { color: #66fcf1; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+/* ---------------------------------------------------
+   GLOBAL DARK GOTHAM AESTHETIC
+--------------------------------------------------- */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: #050505;
+    color: #e6e6e6;
+    overflow-x: hidden;
+}
+
+/* Neon border frame */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    border: 4px solid #00aaffbb;
+    border-radius: 12px;
+    pointer-events: none;
+    animation: neonPulse 6s ease-in-out infinite alternate;
+}
+@keyframes neonPulse {
+    from { opacity: .35; box-shadow: 0 0 12px #00aaff; }
+    to   { opacity: .75; box-shadow: 0 0 28px #00d5ff; }
+}
+
+/* ---------------------------------------------------
+   GOTHAM SKYLINE BACKGROUND
+--------------------------------------------------- */
+.skyline {
+    background: url("https://i.imgur.com/JLBt7tC.jpeg") center/cover no-repeat;
+    width: 100%;
+    height: 70vh;
+    filter: brightness(0.45);
+    opacity: 0;
+    animation: skylineFade 14s ease-in-out infinite alternate;
+}
+@keyframes skylineFade {
+    0% { opacity: .25; }
+    100% { opacity: .85; }
+}
+
+/* ---------------------------------------------------
+   SPOTLIGHT INTRO BANNER
+--------------------------------------------------- */
+.spotlight {
+    position: absolute;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #eaffff;
+    opacity: 0;
+    filter: drop-shadow(0 0 12px #00e1ffcc);
+    animation: spotlightReveal 2.5s ease-out forwards;
+}
+@keyframes spotlightReveal {
+    from { opacity: 0; transform: translateY(40px) scale(.9); }
+    to   { opacity: 1; transform: translateY(0px) scale(1); }
+}
+
+/* ---------------------------------------------------
+   CONTENT CONTAINER
+--------------------------------------------------- */
+.content {
+    padding: 40px;
+    max-width: 900px;
+    margin: -120px auto 40px;
+    background: rgba(10,10,12,0.72);
+    backdrop-filter: blur(6px);
+    border-radius: 14px;
+    border: 1px solid #00aaff55;
+    box-shadow: 0 0 18px #00aaff55;
+}
+
+/* Hover neon lift */
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 16px #0099ff88;
+}
+
+/* Repo Card */
+.card {
+    padding: 20px;
+    background: #0d0f12;
+    border: 1px solid #00668888;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+}
+
+/* ---------------------------------------------------
+   AWS FLOATING HOLOGRAM ICONS
+--------------------------------------------------- */
+.aws-floating {
+    position: fixed;
+    opacity: 0.12;
+    filter: drop-shadow(0 0 8px #1e90ffcc);
+    animation: floatAWS 38s linear infinite;
+    z-index: -1;
+}
+.aws-floating img {
+    width: 80px;
+    height: 80px;
+    opacity: 0.9;
+}
+.aws1 { top: 12%; left: -10%; animation-delay: 0s; }
+.aws2 { top: 45%; left: -12%; animation-delay: 8s; }
+.aws3 { top: 70%; left: -15%; animation-delay: 16s; }
+.aws4 { top: 30%; left: -18%; animation-delay: 24s; }
+
+@keyframes floatAWS {
+    0%   { transform: translateX(0vw) scale(1); opacity: .10; }
+    25%  { transform: translateX(20vw) scale(1.05); opacity: .16; }
+    50%  { transform: translateX(40vw) scale(1.1); opacity: .2; }
+    75%  { transform: translateX(60vw) scale(1.05); opacity: .15; }
+    100% { transform: translateX(80vw) scale(1); opacity: .10; }
+}
+
+/* ---------------------------------------------------
+   LINKS
+--------------------------------------------------- */
+a {
+    color: #00c3ff;
+    text-decoration: none;
+}
+a:hover {
+    color: #57e9ff;
+    text-shadow: 0 0 6px #00d2ff;
+}
 </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Charles Bucher</h1>
-    <p>Cloud Support & NOC Engineer | AWS | Python | Terraform | Observability</p>
-    <p>Monitoring, troubleshooting, and automation in a high-stakes cloud environment</p>
-</header>
+<div class="skyline"></div>
 
-<section>
-    <h2>Portfolio Projects</h2>
+<div class="spotlight">Charles Bucher – Cloud Support Engineering</div>
 
-    <div class="project">
-        <h3>AWS Cloud Support Simulator</h3>
-        <p>Simulates real AWS operations: EC2 troubleshooting, IAM/security, and Python automation.</p>
-        <img src="screenshots/ACSS_01_ec2_connectivity_ping.png" alt="EC2 Connectivity">
-        <div class="caption">ACSS_01: EC2 connectivity verified via ping</div>
-        <img src="screenshots/ACSS_04_ec2_security_group.png" alt="Security Group Config">
-        <div class="caption">ACSS_04: Security group configuration applied</div>
-        <div class="badges">
-            <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-            <img src="https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=aws&logoColor=white">
-            <img src="https://img.shields.io/badge/VPC-FF9900?style=for-the-badge&logo=aws&logoColor=white">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-        </div>
-    </div>
+<!-- Floating AWS holograms -->
+<div class="aws-floating aws1"><img src="https://img.icons8.com/color/96/amazon-web-services.png"></div>
+<div class="aws-floating aws2"><img src="https://img.icons8.com/color/96/amazon-cloudwatch.png"></div>
+<div class="aws-floating aws3"><img src="https://img.icons8.com/color/96/amazon-ec2.png"></div>
+<div class="aws-floating aws4"><img src="https://img.icons8.com/color/96/amazon-rds.png"></div>
 
-    <div class="project">
-        <h3>Multi-Tier App Troubleshooting Playground</h3>
-        <p>Deployed multi-tier web apps to practice monitoring, troubleshooting, and incident response in AWS.</p>
-        <img src="screenshots/Multi_12_Dashboard.png" alt="Multi-Tier Dashboard">
-        <div class="caption">Multi_12: Live multi-tier dashboard</div>
-        <img src="screenshots/Multi_19_Architecture.png" alt="Architecture Diagram">
-        <div class="caption">Multi_19: Architecture overview</div>
-        <div class="badges">
-            <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-            <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-        </div>
-    </div>
+<div class="content">
 
-    <div class="project">
-        <h3>AWS Monitoring & Observability</h3>
-        <p>End-to-end monitoring: CloudWatch dashboards, alerts, logs, and network metrics for operational insight.</p>
-        <img src="screenshots/Observability_01_Config.png" alt="Initial Setup">
-        <div class="caption">Observability_01: AWS setup/configuration</div>
-        <img src="screenshots/Observability_06_Dashboard_Overview.png" alt="Dashboard">
-        <div class="caption">Observability_06: Central dashboard</div>
-        <img src="screenshots/Observability_07_Logs_Example.png" alt="Logs Example">
-        <div class="caption">Observability_07: Example logs</div>
-        <div class="badges">
-            <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-            <img src="https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge&logo=aws&logoColor=white">
-        </div>
-    </div>
+<h2>About Me</h2>
+<p>
+Cloud support specialist forged through discipline, hands-on builds, and the grit that comes from rebuilding life the hard way.  
+Everything here is real — deployed, tested, break-fixed, and documented with screenshots.  
+I'm aiming directly at remote cloud support roles (AWS | Linux | Monitoring | Terraform) with the long-term goal of building rental-based income freedom.
+</p>
 
-    <div class="project">
-        <h3>Terraform Automation</h3>
-        <p>Automated AWS infrastructure deployment and verification with Terraform.</p>
-        <img src="screenshots/Observability_09_Terraform_01_Update.png" alt="Terraform Update">
-        <div class="caption">Terraform_01: Apply infrastructure updates</div>
-        <img src="screenshots/Observability_12_Terraform_Verification.png" alt="Terraform Verification">
-        <div class="caption">Terraform verification of deployed stack</div>
-        <div class="badges">
-            <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white">
-            <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-        </div>
-    </div>
+<h2>My Links</h2>
+<ul>
+    <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-cloud" target="_blank">linkedin.com/in/charles-bucher-cloud</a></li>
+    <li>📁 GitHub: <a href="https://github.com/charles-bucher" target="_blank">github.com/charles-bucher</a></li>
+</ul>
 
-</section>
+<h2>Featured Repositories</h2>
 
-<section>
-    <h2>Skills & Expertise</h2>
-    <div class="badges">
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-        <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white">
-        <img src="https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge&logo=aws&logoColor=white">
-    </div>
-</section>
+<div class="card">
+    <h3>AWS Monitoring & Observability Stack</h3>
+    <p>A full stack of CloudWatch metrics, dashboards, alarms, logs, SNS, and automation.</p>
+    <a href="https://github.com/charles-bucher/AWS_Monitoring_Observability" target="_blank">View Repo →</a>
+</div>
 
-<section>
-    <h2>Contact</h2>
-    <p>GitHub: <a href="https://github.com/charles-bucher" target="_blank">charles-bucher</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-cloud" target="_blank">Charles Bucher</a></p>
-    <p>Email: <a href="mailto:Quietopscb@gmail.com">Quietopscb@gmail.com</a></p>
-</section>
+<div class="card">
+    <h3>AWS CLI Automation Toolkit</h3>
+    <p>Shell scripts for EC2, IAM, VPC, CloudWatch, backups, automation, and diagnostics.</p>
+    <a href="https://github.com/charles-bucher/AWS_CLI_Toolkit" target="_blank">View Repo →</a>
+</div>
 
-<footer>
-    © 2025 Charles Bucher | Cloud Support Portfolio
-</footer>
+<div class="card">
+    <h3>Terraform AWS Infrastructure</h3>
+    <p>Infrastructure-as-code repo with EC2, VPC, IAM, monitoring, modules, and provider configs.</p>
+    <a href="https://github.com/charles-bucher/Terraform_Infrastructure" target="_blank">View Repo →</a>
+</div>
+
+<div class="card">
+    <h3>Cloud Support Incident Simulations</h3>
+    <p>Realistic troubleshooting drills: CPU spikes, broken IAM, 5xx API errors, failing alarms, etc.</p>
+    <a href="https://github.com/charles-bucher/Cloud_Support_Incidents" target="_blank">View Repo →</a>
+</div>
+
+</div>
 
 </body>
 </html>
