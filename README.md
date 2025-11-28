@@ -115,3 +115,6 @@ This portfolio highlights hands-on CloudOps, AWS, and NOC skills. It demonstrate
 ---
 
 **Live Portfolio:** [charles-bucher.github.io](https://charles-bucher.github.io)
+
+## Portfolio Screenshots
+
