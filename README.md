@@ -109,7 +109,7 @@ This portfolio highlights hands-on CloudOps, AWS, and NOC skills. It demonstrate
 ## Contact
 
 - GitHub: [charles-bucher](https://github.com/charles-bucher)  
-- LinkedIn: [Charles Bucher](https://www.linkedin.com/in/charles-bucher)  
+- LinkedIn: [Charles-Bucher-cloud](https://www.linkedin.com/in/charles-bucher-cloud)  
 - Email: [Quietopscb@gmail.com](mailto:Quietopscb@gmail.com)
 
 ---
