@@ -4,149 +4,141 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Charles Bucher | Cloud Support Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(120deg, #0a0a0a, #111 80%);
+    color: #fff;
+    overflow-x: hidden;
+}
 
-    body {
-        margin: 0;
-        padding: 0;
-        background: linear-gradient(#0a0a0a, #111);
-        font-family: 'Orbitron', sans-serif;
-        color: #fff;
-        overflow-x: hidden;
-    }
+/* Header */
+header {
+    position: relative;
+    text-align: center;
+    padding: 60px 20px;
+    background: #000814;
+    overflow: hidden;
+}
+header h1 {
+    font-size: 3.5em;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+    animation: glow 2s infinite alternate;
+}
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #0ff;
+}
 
-    header {
-        background: #000814;
-        text-align: center;
-        padding: 40px 20px;
-        position: relative;
-        overflow: hidden;
-    }
+/* Glowing animation */
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #0ff; }
+    100% { text-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; }
+}
 
-    header h1 {
-        font-size: 3em;
-        color: #00ffff;
-        text-shadow: 0 0 10px #00ffff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
-        margin: 0;
-        animation: glow 2s infinite alternate;
-    }
+/* Floating holo icons */
+.holo-icon {
+    position: absolute;
+    width: 50px;
+    opacity: 0.7;
+    animation: float 8s infinite;
+}
+@keyframes float {
+    0% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-30px) rotate(180deg); }
+    100% { transform: translateY(0px) rotate(360deg); }
+}
 
-    header p {
-        font-size: 1.2em;
-        margin-top: 10px;
-        color: #0ff;
-    }
+/* Skyline effect */
+.skyline {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: url('https://i.imgur.com/3n7xv2U.png') repeat-x bottom;
+    opacity: 0.3;
+    animation: fadeSkyline 6s infinite alternate;
+}
+@keyframes fadeSkyline {
+    0% { opacity: 0.2; }
+    100% { opacity: 0.5; }
+}
 
-    section {
-        max-width: 1000px;
-        margin: 30px auto;
-        padding: 30px;
-        background: rgba(10,10,10,0.85);
-        border-radius: 12px;
-        box-shadow: 0 0 20px #00ffff33;
-        position: relative;
-    }
+/* Sections */
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(10,10,10,0.85);
+    border-radius: 12px;
+    box-shadow: 0 0 25px #0ff33;
+}
 
-    h2 {
-        font-size: 2em;
-        border-bottom: 2px solid #00ffff;
-        padding-bottom: 5px;
-        margin-bottom: 25px;
-        color: #0ff;
-        text-shadow: 0 0 5px #0ff;
-    }
+/* Section titles */
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #0ff;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    color: #0ff;
+}
 
-    .project {
-        margin-bottom: 40px;
-        border-left: 4px solid #00ffff;
-        padding-left: 20px;
-        transition: transform 0.3s;
-    }
+/* Project cards */
+.project {
+    margin-bottom: 40px;
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-left: 4px solid #0ff;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px #0ff66;
+}
+.project h3 a {
+    color: #0ff;
+    text-decoration: none;
+}
+.project h3 a:hover { text-shadow: 0 0 10px #0ff; }
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid #0ff;
+    margin: 15px 0;
+    box-shadow: 0 0 15px #0ff66;
+}
+.caption {
+    font-size: 0.9em;
+    color: #aaa;
+    font-style: italic;
+}
 
-    .project:hover {
-        transform: translateY(-5px);
-    }
+/* Badges */
+.badges img {
+    height: 28px;
+    margin: 5px 5px 5px 0;
+    filter: drop-shadow(0 0 3px #0ff);
+}
 
-    .project h3 a {
-        color: #0ff;
-        text-decoration: none;
-    }
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #000814;
+    color: #0ff;
+    margin-top: 40px;
+    text-shadow: 0 0 5px #0ff;
+}
 
-    .project h3 a:hover {
-        text-shadow: 0 0 10px #0ff;
-    }
+/* Links */
+a { color: #0ff; }
+a:hover { text-decoration: underline; }
 
-    .project img {
-        max-width: 100%;
-        border-radius: 8px;
-        border: 1px solid #0ff;
-        margin: 10px 0;
-        box-shadow: 0 0 15px #0ff66;
-    }
-
-    .caption {
-        font-size: 0.9em;
-        color: #aaa;
-        font-style: italic;
-        margin-bottom: 15px;
-    }
-
-    .badges img {
-        height: 28px;
-        margin: 4px 4px 4px 0;
-        filter: drop-shadow(0 0 3px #0ff);
-    }
-
-    footer {
-        text-align: center;
-        padding: 20px;
-        background: #000814;
-        color: #0ff;
-        margin-top: 30px;
-        text-shadow: 0 0 5px #0ff;
-    }
-
-    a {
-        color: #0ff;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    @keyframes glow {
-        0% { text-shadow: 0 0 5px #0ff; }
-        100% { text-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; }
-    }
-
-    .holo-icon {
-        position: absolute;
-        width: 50px;
-        opacity: 0.7;
-        animation: float 8s infinite;
-    }
-
-    @keyframes float {
-        0% { transform: translateY(0px) rotate(0deg); }
-        50% { transform: translateY(-30px) rotate(180deg); }
-        100% { transform: translateY(0px) rotate(360deg); }
-    }
-
-    .skyline {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 150px;
-        background: url('https://i.imgur.com/3n7xv2U.png') repeat-x bottom;
-        opacity: 0.3;
-        animation: fadeSkyline 6s infinite alternate;
-    }
-
-    @keyframes fadeSkyline {
-        0% { opacity: 0.2; }
-        100% { opacity: 0.5; }
-    }
 </style>
 </head>
 <body>
@@ -167,8 +159,8 @@
 
     <div class="project">
         <h3><a href="https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground" target="_blank">Multi-Tier-App-Troubleshooting-Playground</a></h3>
-        <p>AWS CloudOps lab: deploy, monitor, and troubleshoot multi-tier web apps using EC2, VPC, load balancers, Terraform & CloudFormation. Focus on incident response & operational excellence.</p>
-        <p class="caption">Technologies: Terraform, CloudFormation, EC2, VPC, ELB, RDS, Lambda, SNS</p>
+        <p>Deploy, monitor, and troubleshoot multi-tier web apps using EC2, VPC, load balancers, Terraform & CloudFormation. Focus on incident response & operational excellence.</p>
+        <p class="caption">Tech: Terraform, CloudFormation, EC2, VPC, ELB, RDS, Lambda, SNS</p>
         <div class="badges">
             <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
             <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white">
@@ -177,18 +169,8 @@
     </div>
 
     <div class="project">
-        <h3><a href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank">cloudOps-guardDuty-automation</a></h3>
-        <p>Automated AWS Security & CloudOps: GuardDuty, CloudWatch, Security Hub, IAM policies using Terraform, CI/CD pipelines for automated deployment.</p>
-        <div class="badges">
-            <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-            <img src="https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge&logo=aws&logoColor=white">
-            <img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white">
-        </div>
-    </div>
-
-    <div class="project">
         <h3><a href="https://github.com/charles-bucher/AWS_Cloud_Support_Sim" target="_blank">AWS_Cloud_Support_Sim</a></h3>
-        <p>Simulates a Cloud Support engineering workflow: troubleshooting scenarios, incident lifecycle, automation with Python & CloudWatch metrics.</p>
+        <p>Simulates Cloud Support workflows: troubleshooting EC2, S3, IAM, Lambda, CloudWatch incidents. Automates tasks using Python scripts, reducing errors and response time.</p>
         <div class="badges">
             <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
             <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
@@ -197,8 +179,8 @@
     </div>
 
     <div class="project">
-        <h3><a href="https://github.com/charles-bucher/aws_monitoring_observability" target="_blank">aws_monitoring_observability</a></h3>
-        <p>Hands-on AWS CloudOps monitoring & observability: EC2 metrics, CloudWatch logs, system performance monitoring, anomaly detection, automated incident response.</p>
+        <h3><a href="https://github.com/charles-bucher/aws_monitoring_observability" target="_blank">AWS Monitoring & Observability</a></h3>
+        <p>Monitor EC2 metrics, CloudWatch logs, system performance, anomaly detection, and automate incident response for proactive CloudOps management.</p>
         <div class="badges">
             <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
             <img src="https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge&logo=aws&logoColor=white">
@@ -209,9 +191,11 @@
 
 <section>
     <h2>Contact</h2>
-    <p>GitHub: <a href="https://github.com/Charles-bucher" target="_blank">Charles-bucher</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-cloud" target="_blank">Charles Bucher</a></p>
-    <p>Email: <a href="mailto:Quietopscb@gmail.com">Quietopscb@gmail.com</a></p>
+    <p>
+        <a href="https://github.com/charles-bucher" target="_blank"><img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github&logoColor=white"></a>
+        <a href="https://www.linkedin.com/in/charles-bucher-cloud" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white"></a>
+        <a href="mailto:quietopscb@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail&logoColor=white"></a>
+    </p>
 </section>
 
 <footer>
