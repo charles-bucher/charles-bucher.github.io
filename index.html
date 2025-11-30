@@ -1,110 +1,669 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charles Bucher | Cloud Support & NOC Engineer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      background-color: #0f1f13;
-      color: #e5f0e1;
-      line-height: 1.6;
-      padding: 0;
-    }
-    header {
-      background-color: #142c1f;
-      text-align: center;
-      padding: 2rem;
-    }
-    header h1 {
-      color: #a8ff60;
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin: 0.5rem 0;
-      font-size: 1.2rem;
-    }
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem;
-    }
-    h2 {
-      color: #a8ff60;
-      border-bottom: 2px solid #a8ff60;
-      padding-bottom: 0.3rem;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    .project {
-      margin-bottom: 1.5rem;
-    }
-    footer {
-      text-align: center;
-      background-color: #142c1f;
-      padding: 1rem;
-    }
-    a {
-      color: #a8ff60;
-      text-decoration: none;
-      font-weight: bold;
-      margin-right: 0.5rem;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Bucher | Cloud Support & CloudOps Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #000;
+            color: #0f0;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Animated Grid Background */
+        .grid-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: gridMove 20s linear infinite;
+            z-index: 0;
+        }
+
+        @keyframes gridMove {
+            0% { transform: perspective(500px) rotateX(60deg) translateY(0); }
+            100% { transform: perspective(500px) rotateX(60deg) translateY(50px); }
+        }
+
+        /* Scanline Effect */
+        .scanline {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                transparent 50%,
+                rgba(0, 255, 0, 0.02) 50%
+            );
+            background-size: 100% 4px;
+            animation: scanlines 8s linear infinite;
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        @keyframes scanlines {
+            0% { background-position: 0 0; }
+            100% { background-position: 0 100%; }
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Glitch Effect */
+        @keyframes glitch {
+            0%, 100% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+        }
+
+        /* Header */
+        header {
+            padding: 100px 0 80px;
+            text-align: center;
+            position: relative;
+            background: radial-gradient(ellipse at center, rgba(0, 255, 255, 0.1) 0%, transparent 70%);
+        }
+
+        .header-content h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            color: #0ff;
+            text-shadow: 
+                0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px #0ff,
+                0 0 80px #0ff;
+            margin-bottom: 20px;
+            animation: flicker 3s infinite alternate;
+            letter-spacing: 3px;
+        }
+
+        @keyframes flicker {
+            0%, 18%, 22%, 25%, 53%, 57%, 100% {
+                text-shadow: 
+                    0 0 10px #0ff,
+                    0 0 20px #0ff,
+                    0 0 40px #0ff,
+                    0 0 80px #0ff;
+            }
+            20%, 24%, 55% {
+                text-shadow: none;
+            }
+        }
+
+        .glitch-text {
+            position: relative;
+            display: inline-block;
+        }
+
+        .glitch-text::before,
+        .glitch-text::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.8;
+        }
+
+        .glitch-text::before {
+            animation: glitch 0.3s infinite;
+            color: #ff00ff;
+            z-index: -1;
+        }
+
+        .glitch-text::after {
+            animation: glitch 0.3s infinite reverse;
+            color: #00ffff;
+            z-index: -2;
+        }
+
+        .header-subtitle {
+            font-size: 1.5rem;
+            color: #0f0;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 0 0 10px #0f0;
+        }
+
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .tech-badge {
+            background: rgba(0, 255, 255, 0.1);
+            border: 2px solid #0ff;
+            color: #0ff;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tech-badge::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.4), transparent);
+            transition: left 0.5s;
+        }
+
+        .tech-badge:hover::before {
+            left: 100%;
+        }
+
+        .tech-badge:hover {
+            background: rgba(0, 255, 255, 0.3);
+            box-shadow: 
+                0 0 20px #0ff,
+                inset 0 0 20px #0ff;
+            transform: scale(1.05);
+        }
+
+        /* Status Section */
+        .status-container {
+            text-align: center;
+            padding: 60px 0;
+            position: relative;
+        }
+
+        .status-box {
+            display: inline-block;
+            background: rgba(0, 255, 0, 0.05);
+            border: 2px solid #0f0;
+            padding: 30px 60px;
+            position: relative;
+            clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+        }
+
+        .status-box::before,
+        .status-box::after {
+            content: '';
+            position: absolute;
+            background: #0f0;
+        }
+
+        .status-box::before {
+            width: 10px;
+            height: 10px;
+            top: -5px;
+            left: -5px;
+            box-shadow: 0 0 10px #0f0;
+        }
+
+        .status-box::after {
+            width: 10px;
+            height: 10px;
+            bottom: -5px;
+            right: -5px;
+            box-shadow: 0 0 10px #0f0;
+        }
+
+        .status-text {
+            font-size: 1.3rem;
+            color: #0f0;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .status-indicator {
+            width: 15px;
+            height: 15px;
+            background: #0f0;
+            border-radius: 50%;
+            animation: pulse 1.5s infinite;
+            box-shadow: 0 0 20px #0f0;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.2); opacity: 0.7; }
+        }
+
+        /* Projects Section */
+        .projects-section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 60px;
+            color: #0ff;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            text-shadow: 0 0 20px #0ff;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #0ff, transparent);
+            box-shadow: 0 0 10px #0ff;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .project-card {
+            background: rgba(0, 20, 20, 0.8);
+            border: 2px solid #0ff;
+            padding: 40px;
+            position: relative;
+            transition: all 0.4s ease;
+            clip-path: polygon(0 0, 95% 0, 100% 5%, 100% 100%, 5% 100%, 0 95%);
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent, rgba(0, 255, 255, 0.1), transparent);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .project-card:hover::before {
+            opacity: 1;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 
+                0 0 30px rgba(0, 255, 255, 0.5),
+                inset 0 0 30px rgba(0, 255, 255, 0.1);
+            border-color: #0f0;
+        }
+
+        .project-number {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 3rem;
+            color: rgba(0, 255, 255, 0.2);
+            font-weight: 700;
+        }
+
+        .project-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 10px #0ff);
+        }
+
+        .project-card h3 {
+            font-size: 1.8rem;
+            color: #0ff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .project-card p {
+            color: #0f0;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .tag {
+            background: rgba(255, 0, 255, 0.2);
+            border: 1px solid #f0f;
+            color: #f0f;
+            padding: 6px 14px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
+            text-shadow: 0 0 5px #f0f;
+        }
+
+        .project-link {
+            display: inline-block;
+            color: #0ff;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 12px 30px;
+            border: 2px solid #0ff;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+            clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+        }
+
+        .project-link::before {
+            content: '>';
+            position: absolute;
+            left: 10px;
+            transition: left 0.3s;
+        }
+
+        .project-link:hover::before {
+            left: 15px;
+        }
+
+        .project-link:hover {
+            background: rgba(0, 255, 255, 0.2);
+            box-shadow: 0 0 20px #0ff;
+            padding-left: 40px;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 80px 0;
+            text-align: center;
+            background: radial-gradient(ellipse at center, rgba(0, 255, 0, 0.05) 0%, transparent 70%);
+        }
+
+        .contact-section h2 {
+            font-size: 3rem;
+            color: #0f0;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            text-shadow: 0 0 20px #0f0;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            padding: 20px 40px;
+            background: rgba(0, 255, 0, 0.1);
+            border: 2px solid #0f0;
+            color: #0f0;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+            clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+        }
+
+        .contact-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(0, 255, 0, 0.3);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .contact-btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .contact-btn:hover {
+            box-shadow: 
+                0 0 30px #0f0,
+                inset 0 0 30px rgba(0, 255, 0, 0.3);
+            transform: scale(1.05);
+        }
+
+        .contact-btn span {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 2px solid #0ff;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        footer p {
+            color: #0ff;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 10px #0ff;
+        }
+
+        /* Terminal Cursor */
+        .cursor {
+            display: inline-block;
+            width: 10px;
+            height: 20px;
+            background: #0f0;
+            animation: blink 1s infinite;
+            margin-left: 5px;
+        }
+
+        @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
 </head>
 <body>
+    <!-- Grid Background -->
+    <div class="grid-bg"></div>
+    
+    <!-- Scanline Effect -->
+    <div class="scanline"></div>
 
-  <header>
-    <h1>Charles Bucher</h1>
-    <p>Cloud Support & NOC Engineer | AWS CloudOps | Terraform | Observability</p>
-  </header>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1 class="glitch-text" data-text="CHARLES BUCHER">CHARLES BUCHER</h1>
+                <p class="header-subtitle">Cloud Support // NOC Engineer // CloudOps<span class="cursor"></span></p>
+                <div class="tech-stack">
+                    <span class="tech-badge">AWS</span>
+                    <span class="tech-badge">Terraform</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">CloudWatch</span>
+                    <span class="tech-badge">GuardDuty</span>
+                    <span class="tech-badge">CI/CD</span>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <main>
-    <section id="projects">
-      <h2>Portfolio Projects</h2>
-
-      <div class="project">
-        <h3>AWS_Cloudops_Suite</h3>
-        <p>Full-stack AWS CloudOps: monitoring, Terraform workflows, GuardDuty security, and automated alerts for proactive observability.</p>
-      </div>
-
-      <div class="project">
-        <h3>AWS_Cloud_Support_Sim</h3>
-        <p>Simulates AWS Cloud Support engineering workflows: troubleshooting EC2, S3, IAM, Lambda, and CloudWatch scenarios end-to-end.</p>
-      </div>
-
-      <div class="project">
-        <h3>Multi-Tier-App-Troubleshooting-Playground</h3>
-        <p>Deploy, monitor, and troubleshoot multi-tier AWS apps using EC2, VPC, ELB, Terraform & CloudFormation. Focused on operational excellence.</p>
-      </div>
-
-      <div class="project">
-        <h3>charles-bucher</h3>
-        <p>Personal CloudOps & NOC portfolio: Python automation, Docker, security monitoring, CI/CD pipelines, Lambda functions, and infrastructure automation projects.</p>
-      </div>
+    <!-- Status Section -->
+    <section class="status-container">
+        <div class="container">
+            <div class="status-box">
+                <div class="status-text">
+                    <span class="status-indicator"></span>
+                    AVAILABLE FOR REMOTE CLOUDOPS ROLES
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        <a href="https://github.com/charles-bucher" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/charles-bucher-cloud" target="_blank">LinkedIn</a>
-        <a href="mailto:quietopscb@gmail.com">Email</a>
-      </p>
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <h2 class="section-title">ACTIVE PROJECTS</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <span class="project-number">01</span>
+                    <div class="project-icon">☁️</div>
+                    <h3>AWS CloudOps Suite</h3>
+                    <p>Full-stack CloudOps: monitoring, Terraform workflows, GuardDuty security, automated alerts. Proactive observability and incident response.</p>
+                    <div class="project-tags">
+                        <span class="tag">Terraform</span>
+                        <span class="tag">GuardDuty</span>
+                        <span class="tag">CloudWatch</span>
+                        <span class="tag">SNS</span>
+                    </div>
+                    <a href="https://github.com/charles-bucher/AWS_Cloudops_Suite" class="project-link" target="_blank">
+                        <span>ACCESS PROJECT</span>
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <span class="project-number">02</span>
+                    <div class="project-icon">🔧</div>
+                    <h3>Cloud Support Sim</h3>
+                    <p>Simulates AWS Cloud Support workflows. Troubleshoot EC2, S3, IAM, Lambda, CloudWatch scenarios end-to-end. Real incident response.</p>
+                    <div class="project-tags">
+                        <span class="tag">AWS CLI</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Troubleshooting</span>
+                        <span class="tag">Incident Response</span>
+                    </div>
+                    <a href="https://github.com/charles-bucher/AWS_Cloud_Support_Sim" class="project-link" target="_blank">
+                        <span>ACCESS PROJECT</span>
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <span class="project-number">03</span>
+                    <div class="project-icon">🏗️</div>
+                    <h3>Multi-Tier App Lab</h3>
+                    <p>Deploy, monitor, troubleshoot multi-tier AWS apps. EC2, VPC, ELB, Terraform & CloudFormation. Operational excellence focused.</p>
+                    <div class="project-tags">
+                        <span class="tag">EC2</span>
+                        <span class="tag">VPC</span>
+                        <span class="tag">ELB</span>
+                        <span class="tag">Terraform</span>
+                    </div>
+                    <a href="https://github.com/charles-bucher/Multi-Tier-App-Troubleshooting-Playground" class="project-link" target="_blank">
+                        <span>ACCESS PROJECT</span>
+                    </a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <span class="project-number">04</span>
+                    <div class="project-icon">⚡</div>
+                    <h3>CloudOps Portfolio</h3>
+                    <p>Personal CloudOps & NOC repository. Python automation, Docker, security monitoring, CI/CD pipelines, Lambda functions, infrastructure automation.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Lambda</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                    <a href="https://github.com/charles-bucher/charles-bucher" class="project-link" target="_blank">
+                        <span>ACCESS PROJECT</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-  </main>
 
-  <footer>
-    <p>© 2025 Charles Bucher | Cloud Support & NOC Portfolio</p>
-  </footer>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>INITIATE CONTACT</h2>
+            <div class="contact-links">
+                <a href="https://github.com/charles-bucher" class="contact-btn" target="_blank">
+                    <span>GITHUB</span>
+                </a>
+                <a href="https://linkedin.com/in/charles-bucher-cloud" class="contact-btn" target="_blank">
+                    <span>LINKEDIN</span>
+                </a>
+                <a href="mailto:quietopscb@gmail.com" class="contact-btn">
+                    <span>EMAIL</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 CHARLES BUCHER // CLOUDOPS PORTFOLIO // SYSTEM ONLINE</p>
+        </div>
+    </footer>
 </body>
 </html>
