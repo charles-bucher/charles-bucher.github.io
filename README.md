@@ -1,113 +1,117 @@
 # Charles Bucher – Cloud Infrastructure Portfolio
 
-[![GitHub Followers](https://img.shields.io/github/followers/charles-bucher?style=social)](https://github.com/charles-bucher)
-[![GitHub Pages](https://img.shields.io/github/deployments/charles-bucher/charles-bucher.github.io/github-pages?label=GitHub%20Pages)](https://charles-bucher.github.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
-
-🌐 **Live Portfolio:** [charles-bucher.github.io](https://charles-bucher.github.io)
-
----
-
-## 📋 About
-Hands-on **AWS CloudOps & DevOps projects** showcasing infrastructure design, automation, and troubleshooting workflows.
-
-**Purpose:** Demonstrate real skills for Cloud Support, Junior DevOps, and CloudOps roles.
+[![Portfolio Site](https://img.shields.io/badge/Portfolio-Visit-blue)](https://charles-bucher.github.io)
+[![GitHub Followers](https://img.shields.io/github/followers/charles-bucher?label=GitHub%20Followers)](https://github.com/charles-bucher)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/charles-bucher)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE.md)
 
 ---
 
-## 🌟 Featured Projects
+## 📋 About This Portfolio
+
+A **hands-on AWS & CloudOps portfolio** demonstrating practical skills in **Cloud Support**, **DevOps**, and **Infrastructure Automation**.  
+
+Each project contains:  
+
+- ✅ Working code  
+- ✅ Screenshots of implementations  
+- ✅ Architecture diagrams  
+- ✅ Troubleshooting workflows  
+
+**Goal:** Showcase skills relevant to **Cloud Support Engineer**, **Junior DevOps**, and **Cloud Operations** roles.
+
+---
+
+## 🌐 Featured Projects
 
 ### 1️⃣ AWS Cloud Support Simulation
-🔹 EC2 connectivity & diagnostics  
-🔹 Security group setup & monitoring  
-🔹 CloudFormation deployment  
-🔹 Python automation scripts  
+**Focus:** Cloud troubleshooting and operational diagnostics  
 
-**Tech:** AWS (EC2, VPC, S3, CloudFormation, GuardDuty) • Python • Boto3  
+**Implemented:**  
+- EC2 network connectivity checks  
+- Security group configuration  
+- CloudFormation stack deployment  
+- GuardDuty monitoring  
+- Python automation scripts  
+
+**Tech Stack:** AWS (EC2, VPC, S3, CloudFormation, GuardDuty) • Python • Boto3  
 
 **Screenshots:**  
-<img src="screenshots/CloudSupport_01_NetworkConnectivity.png" width="300"/>  
-<img src="screenshots/CloudSupport_03_EC2StackDeployment.png" width="300"/>  
+![Network Connectivity](screenshots/CloudSupport_01_NetworkConnectivity.png)  
+![Stack Deployment](screenshots/CloudSupport_03_EC2StackDeployment.png)  
 
-[View Project →](projects/cloud-support-simulation.html)
+[View Project →](projects/cloud-support.html)
 
 ---
 
 ### 2️⃣ AWS CloudOps Suite
-🔹 CloudWatch metrics & alarms  
-🔹 Lambda automation & alerts  
-🔹 Terraform infrastructure provisioning  
-🔹 S3 & DynamoDB management  
+**Focus:** Monitoring, alerting, and automation  
 
-**Tech:** Terraform • AWS CloudWatch • Python • Lambda  
+**Implemented:**  
+- CloudWatch metrics & alarms  
+- Lambda functions for automated responses  
+- Terraform-managed infrastructure  
+- S3 bucket & DynamoDB state management  
+
+**Tech Stack:** Terraform • AWS CloudWatch • Python • Lambda • GuardDuty  
 
 **Screenshots:**  
-<img src="screenshots/CloudOps_01_cloudopsaccess_key.png" width="300"/>  
-<img src="screenshots/CloudOps_05_loudwatch.png" width="300"/>  
+![CloudWatch Metrics](screenshots/CloudOps_11_metrics.png)  
+![Terraform Provisioning](screenshots/CloudOps_17_terraform_confirm.png)  
 
-[View Project →](projects/cloudops-suite.html)
+[View Project →](projects/cloud-ops.html)
 
 ---
 
-### 3️⃣ Multi-Tier App Troubleshooting
-🔹 Three-tier architecture: frontend, backend, database  
-🔹 Load balancer setup & network flows  
-🔹 Step-by-step troubleshooting documentation  
+### 3️⃣ Multi-Tier Application Troubleshooting
+**Focus:** Multi-tier application architecture & systematic troubleshooting  
 
-**Tech:** AWS (EC2, RDS, VPC, ELB) • Terraform • CloudFormation  
+**Implemented:**  
+- Three-tier app: Frontend, Backend, Database  
+- Load balancer configuration (ALB/NLB)  
+- API response validation & error log analysis  
+- Detailed troubleshooting documentation  
 
-**Screenshots & Diagrams:**  
-<img src="screenshots/Multi_01_Login.png" width="200"/>  
-<img src="screenshots/Multi_02_Dashboard.png" width="200"/>  
-<img src="screenshots/Multi_03_ErrorLogs.png" width="200"/>  
-<img src="screenshots/Multi_14_Architecture.png" width="200"/>  
+**Tech Stack:** AWS (EC2, RDS, VPC, ELB) • Terraform • CloudFormation  
 
-[View Project →](projects/multi-tier-troubleshooting.html)
+**Screenshots:**  
+![Login Flow](screenshots/Multi_01_Login.png)  
+![Dashboard](screenshots/Multi_02_Dashboard.png)  
+![Error Logs](screenshots/Multi_03_ErrorLogs.png)  
+![API Response](screenshots/Multi_05_APIResponse.png)  
+
+**Architecture Diagram:**  
+![Architecture Diagram](screenshots/Multi_14_Architecture.png)  
+
+[View Project →](projects/multi-tier.html)
 
 ---
 
 ## 🛠️ Technical Skills
 
-**Cloud:** AWS EC2, VPC, S3, CloudFormation, CloudWatch, GuardDuty, Lambda, RDS, ELB, IAM  
-**IaC:** Terraform (85%+ of code) • CloudFormation  
-**Scripting:** Python (Boto3) • Bash • PowerShell  
-**DevOps Tools:** Git, AWS CLI, VS Code  
-**Monitoring:** CloudWatch metrics, logs, dashboards, automated alerts  
+| Category | Tools & Skills |
+|----------|----------------|
+| **Cloud Platforms** | AWS: EC2, VPC, S3, CloudFormation, CloudWatch, GuardDuty, Lambda, RDS, ELB, IAM |
+| **Infrastructure as Code** | Terraform (85%+ of codebase), CloudFormation templates |
+| **Programming & Scripting** | Python (Boto3), Bash, PowerShell |
+| **DevOps Tools** | Git, GitHub Actions, AWS CLI, VS Code |
+| **Monitoring & Observability** | CloudWatch metrics & logs, Alarms, Automated alerting dashboards |
 
 ---
 
 ## 📊 Portfolio Stats
 
-- **Projects:** 3 major AWS portfolios  
-- **Screenshots:** 40+  
-- **Architecture Diagrams:** 16+  
-- **Terraform Lines:** 1000+  
-- **Python Scripts:** 15+ automation scripts  
+- Total Projects: 3 major AWS portfolios  
+- Architecture Diagrams: 16 comprehensive diagrams  
+- Screenshots: 40+ showing hands-on work  
+- Terraform Lines of Code: 1000+  
+- Python Scripts: 15+ automation scripts  
 
 ---
 
-## 🎯 Learning Focus
+## 🚀 How to Access & Run Locally
 
-- AWS Solutions Architect Associate prep  
-- Terraform & multi-tier design patterns  
-- Python automation with Boto3  
-- Cloud security & monitoring best practices  
-
-**Next Steps:** Certification, CI/CD pipelines, cost optimization, open-source contributions  
-
----
-
-## 📧 Contact
-
-**Charles Bucher**  
-📍 Pinellas Park, FL  
-✉️ [quietopscb@gmail.com](mailto:quietopscb@gmail.com)  
-🔗 [GitHub](https://github.com/charles-bucher) • [LinkedIn](https://www.linkedin.com/in/charles-bucher/)  
-
-Open to **Cloud Support, Junior DevOps, IT Infrastructure** roles (Remote)
-
----
-
-## 📝 License
-
-MIT License – see [LICENSE.md](LICENSE.md)
+1. **Clone Repository**  
+```bash
+git clone https://github.com/charles-bucher/charles-bucher.github.io.git
+cd charles-bucher.github.io
