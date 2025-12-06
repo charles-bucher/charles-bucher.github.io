@@ -37,7 +37,8 @@ Simulated customer support tickets with documented resolutions:
 
 **Technologies:** EC2, VPC, Security Groups, CloudFormation, S3, CloudWatch, Python
 
-![Network Troubleshooting](screenshots/Multi-Tier-App-Troubleshooting-Playground/Multi_01_LoginFlow.png)
+![Network Troubleshooting](screenshots/CloudSupport_01_NetworkConnectivity.png)
+![Stack Deployment](screenshots/CloudSupport_03_EC2StackDeployment.png)
 
 ---
 
@@ -52,7 +53,11 @@ Diagnosed and resolved issues in 3-tier web application:
 
 **Technologies:** EC2, RDS, ELB, VPC, CloudWatch Logs, Terraform
 
-![Architecture](screenshots/Multi-Tier-App-Troubleshooting-Playground/Multi_12_Architecture.png)
+![Login Flow](screenshots/Multi_01_Login.png)
+![Dashboard](screenshots/Multi_02_Dashboard.png)
+![Error Logs](screenshots/Multi_03_ErrorLogs.png)
+![API Response](screenshots/Multi_05_APIResponse.png)
+![Architecture](screenshots/Multi_14_Architecture.png)
 
 ---
 
@@ -67,7 +72,9 @@ Built proactive monitoring infrastructure:
 
 **Technologies:** CloudWatch, SNS, Lambda, Python, Terraform
 
-![CloudWatch](screenshots/AWS_Cloudops_Suite/ACS_01_CloudWatchMetricsOverview.png)
+![CloudWatch Metrics](screenshots/CloudOps_11_metrics.png)
+![Lambda Functions](screenshots/CloudOps_10_lambda_functions.png)
+![Terraform Provisioning](screenshots/CloudOps_17_terraform_confirm.png)
 
 ---
 
