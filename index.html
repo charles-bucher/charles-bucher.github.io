@@ -1,91 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charles Bucher | AWS Cloud Support Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', sans-serif; background-color: #f9f9f9; margin: 0; padding: 0; }
-    header { background-color: #232f3e; color: white; padding: 2rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    header p { font-size: 1.2rem; margin: 0.5rem 0; }
-    a { color: inherit; text-decoration: none; }
-    section { padding: 2rem; max-width: 900px; margin: auto; }
-    h2 { color: #232f3e; margin-top: 2rem; }
-    .badges img { margin: 0.3rem; vertical-align: middle; }
-    .project { margin-bottom: 3rem; background: #fff; padding: 1rem 2rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    .project img { max-width: 100%; border-radius: 8px; margin-top: 0.5rem; }
-    a.button { display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem; background-color: #232f3e; color: white; text-decoration: none; border-radius: 5px; }
-    footer { text-align: center; padding: 1rem; color: #666; }
-    .gallery img { width: 100%; max-width: 400px; margin: 0.5rem; border-radius: 8px; }
-    .gallery { display: flex; flex-wrap: wrap; justify-content: center; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charles Bucher - Cloud Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+        color: #f8fafc;
+    }
+    header {
+        text-align: center;
+        padding: 2rem 1rem;
+        position: relative;
+    }
+    header h1 {
+        font-size: 3rem;
+        margin: 0;
+        letter-spacing: 2px;
+        color: #38bdf8;
+    }
+    nav {
+        margin-top: 1rem;
+    }
+    nav a {
+        color: #38bdf8;
+        margin: 0 15px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    nav a:hover { color: #06b6d4; }
+    
+    /* Cloud background effect */
+    .clouds {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1;
+    }
+    .cloud {
+        position: absolute;
+        background: white;
+        border-radius: 50%;
+        opacity: 0.2;
+        animation: float 40s linear infinite;
+    }
+    @keyframes float {
+        0% { transform: translateX(-200px) translateY(0); }
+        100% { transform: translateX(120vw) translateY(0); }
+    }
+    
+    main {
+        max-width: 1000px;
+        margin: auto;
+        padding: 2rem;
+    }
+    section {
+        margin-bottom: 3rem;
+    }
+    h2 {
+        color: #38bdf8;
+        border-bottom: 2px solid #06b6d4;
+        display: inline-block;
+        padding-bottom: 5px;
+        margin-bottom: 1rem;
+    }
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+    .project-card {
+        background: rgba(255,255,255,0.05);
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 20px rgba(0,0,0,0.5);
+    }
+    a.button {
+        display: inline-block;
+        background: #38bdf8;
+        color: #0f172a;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    a.button:hover { background: #06b6d4; }
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background: #0f172a;
+        color: #94a3b8;
+    }
+</style>
 </head>
 <body>
 
+<div class="clouds">
+    <div class="cloud" style="width:200px; height:60px; top:50px; animation-duration:50s;"></div>
+    <div class="cloud" style="width:150px; height:40px; top:150px; animation-duration:70s;"></div>
+    <div class="cloud" style="width:250px; height:70px; top:250px; animation-duration:90s;"></div>
+</div>
+
 <header>
-  <h1>Charles Bucher</h1>
-  <p>AWS Cloud Support & Automation Specialist</p>
-  <p>📍 Florida | 📧 quietopscb@gmail.com</p>
-  <p>
-    <a href="https://charles-bucher.github.io" target="_blank">Portfolio</a> | 
-    <a href="https://www.linkedin.com/in/charles-bucher-26598728b" target="_blank">LinkedIn</a> | 
-    <a href="https://profile.indeed.com/p/charlesb-x0xr5fx" target="_blank">Indeed</a>
-  </p>
+    <h1>Charles Bucher</h1>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<section>
-  <h2>🔧 Skills & Technologies</h2>
-  <div class="badges">
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900">
-    <img src="https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge">
-    <img src="https://img.shields.io/badge/GuardDuty-FF9900?style=for-the-badge">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-    <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white">
-    <img src="https://img.shields.io/badge/CI%2FCD-A100FF?style=for-the-badge">
-    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-  </div>
+<main>
+    <section id="intro">
+        <h2>Welcome</h2>
+        <p>Hello! I'm Charles, a Cloud Support & CloudOps enthusiast. My focus is AWS troubleshooting, automation, and DevOps. Explore my projects to see hands-on solutions for cloud-native environments.</p>
+    </section>
 
-  <h2>📂 Cloud Support Projects</h2>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>AWS_Cloud_Support_Sim</h3>
+                <p>Simulated cloud support environment for practicing AWS troubleshooting and incident resolution.</p>
+                <a class="button" href="https://github.com/charles-bucher/AWS_Cloud_Support_Sim" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>AWS_Error_Driven_Troubleshooting_Lab</h3>
+                <p>Error-driven scenario lab for AWS services to sharpen real-world problem-solving skills.</p>
+                <a class="button" href="https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>AWS_CloudOps_Suite</h3>
+                <p>Automation suite for cloud operations and cost management with Terraform & Python.</p>
+                <a class="button" href="https://github.com/charles-bucher/AWS_CloudOps_Suite" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>AWS Cost Optimization Dashboard</h3>
+                <p>Interactive dashboard to track and optimize AWS costs and resource usage.</p>
+                <a class="button" href="https://github.com/charles-bucher/AWS_Cost_Optimization_Dashboard" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
 
-  <div class="project">
-    <h3>1️⃣ AWS Monitoring & Observability</h3>
-    <p>Fast incident detection & automated response using CloudWatch. Reduced incident response time by 40%.</p>
-    <img src="screenshots/screenshots/00_NOC_banner.png" alt="NOC Banner">
-    <img src="screenshots/screenshots/aws_clone.png" alt="AWS Clone">
-    <a class="button" href="https://github.com/charles-bucher/aws_monitoring_observability" target="_blank">View Repository</a>
-  </div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>AWS Cloud Services: EC2, VPC, IAM, Lambda, CloudWatch, S3</li>
+            <li>Terraform & Infrastructure as Code</li>
+            <li>Python & PowerShell scripting</li>
+            <li>Cloud troubleshooting & incident response</li>
+            <li>Portfolio-focused DevOps projects</li>
+        </ul>
+    </section>
 
-  <div class="project">
-    <h3>2️⃣ CloudOps GuardDuty Automation</h3>
-    <p>Proactive threat detection & automated CI/CD response. Automated 100% of GuardDuty alerts.</p>
-    <img src="screenshots/screenshots/gd_github_push.png" alt="GuardDuty GitHub Push">
-    <a class="button" href="https://github.com/charles-bucher/cloudOps-guardDuty-automation" target="_blank">View Repository</a>
-  </div>
-
-  <div class="project">
-    <h3>3️⃣ NOC Toolkit Automation</h3>
-    <p>Real-time network monitoring, dashboards, and alerts. Streamlined operational troubleshooting for faster incident resolution.</p>
-    <div class="gallery">
-      <img src="screenshots/screenshots/NOC_dashboard_py.png" alt="NOC Dashboard">
-      <img src="screenshots/screenshots/NOC_devices_json.png" alt="Devices JSON">
-      <img src="screenshots/screenshots/NOC_env_setup.png" alt="Env Setup">
-      <img src="screenshots/screenshots/NOC_folder_structure.png" alt="Folder Structure">
-      <img src="screenshots/screenshots/NOC_git_status.png" alt="Git Status">
-      <img src="screenshots/screenshots/NOC_monitor_output.png" alt="Monitor Output">
-      <img src="screenshots/screenshots/NOC_monitor_py.png" alt="Monitor Python">
-      <img src="screenshots/screenshots/NOC_repo_cloned.png" alt="Repo Cloned">
-      <img src="screenshots/screenshots/NOC_repo_created.png" alt="Repo Created">
-      <img src="screenshots/screenshots/NOC_vscode_explorer.png" alt="VS Code Explorer">
-    </div>
-    <a class="button" href="https://github.com/charles-bucher/NOC-Toolkit-Automation" target="_blank">View Repository</a>
-  </div>
-
-</section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:charles@example.com">charles@example.com</a><br>
+           LinkedIn: <a href="https://www.linkedin.com/in/charles-bucher-cloud" target="_blank">charles-bucher-cloud</a></p>
+    </section>
+</main>
 
 <footer>
-  &copy; 2025 Charles Bucher | Built for Cloud Support
+    &copy; 2025 Charles Bucher
 </footer>
 
 </body>
