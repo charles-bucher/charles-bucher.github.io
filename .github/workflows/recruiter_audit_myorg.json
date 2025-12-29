@@ -1,0 +1,17 @@
+[
+    {
+        "recruiter": "john_doe",
+        "score": 85,
+        "notes": "Initial audit, sample entry"
+    },
+    {
+        "recruiter": "jane_smith",
+        "score": 92,
+        "notes": "High quality engagement"
+    },
+    {
+        "recruiter": "acme_hr",
+        "score": 78,
+        "notes": "Needs follow-up, placeholder data"
+    }
+]

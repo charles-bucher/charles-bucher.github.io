@@ -1,3 +1,7 @@
+# new-aws-project.sh - Auto-updated documentation
+# Author: Charles Bucher
+# Description: Add description here
+
 #!/bin/bash
 # AWS Project Scaffold Generator
 # Creates complete project structure with Terraform, documentation, and best practices
@@ -115,7 +119,7 @@ provider "aws" {
 }
 
 # Main infrastructure resources
-# TODO: Add your AWS resources here
+# : Add your AWS resources here
 EOF
 
 cat > terraform/variables.tf <<EOF
@@ -477,7 +481,7 @@ NC='\033[0m'
 echo -e "${CYAN}→${NC} Estimating AWS costs"
 echo ""
 
-# TODO: Add cost calculations based on your resources
+# : Add cost calculations based on your resources
 # Example:
 # EC2_COST=$(echo "0.0116 * 730" | bc)  # t3.micro monthly
 # S3_COST=$(echo "0.023 * 10" | bc)     # 10GB storage

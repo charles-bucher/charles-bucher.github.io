@@ -348,3 +348,40 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ✅ **Reliable and consistent** - 10-year track record of showing up and delivering  
 
 **I don't just know AWS—I build, break, and fix it. Let's talk about how I can support your cloud operations.**
+## Deployment
+Content to be added.
+
+## Architecture
+Content to be added.
+
+## Setup Instructions
+1. Clone the repo
+2. Install dependencies (`pip install -r requirements.txt` or as needed)
+3. Configure environment variables if required
+4. Run scripts or tests
+
+## Usage Examples
+```bash
+python script_name.py --example-arg value
+```
+Replace with actual usage commands for this repo.
+
+## Screenshots
+Include screenshots of outputs, dashboards, or any UI here. Example:
+![Example](path_to_screenshot.png)
+
+
+## Overview
+_TODO: Describe this section._
+
+
+## Features
+_TODO: Describe this section._
+
+
+## Skills Demonstrated
+_TODO: Describe this section._
+
+
+## License
+_TODO: Describe this section._

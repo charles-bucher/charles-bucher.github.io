@@ -1,13 +1,8 @@
-# github_recruiter_audit.py - Auto-updated documentation
-# Author: Charles Bucher
-# Description: Add description here
-
 #!/usr/bin/env python3
 """
 github_recruiter_audit.py
 Audits recruiter JSON files in GitHub workflows.
-The JSON file path is configurable via environment variable
-    RECRUITER_AUDIT_FILE."
+The JSON file path is configurable via environment variable RECRUITER_AUDIT_FILE.
 """
 
 import os
@@ -17,33 +12,32 @@ import sys
 
 def load_audit_file():
     # Get audit file from environment variable, fallback to example
-    audit_file = os.environ.get("
-        "RECRUITER_AUDIT_FILE","
-        "recruiter_audit_example.json")"
+    audit_file = os.environ.get(
+        "RECRUITER_AUDIT_FILE",
+        "recruiter_audit_example.json")
     print(f"🔹 Using audit file: {audit_file}")
 
     # Load JSON data
-    try:"
+    try:
         with open(audit_file, "r") as f:
-            data = json.load(f)"
+            data = json.load(f)
         print("✅ Audit data loaded successfully")
         return data
-    except FileNotFoundError:"
+    except FileNotFoundError:
         print(f"❌ Error: Audit file '{audit_file}' not found")
         sys.exit(1)
-    except json.JSONDecodeError as e:"
+    except json.JSONDecodeError as e:
         print(f"❌ Error: Invalid JSON in '{audit_file}': {e}")
         sys.exit(1)
 
 
 def main():
     data = load_audit_file()
-    # Placeholder for actual audit logic"
+    # Placeholder for actual audit logic
     print(f"🔹 Total entries in audit file: {len(data)}")
-    # Add real audit processing here"
+    # Add real audit processing here
     print("✅ Recruiter audit completed successfully")
 
-"
+
 if __name__ == "__main__":
     main()
-"
