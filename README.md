@@ -7,7 +7,7 @@
 
 > **Portfolio Site:** [charles-bucher.github.io](https://charles-bucher.github.io)  
 > **GitHub:** [@charles-bucher](https://github.com/charles-bucher)  
-> **LinkedIn:** [charles-bucher](https://www.linkedin.com/in/charles-bucher-26598728b)
+> **LinkedIn:** [charles-bucher-cloud](https://www.linkedin.com/in/charles-bucher-26598728b)
 
 ---
 
