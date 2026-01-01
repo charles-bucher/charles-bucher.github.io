@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHARLES_BUCHER // CLOUD_ENGINEER</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'JetBrains Mono', monospace;
+        background: #0a0e27;
+        color: #00ff41;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    /* Matrix rain effect */
+    #matrix-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.15;
+    }
+    
+    /* Glitch effect */
+    @keyframes glitch {
+        0% { transform: translate(0); }
+        20% { transform: translate(-2px, 2px); }
+        40% { transform: translate(-2px, -2px); }
+        60% { transform: translate(2px, 2px); }
+        80% { transform: translate(2px, -2px); }
+        100% { transform: translate(0); }
+    }
+    
+    .glitch {
+        animation: glitch 0.3s infinite;
+        animation-play-state: paused;
+    }
+    
+    .glitch:hover {
+        animation-play-state: running;
+    }
+    
+    /* Terminal window */
+    .terminal-window {
+        background: rgba(10, 14, 39, 0.95);
+        border: 2px solid #00ff41;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+        margin: 20px auto;
+        max-width: 1200px;
+        overflow: hidden;
+    }
+    
+    .terminal-header {
+        background: #1a1f3a;
+        padding: 10px 15px;
+        border-bottom: 1px solid #00ff41;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .terminal-button {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .btn-close { background: #ff5f56; }
+    .btn-minimize { background: #ffbd2e; }
+    .btn-maximize { background: #27c93f; }
+    
+    .terminal-title {
+        margin-left: 10px;
+        color: #00ff41;
+        font-size: 0.9rem;
+    }
+    
+    .terminal-body {
+        padding: 30px;
+    }
+    
+    /* Header */
+    header {
+        text-align: center;
+        padding: 60px 20px 40px;
+        position: relative;
+    }
+    
+    header h1 {
+        font-size: 4rem;
+        color: #00ff41;
+        text-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+        margin-bottom: 10px;
+        letter-spacing: 4px;
+    }
+    
+    .subtitle {
+        font-size: 1.2rem;
+        color: #0ea5e9;
+        letter-spacing: 2px;
+    }
+    
+    .status-bar {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: rgba(0, 255, 65, 0.1);
+        border: 1px solid #00ff41;
+        border-radius: 4px;
+        font-size: 0.9rem;
+    }
+    
+    .status-indicator {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: #00ff41;
+        border-radius: 50%;
+        margin-right: 8px;
+        animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+    }
+    
+    /* Navigation */
+    nav {
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    
+    nav a {
+        color: #00ff41;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        transition: all 0.3s;
+        display: inline-block;
+    }
+    
+    nav a:hover {
+        border: 1px solid #00ff41;
+        background: rgba(0, 255, 65, 0.1);
+        box-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+    }
+    
+    /* Section headers */
+    h2 {
+        color: #0ea5e9;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        position: relative;
+        display: inline-block;
+    }
+    
+    h2::before {
+        content: '> ';
+        color: #00ff41;
+    }
+    
+    h2::after {
+        content: '_';
+        animation: blink 1s infinite;
+    }
+    
+    @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+    }
+    
+    /* Intro section */
+    .intro-text {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #94a3b8;
+        margin-bottom: 20px;
+    }
+    
+    .intro-text::before {
+        content: '$ ';
+        color: #00ff41;
+    }
+    
+    /* Projects grid */
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+        margin-top: 30px;
+    }
+    
+    .project-card {
+        background: rgba(14, 165, 233, 0.05);
+        border: 1px solid #0ea5e9;
+        border-radius: 8px;
+        padding: 25px;
+        transition: all 0.3s;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .project-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(0, 255, 65, 0.1), transparent);
+        transition: left 0.5s;
+    }
+    
+    .project-card:hover::before {
+        left: 100%;
+    }
+    
+    .project-card:hover {
+        border-color: #00ff41;
+        box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+        transform: translateY(-5px);
+    }
+    
+    .project-card h3 {
+        color: #00ff41;
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+        font-family: 'Space Mono', monospace;
+    }
+    
+    .project-card p {
+        color: #94a3b8;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    
+    .btn-project {
+        display: inline-block;
+        padding: 10px 20px;
+        background: transparent;
+        color: #00ff41;
+        border: 1px solid #00ff41;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s;
+        font-size: 0.9rem;
+    }
+    
+    .btn-project:hover {
+        background: #00ff41;
+        color: #0a0e27;
+        box-shadow: 0 0 15px rgba(0, 255, 65, 0.5);
+    }
+    
+    /* Skills section */
+    .skills-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .skill-item {
+        background: rgba(0, 255, 65, 0.05);
+        border-left: 3px solid #00ff41;
+        padding: 15px 20px;
+        color: #94a3b8;
+        transition: all 0.3s;
+    }
+    
+    .skill-item:hover {
+        background: rgba(0, 255, 65, 0.1);
+        padding-left: 25px;
+    }
+    
+    .skill-item::before {
+        content: '▹ ';
+        color: #0ea5e9;
+        font-weight: bold;
+    }
+    
+    /* Contact section */
+    .contact-info {
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+    
+    .contact-info a {
+        color: #0ea5e9;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: all 0.3s;
+    }
+    
+    .contact-info a:hover {
+        color: #00ff41;
+        border-bottom: 1px solid #00ff41;
+    }
+    
+    .contact-item {
+        margin: 15px 0;
+        padding-left: 20px;
+        color: #94a3b8;
+    }
+    
+    .contact-item::before {
+        content: '→ ';
+        color: #00ff41;
+        margin-right: 10px;
+    }
+    
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 40px 20px;
+        margin-top: 60px;
+        border-top: 1px solid #00ff41;
+        color: #475569;
+        font-size: 0.9rem;
+    }
+    
+    /* Scanlines effect */
+    .scanlines {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        background: repeating-linear-gradient(
+            0deg,
+            rgba(0, 255, 65, 0.03) 0px,
+            transparent 1px,
+            transparent 2px,
+            rgba(0, 255, 65, 0.03) 3px
+        );
+        z-index: 9999;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1rem;
+        }
+        nav a {
+            display: block;
+            margin: 10px 0;
+        }
+    }
+</style>
+</head>
+<body>
+
+<canvas id="matrix-bg"></canvas>
+<div class="scanlines"></div>
+
+<div class="terminal-window">
+    <div class="terminal-header">
+        <span class="terminal-button btn-close"></span>
+        <span class="terminal-button btn-minimize"></span>
+        <span class="terminal-button btn-maximize"></span>
+        <span class="terminal-title">charles@cloudops:~/portfolio$</span>
+    </div>
+    <div class="terminal-body">
+        
+        <header>
+            <h1 class="glitch">CHARLES_BUCHER</h1>
+            <div class="subtitle">// CLOUD_SUPPORT_ENGINEER // CLOUDOPS_SPECIALIST //</div>
+            <div class="status-bar">
+                <span class="status-indicator"></span>
+                <span>STATUS: AVAILABLE_FOR_HIRE | CLEARANCE: AWS_CERTIFIED | LOCATION: REMOTE</span>
+            </div>
+        </header>
+
+        <nav>
+            <a href="#intro">$ ./intro.sh</a>
+            <a href="#projects">$ ./projects.sh</a>
+            <a href="#skills">$ ./skills.sh</a>
+            <a href="#contact">$ ./contact.sh</a>
+        </nav>
+
+        <section id="intro">
+            <h2>SYSTEM_OVERVIEW</h2>
+            <p class="intro-text">
+                Cloud Support & CloudOps specialist focused on AWS troubleshooting, automation, and infrastructure reliability. 
+                I build tools that eliminate human toil, catch issues before they become incidents, and optimize cloud infrastructure at scale. 
+                Explore my repos to see hands-on solutions for real-world cloud operations challenges.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>ACTIVE_REPOSITORIES</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>CloudOpsLab</h3>
+                    <p>Hands-on AWS troubleshooting, automation, and monitoring scripts. Portfolio-grade tools for cloud support scenarios.</p>
+                    <a class="btn-project" href="https://github.com/charles-bucher/CloudOpsLab" target="_blank">
+                        ↗ VIEW_REPO
+                    </a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>AWS_Cloud_Support_Sim</h3>
+                    <p>Simulated cloud support environment for practicing AWS troubleshooting and incident resolution in realistic scenarios.</p>
+                    <a class="btn-project" href="https://github.com/charles-bucher/AWS_Cloud_Support_Sim" target="_blank">
+                        ↗ VIEW_REPO
+                    </a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>AWS_Error_Driven_Lab</h3>
+                    <p>Error-driven scenario lab for AWS services. Practice real-world problem-solving with intentionally broken infrastructure.</p>
+                    <a class="btn-project" href="https://github.com/charles-bucher/AWS_Error_Driven_Troubleshooting_Lab" target="_blank">
+                        ↗ VIEW_REPO
+                    </a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>AWS_CloudOps_Suite</h3>
+                    <p>Automation suite for cloud operations and cost management. Terraform & Python scripts for production-grade CloudOps.</p>
+                    <a class="btn-project" href="https://github.com/charles-bucher/AWS_CloudOps_Suite" target="_blank">
+                        ↗ VIEW_REPO
+                    </a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Cost_Optimization_Dashboard</h3>
+                    <p>Interactive dashboard to track and optimize AWS costs. Real-time resource usage analysis and recommendations.</p>
+                    <a class="btn-project" href="https://github.com/charles-bucher/AWS_Cost_Optimization_Dashboard" target="_blank">
+                        ↗ VIEW_REPO
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>TECHNICAL_STACK</h2>
+            <div class="skills-list">
+                <div class="skill-item">AWS: EC2, VPC, IAM, Lambda, CloudWatch, S3, RDS</div>
+                <div class="skill-item">Infrastructure as Code: Terraform, CloudFormation</div>
+                <div class="skill-item">Scripting: Python, PowerShell, Bash</div>
+                <div class="skill-item">Cloud Troubleshooting & Incident Response</div>
+                <div class="skill-item">Automation & Self-Healing Systems</div>
+                <div class="skill-item">Monitoring & Alerting (CloudWatch, Prometheus)</div>
+                <div class="skill-item">Security: IAM, GuardDuty, Security Groups</div>
+                <div class="skill-item">Cost Optimization & FinOps</div>
+                <div class="skill-item">CI/CD Pipelines & DevOps Workflows</div>
+                <div class="skill-item">Git Version Control & GitHub Actions</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>INITIALIZE_CONNECTION</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    EMAIL: <a href="mailto:charles@example.com">charles@example.com</a>
+                </div>
+                <div class="contact-item">
+                    LINKEDIN: <a href="https://www.linkedin.com/in/charles-bucher-cloud" target="_blank">linkedin.com/in/charles-bucher-cloud</a>
+                </div>
+                <div class="contact-item">
+                    GITHUB: <a href="https://github.com/charles-bucher" target="_blank">github.com/charles-bucher</a>
+                </div>
+                <div class="contact-item">
+                    LOCATION: REMOTE // PINELLAS_PARK, FL
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 CHARLES_BUCHER // CLOUD_ENGINEER</p>
+    <p style="margin-top: 10px; font-size: 0.8rem;">
+        [SYSTEM_BUILD: v2.0.1] | [UPTIME: 100%] | [STATUS: OPERATIONAL]
+    </p>
+</footer>
+
+<script>
+// Matrix rain effect
+const canvas = document.getElementById('matrix-bg');
+const ctx = canvas.getContext('2d');
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()';
+const fontSize = 14;
+const columns = canvas.width / fontSize;
+const drops = [];
+
+for (let i = 0; i < columns; i++) {
+    drops[i] = Math.random() * canvas.height;
+}
+
+function drawMatrix() {
+    ctx.fillStyle = 'rgba(10, 14, 39, 0.05)';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    ctx.fillStyle = '#00ff41';
+    ctx.font = fontSize + 'px monospace';
+    
+    for (let i = 0; i < drops.length; i++) {
+        const text = chars[Math.floor(Math.random() * chars.length)];
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+        
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+            drops[i] = 0;
+        }
+        drops[i]++;
+    }
+}
+
+setInterval(drawMatrix, 50);
+
+window.addEventListener('resize', () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+});
+
+// Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+});
+</script>
+
+</body>
+</html>
