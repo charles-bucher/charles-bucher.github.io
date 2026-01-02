@@ -67,3 +67,11 @@ Run terraform init, plan, and apply
 License
 
 This project is licensed under the MIT License. See LICENSE.md for details.
+## Overview
+This project demonstrates practical Cloud Support & CloudOps skills by working with AWS services such as EC2, Terraform, IAM, VPC.
+
+## Usage
+Clone the repo and follow the scripts or Terraform configurations to deploy and test resources. Designed to simulate realistic AWS cloud incidents.
+
+## What I Learned
+Hands-on experience troubleshooting AWS incidents, applying automation, monitoring with CloudWatch, and ensuring cloud reliability.

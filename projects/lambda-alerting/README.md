@@ -62,3 +62,9 @@ License
 
 This project is licensed under the MIT License. See LICENSE.md for details.
 
+
+## Overview
+This project demonstrates practical Cloud Support & CloudOps skills by working with AWS services such as SNS, Terraform, IAM, EC2, CloudWatch, S3, Lambda.
+
+## What I Learned
+Hands-on experience troubleshooting AWS incidents, applying automation, monitoring with CloudWatch, and ensuring cloud reliability.

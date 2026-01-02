@@ -422,3 +422,6 @@ This lab simulates production support responsibilities:
 
 This reflects SysOps-style ownership, not tutorial-only usage.
 
+
+## What I Learned
+Hands-on experience troubleshooting AWS incidents, applying automation, monitoring with CloudWatch, and ensuring cloud reliability.
